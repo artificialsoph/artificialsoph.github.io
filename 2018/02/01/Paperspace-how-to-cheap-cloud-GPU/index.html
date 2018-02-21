@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://soph.info/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/index.html">
 <meta property="og:site_name">
 <meta property="og:description" content="The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The cryptocurrency fad has led to GPUs becoming expen">
-<meta property="og:updated_time" content="2018-02-05T11:45:56.951Z">
+<meta property="og:updated_time" content="2018-02-14T15:54:16.557Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Paperspace how-to (cheap cloud GPU)">
 <meta name="twitter:description" content="The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The cryptocurrency fad has led to GPUs becoming expen">
@@ -65,6 +65,8 @@
     <br/>
     <span id="actions">
       <ul>
+        
+        <li><a class="icon" href="/2018/02/14/Soph-s-VM-tweaks/"><i class="fa fa-chevron-left" aria-hidden="true" onmouseover='$("#i-prev").toggle();' onmouseout='$("#i-prev").toggle();'></i></a></li>
         
         
         <li><a class="icon" href="/2017/12/04/Deep-Learning-Tips/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover='$("#i-next").toggle();' onmouseout='$("#i-next").toggle();'></i></a></li>
@@ -143,8 +145,7 @@
 <h2 id="open-ports-with-ufw"><a href="#open-ports-with-ufw" class="headerlink" title="open ports with ufw"></a>open ports with ufw</h2><p>By default, Paperspace has a very strict firewall (this is a good thing). We’re going to want to get to our jupyter notebooks, though, so we need to open up some ports. You can do that with <a href="https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server" target="_blank" rel="noopener">these instructions</a>.</p>
 <p>My version is pretty unsafe (it allows access from any IP) so feel free to check that link for info on restricting the IP that can access your jupyter port.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo ufw allow 8888</span><br><span class="line">sudo ufw allow 60000:61000/udp</span><br></pre></td></tr></table></figure>
-<h1 id="set-up-jupyter"><a href="#set-up-jupyter" class="headerlink" title="set up jupyter"></a>set up jupyter</h1><p>‘sha1:9e0731cd86bd:f1c98877eebbfc544462c00e981842acf6047b0e’</p>
-<h1 id="fix-autoshutdown-with-ssh"><a href="#fix-autoshutdown-with-ssh" class="headerlink" title="fix autoshutdown with ssh"></a>fix autoshutdown with ssh</h1><p><a href="https://paperspace.zendesk.com/hc/en-us/articles/115002807447-How-do-I-use-Auto-Shutdown-on-my-Linux-machine-when-connecting-through-SSH-" target="_blank" rel="noopener">https://paperspace.zendesk.com/hc/en-us/articles/115002807447-How-do-I-use-Auto-Shutdown-on-my-Linux-machine-when-connecting-through-SSH-</a></p>
+<h1 id="set-up-jupyter"><a href="#set-up-jupyter" class="headerlink" title="set up jupyter"></a>set up jupyter</h1><h1 id="fix-autoshutdown-with-ssh"><a href="#fix-autoshutdown-with-ssh" class="headerlink" title="fix autoshutdown with ssh"></a>fix autoshutdown with ssh</h1><p><a href="https://paperspace.zendesk.com/hc/en-us/articles/115002807447-How-do-I-use-Auto-Shutdown-on-my-Linux-machine-when-connecting-through-SSH-" target="_blank" rel="noopener">https://paperspace.zendesk.com/hc/en-us/articles/115002807447-How-do-I-use-Auto-Shutdown-on-my-Linux-machine-when-connecting-through-SSH-</a></p>
 <h1 id="set-up-ssh-keys"><a href="#set-up-ssh-keys" class="headerlink" title="set up ssh keys"></a>set up ssh keys</h1><p><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2" target="_blank" rel="noopener">https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2</a></p>
 <p><a href="https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically" target="_blank" rel="noopener">https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically</a></p>
 <h1 id="Install-cuda-9-1"><a href="#Install-cuda-9-1" class="headerlink" title="Install cuda 9.1"></a>Install cuda 9.1</h1><p><a href="http://docs.nvidia.com/cuda/cuda-installation-guide-linux/" target="_blank" rel="noopener">http://docs.nvidia.com/cuda/cuda-installation-guide-linux/</a></p>
