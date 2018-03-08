@@ -505,6 +505,7 @@ body {
 .content h4 a:hover,
 .content h5 a:hover,
 .content h6 a:hover {
+  color: #d480aa;
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: 100% 6px;
