@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <generator uri="http://jekyllrb.com" version="3.7.3">Jekyll</generator>
+  
+  
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
+  <updated>2018-04-13T15:11:34+00:00</updated>
+  <id>http://localhost:4000//</id>
+
+  
+    <title type="html">soph</title>
+  
+
+  
+    <subtitle>Minimal, responsive Jekyll theme for hackers.</subtitle>
+  
+
+  
+    <author>
+        <name>Sophia Ray Searcy</name>
+      
+      
+    </author>
+  
+
+  
+  
+    <entry>
+      
+      <title type="html">How to: Backup iMessages using OSX and Google Drive</title>
+      
+      
+      <link href="http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/" rel="alternate" type="text/html" title="How to: Backup iMessages using OSX and Google Drive" />
+      
+      <published>2018-03-01T12:57:45+00:00</published>
+      <updated>2018-03-01T12:57:45+00:00</updated>
+      <id>http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive</id>
+      <content type="html" xml:base="http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/">&lt;p&gt;This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive.&lt;/p&gt;
+
+&lt;p&gt;First, find the folder iMessages uses to store all its data. Mine is in &lt;code class=&quot;highlighter-rouge&quot;&gt;/Users/soph/Library/Messages&lt;/code&gt;. If you aren’t able to see the Library folder, use &lt;code class=&quot;highlighter-rouge&quot;&gt;cmd-shift-.&lt;/code&gt; to make hidden items viewable.&lt;/p&gt;
+
+&lt;p&gt;Select the Google  Backup and Sync icon in your menu bar at the top of your screen. Go to …-&amp;gt;Preferences-&amp;gt;Choose Folder and select that folder.&lt;/p&gt;
+
+&lt;p&gt;And, there, you’re done!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <category term="howto" />
+      
+
+      
+        <summary type="html">This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive. First, find the folder iMessages uses to store all its data. Mine is in /Users/soph/Library/Messages. If you aren’t able to see the Library folder, use cmd-shift-. to make hidden items viewable. Select the Google Backup and Sync icon in your menu bar at the top of your screen. Go to …-&amp;gt;Preferences-&amp;gt;Choose Folder and select that folder. And, there, you’re done!</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">A Case for Diversity</title>
+      
+      
+      <link href="http://localhost:4000/2018/02/21/A-Case-for-Diversity/" rel="alternate" type="text/html" title="A Case for Diversity" />
+      
+      <published>2018-02-21T08:26:09+00:00</published>
+      <updated>2018-02-21T08:26:09+00:00</updated>
+      <id>http://localhost:4000/2018/02/21/A-Case-for-Diversity</id>
+      <content type="html" xml:base="http://localhost:4000/2018/02/21/A-Case-for-Diversity/">&lt;p&gt;Author’s note: This is a pre-publication draft. Parts of this material may appear in subsequent publications. I’m sharing in this format to enable transparency and dialogue but I do not wish to misrepresent the relationship this draft may have with any later work.&lt;/p&gt;
+
+&lt;p&gt;There’s a lot of talk of diversity, especially discussion of the reasons companies and other groups should prioritize diversity.&lt;/p&gt;
+
+&lt;h2&gt;Diversity for fairness&lt;/h2&gt;
+
+&lt;p&gt;One important idea is a general sense of fairness. Careers that pay well should be distributed roughly proportionately among genders, ethnic groups, and other ways of categorizing people. We have the sense that there’s nothing about being male that makes someone a better programmer, or about being white that makes someone a better hedge fund manager. Then fairness suggests to many that, any unevenness in who gets access to these desirable careers reflects a lack of fairness. When a tech company primarily is located in a country where black people make up &lt;a href=&quot;https://en.wikipedia.org/wiki/Demography_of_the_United_States#Race_and_ethnicity&quot;&gt;12% of the population&lt;/a&gt;, but that company’s tech workers are only 1% black (as is true of &lt;a href=&quot;https://diversity.google/commitments/&quot;&gt;Alphabet/Google&lt;/a&gt;, &lt;a href=&quot;https://images-na.ssl-images-amazon.com/images/G/01/DiversityCampaign2016_Q3/EEO-1_2016_consolidated._V525968886_.pdf&quot;&gt;Amazon&lt;/a&gt;, and other tech companies) then &lt;em&gt;something&lt;/em&gt; unfair is going on. Sure, there is some buck-passing here. There are problems at many levels that create unfairness: geographic segregation, school systems, gaps in generational wealth accumulation, gaps in laws. But the culture of many of these tech companies is one that famously &lt;a href=&quot;https://www.inc.com/magazine/201307/christine-lagorio/uber-the-car-service-explosive-growth.html&quot;&gt;fights (and wins!) against structural hurdles like these&lt;/a&gt;. If these companies can &lt;a href=&quot;https://www.wired.com/2012/02/zuck-letter/&quot;&gt;move fast and break things&lt;/a&gt; when it comes to new features and their bottom line, we should expect the same when it comes to fairness.&lt;/p&gt;
+
+&lt;h2&gt;Diversity for social tech&lt;/h2&gt;
+
+&lt;p&gt;There are other reasons companies prioritize diversity, like legal ones, that I won’t get into. Instead I want to focus on something I would like to hear more often and more clearly from the technology world. Independent of everything else, diversity will become essential to the success of any tech company. This is because the products made by tech companies are increasingly cultural ones, embedded in our everyday social lives, and producing social products that are successful requires engineers/designers/etc. who have a social understanding of those who use the products.&lt;/p&gt;
+
+&lt;p&gt;Let’s not forget when Google Maps pronounced Malcolm X Street “Malcolm the Tenth” as if he were a british monarch[&lt;a href=&quot;http://baratunde.com/blog/2013/12/2/google-maps-kings-malcolm-x-as-malcolm-the-10th&quot;&gt;Baratunde Thurston&lt;/a&gt;]; that Facebook’s name policy locks the accounts of trans and gender non-conforming users, including a Facebook employee[&lt;a href=&quot;https://medium.com/@zip/my-name-is-only-real-enough-to-work-at-facebook-not-to-use-on-the-site-c37daf3f4b03&quot;&gt;Zoe Cat&lt;/a&gt;]; when Google Images automatically labeled black people gorillas[&lt;a href=&quot;https://twitter.com/jackyalcine/status/615329515909156865&quot;&gt;Jacky AlcinÃ©&lt;/a&gt;]; the long history of racial and gender bias in face recognition[&lt;a href=&quot;https://www.media.mit.edu/projects/gender-shades/overview/&quot;&gt;Joy Buolamwini: Gender Shades&lt;/a&gt;]; the many cases of technology ignoring dark skin [like &lt;a href=&quot;https://mic.com/articles/124899/the-reason-this-racist-soap-dispenser-doesn-t-work-on-black-skin#.WduRkoEKf&quot;&gt;soap dispensers&lt;/a&gt; and &lt;a href=&quot;https://www.cnet.com/news/how-accurate-are-wristband-heart-rate-monitors/&quot;&gt;heart rate monitors&lt;/a&gt;]. These are just a few examples but they illustrate the point that we are interacting with our technology in social ways. Each of the above examples would have been trivial to catch for an engineer, project manager, or other employee from an underrepresented group.&lt;/p&gt;
+
+&lt;p&gt;What I’m arguing here is that it’s in tech company’s self-interest to seriously prioritize diversity. Even a company that is unconvinced that diversity is important because of fairness or legal reasons should be concerned about how they plan to design products that people interact with in social contexts. These companies will want to ensure that their tech workforce is diverse at every levelâfrom the people writing the code to those deciding which new features to develop and beyondâbecause each of these decisions will become more significantly social as time goes on.&lt;/p&gt;
+
+&lt;p&gt;Diversity to stop algorithmic violence&lt;/p&gt;
+
+&lt;p&gt;One specific concern involves the idea of algorithmic violence[&lt;a href=&quot;https://github.com/MimiOnuoha/On-Algorithmic-Violence&quot;&gt;Mimi Onuoha&lt;/a&gt;], a term coined by Mimi Onuoha that refers to the ways that automated decision-making does real harm to people. In college I studied Computer Engineering and took an ethics course along with civil and mechanical engineers where we discussed the ethical challenges involved in designing walkways and other physical things. What was missing then, and seems to largely be missing now, is a serious look at how decisions made in technology companies, including by software developers and data scientists, lead to real consequences.&lt;/p&gt;
+
+&lt;p&gt;Some algorithmic violence is quite easy to see, such as when Palantir (one of the most valuable data companies and one that was recently sued for racial discrimination[&lt;a href=&quot;https://www.vanityfair.com/news/2016/09/us-government-sues-palantir-discrimination&quot;&gt;Vanity Fair&lt;/a&gt;]) builds an enormous data machine for the targeting and tracking of immigrants for deportation[&lt;a href=&quot;https://theintercept.com/2017/03/02/palantir-provides-the-engine-for-donald-trumps-deportation-machine/&quot;&gt;The Intercept&lt;/a&gt;]. In most cases, though, algorithmic violence is less than obvious. Guillaume Chaslot writes[&lt;a href=&quot;https://medium.com/@guillaumechaslot/how-algorithms-can-learn-to-discredit-the-media-d1360157c4fa&quot;&gt;Medium&lt;/a&gt;] that YouTube’s massive recommendation engine, one that he helped design, is tasked with maximizing users’ viewing time. The recommendation engine does this in a single-minded way that ignores the effects that the kind of content one cannot turn away from (like disturbing videos targeted at kids[&lt;a href=&quot;https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2&quot;&gt;Medium&lt;/a&gt;] and conspiracy theories[&lt;a href=&quot;https://www.vanityfair.com/news/2018/02/youtube-conspiracy-problem&quot;&gt;Vanity Fair&lt;/a&gt;]) might have on its viewers and even elections[&lt;a href=&quot;https://medium.com/the-graph/youtubes-ai-is-neutral-towards-clicks-but-is-biased-towards-people-and-ideas-3a2f643dea9a&quot;&gt;Chaslot @ Medium&lt;/a&gt;]. In ‘Automating Inequality’[&lt;a href=&quot;http://www.strandbooks.com/sociology/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/&quot;&gt;Strand&lt;/a&gt;] Virginia Eubanks provides an extensive catalogue of ways that seemingly âobjective’ automated systems harm vulnerable people, whether they were set up to do so intentionally or not.&lt;/p&gt;
+
+&lt;p&gt;Algorithmic violence is a problem, like information security and global warming, that is virtually guaranteed to become more important with time. Because the effects of algorithmic violence are often hidden except to those who are affected by it, companies without a diverse workforce will be at a disadvantage when trying to recognize and prevent such violence. So prioritizing diversity is one of the many steps, like a Hippocratic oath for technology[&lt;a href=&quot;https://twitter.com/the_CityLion/status/954109076748820481&quot;&gt;Marie&lt;/a&gt;], we need to take to counter algorithmic violence.&lt;/p&gt;
+
+&lt;p&gt;Recommended readings:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Weapons of Math Destruction by Cathy O’Neil - [Strand link to purchase] (http://www.strandbooks.com/political-science/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy-0553418831/)&lt;/li&gt;
+  &lt;li&gt;Automating Inequality by Virginia Eubanks - [Strand link to purchase] (http://www.strandbooks.com/sociology/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/)&lt;/li&gt;
+  &lt;li&gt;On Algorithmic Violence by Mimi Onuoha - [github link] (https://github.com/MimiOnuoha/On-Algorithmic-Violence)&lt;/li&gt;
+  &lt;li&gt;Gender Shades, research project led by Joy Buolamwini - &lt;a href=&quot;https://dam-prod.media.mit.edu/x/2018/02/06/Gender%20Shades%20Intersectional%20Accuracy%20Disparities.pdf&quot;&gt;2018 paper by Buolamwini and Gebru&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+
+      
+        <summary type="html">Author’s note: This is a pre-publication draft. Parts of this material may appear in subsequent publications. I’m sharing in this format to enable transparency and dialogue but I do not wish to misrepresent the relationship this draft may have with any later work. There’s a lot of talk of diversity, especially discussion of the reasons companies and other groups should prioritize diversity. Diversity for fairness One important idea is a general sense of fairness. Careers that pay well should be distributed roughly proportionately among genders, ethnic groups, and other ways of categorizing people. We have the sense that there’s nothing about being male that makes someone a better programmer, or about being white that makes someone a better hedge fund manager. Then fairness suggests to many that, any unevenness in who gets access to these desirable careers reflects a lack of fairness. When a tech company primarily is located in a country where black people make up 12% of the population, but that company’s tech workers are only 1% black (as is true of Alphabet/Google, Amazon, and other tech companies) then something unfair is going on. Sure, there is some buck-passing here. There are problems at many levels that create unfairness: geographic segregation, school systems, gaps in generational wealth accumulation, gaps in laws. But the culture of many of these tech companies is one that famously fights (and wins!) against structural hurdles like these. If these companies can move fast and break things when it comes to new features and their bottom line, we should expect the same when it comes to fairness. Diversity for social tech There are other reasons companies prioritize diversity, like legal ones, that I won’t get into. Instead I want to focus on something I would like to hear more often and more clearly from the technology world. Independent of everything else, diversity will become essential to the success of any tech company. This is because the products made by tech companies are increasingly cultural ones, embedded in our everyday social lives, and producing social products that are successful requires engineers/designers/etc. who have a social understanding of those who use the products. Let’s not forget when Google Maps pronounced Malcolm X Street “Malcolm the Tenth” as if he were a british monarch[Baratunde Thurston]; that Facebook’s name policy locks the accounts of trans and gender non-conforming users, including a Facebook employee[Zoe Cat]; when Google Images automatically labeled black people gorillas[Jacky AlcinÃ©]; the long history of racial and gender bias in face recognition[Joy Buolamwini: Gender Shades]; the many cases of technology ignoring dark skin [like soap dispensers and heart rate monitors]. These are just a few examples but they illustrate the point that we are interacting with our technology in social ways. Each of the above examples would have been trivial to catch for an engineer, project manager, or other employee from an underrepresented group. What I’m arguing here is that it’s in tech company’s self-interest to seriously prioritize diversity. Even a company that is unconvinced that diversity is important because of fairness or legal reasons should be concerned about how they plan to design products that people interact with in social contexts. These companies will want to ensure that their tech workforce is diverse at every levelâfrom the people writing the code to those deciding which new features to develop and beyondâbecause each of these decisions will become more significantly social as time goes on. Diversity to stop algorithmic violence One specific concern involves the idea of algorithmic violence[Mimi Onuoha], a term coined by Mimi Onuoha that refers to the ways that automated decision-making does real harm to people. In college I studied Computer Engineering and took an ethics course along with civil and mechanical engineers where we discussed the ethical challenges involved in designing walkways and other physical things. What was missing then, and seems to largely be missing now, is a serious look at how decisions made in technology companies, including by software developers and data scientists, lead to real consequences. Some algorithmic violence is quite easy to see, such as when Palantir (one of the most valuable data companies and one that was recently sued for racial discrimination[Vanity Fair]) builds an enormous data machine for the targeting and tracking of immigrants for deportation[The Intercept]. In most cases, though, algorithmic violence is less than obvious. Guillaume Chaslot writes[Medium] that YouTube’s massive recommendation engine, one that he helped design, is tasked with maximizing users’ viewing time. The recommendation engine does this in a single-minded way that ignores the effects that the kind of content one cannot turn away from (like disturbing videos targeted at kids[Medium] and conspiracy theories[Vanity Fair]) might have on its viewers and even elections[Chaslot @ Medium]. In ‘Automating Inequality’[Strand] Virginia Eubanks provides an extensive catalogue of ways that seemingly âobjective’ automated systems harm vulnerable people, whether they were set up to do so intentionally or not. Algorithmic violence is a problem, like information security and global warming, that is virtually guaranteed to become more important with time. Because the effects of algorithmic violence are often hidden except to those who are affected by it, companies without a diverse workforce will be at a disadvantage when trying to recognize and prevent such violence. So prioritizing diversity is one of the many steps, like a Hippocratic oath for technology[Marie], we need to take to counter algorithmic violence. Recommended readings: Weapons of Math Destruction by Cathy O’Neil - [Strand link to purchase] (http://www.strandbooks.com/political-science/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy-0553418831/) Automating Inequality by Virginia Eubanks - [Strand link to purchase] (http://www.strandbooks.com/sociology/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/) On Algorithmic Violence by Mimi Onuoha - [github link] (https://github.com/MimiOnuoha/On-Algorithmic-Violence) Gender Shades, research project led by Joy Buolamwini - 2018 paper by Buolamwini and Gebru</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Soph’s VM tweaks</title>
+      
+      
+      <link href="http://localhost:4000/2018/02/14/Soph-s-VM-tweaks/" rel="alternate" type="text/html" title="Soph's VM tweaks" />
+      
+      <published>2018-02-14T11:11:48+00:00</published>
+      <updated>2018-02-14T11:11:48+00:00</updated>
+      <id>http://localhost:4000/2018/02/14/Soph-s-VM-tweaks</id>
+      <content type="html" xml:base="http://localhost:4000/2018/02/14/Soph-s-VM-tweaks/">&lt;h1&gt;What’s this&lt;/h1&gt;
+
+&lt;p&gt;This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested.&lt;/p&gt;
+
+&lt;h1&gt;fish is by far my favorite shell&lt;/h1&gt;
+
+&lt;p&gt;Install it and configure it following &lt;a href=&quot;https://geowarin.github.io/the-missing-fish-shell-tutorial.html&quot;&gt;this tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;omf&lt;/code&gt; is a handy package manager for fish. You can install &lt;a href=&quot;https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#sushi&quot;&gt;themes&lt;/a&gt; with it and my fav is probably &lt;code class=&quot;highlighter-rouge&quot;&gt;sushi&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you’re using anaconda, you’ll have to remember to use &lt;code class=&quot;highlighter-rouge&quot;&gt;activate&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;source activate&lt;/code&gt; &lt;a href=&quot;https://github.com/conda/conda/issues/2611#issuecomment-230894534&quot;&gt;details&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;tmux&lt;/h1&gt;
+
+&lt;p&gt;I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.tmux.conf&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;set-option -g mouse on
+set-option -g default-command /usr/bin/fish
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1&gt;other tools&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;install &lt;a href=&quot;https://github.com/moonpyk/dtrx&quot;&gt;dtrx&lt;/a&gt; for common sense file extraction
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install dtrx&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://glances.readthedocs.io/en/stable/index.html&quot;&gt;glances&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/wookayin/gpustat&quot;&gt;gpustat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+
+      
+        <summary type="html">What’s this This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it following this tutorial omf is a handy package manager for fish. You can install themes with it and my fav is probably sushi. If you’re using anaconda, you’ll have to remember to use activate instead of source activate details. tmux I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at ~/.tmux.conf. set-option -g mouse on set-option -g default-command /usr/bin/fish other tools install dtrx for common sense file extraction sudo apt install dtrx glances gpustat</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Paperspace how-to (cheap cloud GPU)</title>
+      
+      
+      <link href="http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/" rel="alternate" type="text/html" title="Paperspace how-to (cheap cloud GPU)" />
+      
+      <published>2018-02-01T16:11:40+00:00</published>
+      <updated>2018-02-01T16:11:40+00:00</updated>
+      <id>http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU</id>
+      <content type="html" xml:base="http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/">&lt;p&gt;The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The &lt;a href=&quot;https://arstechnica.com/tech-policy/2018/01/cryptocurrency-boom-creates-insane-global-graphics-card-shortage/&quot;&gt;cryptocurrency fad&lt;/a&gt; has led to GPUs becoming expensive and/or unavailable. One solution to this problem is to rent a computer with a GPU from Google, Amazon, Microsoft, and others. Google even &lt;a href=&quot;https://cloudplatform.googleblog.com/2017/11/new-lower-prices-for-GPUs-and-preemptible-Local-SSDs.html&quot;&gt;recently lowered&lt;/a&gt; their GPU prices quite substantially. I’ll save doing a full comparison of each platform for later, but what I’ll go over today is getting started with a relatively new service, &lt;a href=&quot;https://techcrunch.com/2017/05/03/paperspace-launches-gpu-powered-virtual-machines-loaded-with-tools-for-data-scientists/&quot;&gt;PaperSpace&lt;/a&gt; based in my home of Brooklyn &amp;lt;3.&lt;/p&gt;
+
+&lt;p&gt;The virtue of paperspace is that their entry-level GPU offering costs $0.40/hr (compared to Google’s new $0.45/hr and Amazon’s $0.90/hr) but &lt;a href=&quot;https://medium.com/initialized-capital/benchmarking-tensorflow-performance-and-cost-across-different-gpu-options-69bd85fe5d58&quot;&gt;benchmarks ahead&lt;/a&gt; of Amazon and other offers based on the Tesla K80.&lt;/p&gt;
+
+&lt;p&gt;Below, I’ll show you how to get up and running quickly and how to set up cost-saving measures, like auto-shutdown.&lt;/p&gt;
+
+&lt;h1&gt;Steps to get running&lt;/h1&gt;
+
+&lt;p&gt;First, as with any new machine, update the current packages with&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt update
+sudo apt upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;(Note: I had to add the &lt;code class=&quot;highlighter-rouge&quot;&gt;--fix-missing&lt;/code&gt; flag to &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt update&lt;/code&gt;)&lt;/p&gt;
+
+&lt;p&gt;Add a new user according to &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart&quot;&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;open ports with ufw&lt;/h2&gt;
+
+&lt;p&gt;By default, Paperspace has a very strict firewall (this is a good thing). We’re going to want to get to our jupyter notebooks, though, so we need to open up some ports. You can do that with &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server&quot;&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My version is pretty unsafe (it allows access from any IP) so feel free to check that link for info on restricting the IP that can access your jupyter port.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo ufw allow 8888
+sudo ufw allow 60000:61000/udp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1&gt;set up jupyter&lt;/h1&gt;
+
+&lt;h1&gt;fix autoshutdown with ssh&lt;/h1&gt;
+
+&lt;p&gt;https://paperspace.zendesk.com/hc/en-us/articles/115002807447-How-do-I-use-Auto-Shutdown-on-my-Linux-machine-when-connecting-through-SSH-&lt;/p&gt;
+
+&lt;h1&gt;set up ssh keys&lt;/h1&gt;
+
+&lt;p&gt;https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys–2&lt;/p&gt;
+
+&lt;p&gt;https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically&lt;/p&gt;
+
+&lt;h1&gt;Install cuda 9.1&lt;/h1&gt;
+
+&lt;p&gt;You can use the &lt;a href=&quot;http://docs.nvidia.com/cuda/cuda-installation-guide-linux/&quot;&gt;official guide&lt;/a&gt; but I prefer &lt;a href=&quot;https://askubuntu.com/questions/967332/how-can-i-install-cuda-9-on-ubuntu-17-10&quot;&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Install cudnn&lt;/h1&gt;
+
+&lt;p&gt;http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <category term="drafts" />
+      
+
+      
+        <summary type="html">The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The cryptocurrency fad has led to GPUs becoming expensive and/or unavailable. One solution to this problem is to rent a computer with a GPU from Google, Amazon, Microsoft, and others. Google even recently lowered their GPU prices quite substantially. I’ll save doing a full comparison of each platform for later, but what I’ll go over today is getting started with a relatively new service, PaperSpace based in my home of Brooklyn &amp;lt;3. The virtue of paperspace is that their entry-level GPU offering costs $0.40/hr (compared to Google’s new $0.45/hr and Amazon’s $0.90/hr) but benchmarks ahead of Amazon and other offers based on the Tesla K80. Below, I’ll show you how to get up and running quickly and how to set up cost-saving measures, like auto-shutdown. Steps to get running First, as with any new machine, update the current packages with sudo apt update sudo apt upgrade (Note: I had to add the --fix-missing flag to sudo apt update) Add a new user according to these instructions. open ports with ufw By default, Paperspace has a very strict firewall (this is a good thing). We’re going to want to get to our jupyter notebooks, though, so we need to open up some ports. You can do that with these instructions. My version is pretty unsafe (it allows access from any IP) so feel free to check that link for info on restricting the IP that can access your jupyter port. sudo ufw allow 8888 sudo ufw allow 60000:61000/udp set up jupyter fix autoshutdown with ssh https://paperspace.zendesk.com/hc/en-us/articles/115002807447-How-do-I-use-Auto-Shutdown-on-my-Linux-machine-when-connecting-through-SSH- set up ssh keys https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys–2 https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically Install cuda 9.1 You can use the official guide but I prefer these instructions. Install cudnn http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Deep Learning Tips</title>
+      
+      
+      <link href="http://localhost:4000/2017/12/04/Deep-Learning-Tips/" rel="alternate" type="text/html" title="Deep Learning Tips" />
+      
+      <published>2017-12-04T13:15:11+00:00</published>
+      <updated>2017-12-04T13:15:11+00:00</updated>
+      <id>http://localhost:4000/2017/12/04/Deep-Learning-Tips</id>
+      <content type="html" xml:base="http://localhost:4000/2017/12/04/Deep-Learning-Tips/">&lt;p&gt;I often find myself in roughly this situation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’ve done a lot of work to pre-process data, researched different DL architectures and selected one (or more), modified it so that it works well on my data.
+And now I’ve got a model that does well, but not quite as well as I want it to.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Below I’ll outline steps that I find very useful in this situation. Of course, more detail about how to get to that point is for another post. Also, I’m using Keras so many of these are specific to that tool, but they could absolutely be applied to other DL packages.&lt;/p&gt;
+
+&lt;h2&gt;Clean up training code and improve logging.&lt;/h2&gt;
+
+&lt;p&gt;My typical workflow when I’m building or tweaking a model by hand is to run Kears in a Jupyter notebook. This works fine if the entire pipeline runs in a few minutes but doesn’t work if I need to close my laptop while the pipeline is running. Jupyter often has trouble gracefully reconnecting and then I lose all the &lt;code class=&quot;highlighter-rouge&quot;&gt;verbose&lt;/code&gt; info.&lt;/p&gt;
+
+&lt;p&gt;Porting my code into a self-contained python script allows me to connect to a machine over mosh and tmux, run the script, and then forget about it. This is handy on it’s own but it’ll be extremely handy when we get to the later tips.&lt;/p&gt;
+
+&lt;p&gt;The tools I use for this are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keras.io/callbacks/#csvlogger&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;keras.callbacks.CSVLogger(...)&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keras.io/callbacks/#tensorboard&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;keras.callbacks.TensorBoard(...)&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keras.io/callbacks/#modelcheckpoint&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;keras.callbacks.ModelCheckpoint(..., save_best_only=True)&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CSVLogger&lt;/code&gt; takes the output from verbose and stores it in a csv file for later. If you’re using tmux, it should be preserving your terminal log (and the &lt;code class=&quot;highlighter-rouge&quot;&gt;verbose&lt;/code&gt; output) but csv puts all of that history data in a format where you can easily use it.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;TensorBoard&lt;/code&gt; is super handy if you want to be able to monitor the progress of a long-running model from somewhere other than your terminal. I can access this from my iPad and it looks great!
+&lt;img src=&quot;/images/tips/tb.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ModelCheckpoint&lt;/code&gt; saves your model every so often (you set the frequency as a parameter). This is nice on its own because it allows you to access a model that was trained in a script from anywhere (including my preferred tinkering environment, Jupyter). Even more than that, if you use &lt;code class=&quot;highlighter-rouge&quot;&gt;save_best_only=True&lt;/code&gt;, then the script is automatically saving space by only saving the best performing model (you should youse &lt;code class=&quot;highlighter-rouge&quot;&gt;val_loss&lt;/code&gt; or some other validation metric with this option).&lt;/p&gt;
+
+&lt;h2&gt;Learning Rate Schedule&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keras.io/callbacks/#learningratescheduler&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;keras.callbacks.LearningRateScheduler&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keras.io/callbacks/#reducelronplateau&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;keras.callbacks.ReduceLROnPlateau&lt;/code&gt;&lt;/a&gt; This is my preference. I use this in conjunction with EarlyStopping and ModelCheckpoint all the time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Use noise and other transformations to enlarge your datasets&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keras.io/preprocessing/image/#imagedatagenerator&quot;&gt;keras.preprocessing.image.ImageDataGenerator()&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tensorflow.org/versions/master/tutorials/audio_recognition#background_noise&quot;&gt;Tensorflow blog discussing this with background noise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Optimize&lt;/h2&gt;
+
+&lt;p&gt;There are many hyperparameters that can be optimized:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learning rate&lt;/li&gt;
+  &lt;li&gt;Dropout rate&lt;/li&gt;
+  &lt;li&gt;Preprocessing steps&lt;/li&gt;
+  &lt;li&gt;Different architectures (size and shape of layers as well as count) and parameters&lt;/li&gt;
+  &lt;li&gt;Regularizers and parameters&lt;/li&gt;
+  &lt;li&gt;Initializers and parameters&lt;/li&gt;
+  &lt;li&gt;and more!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These create an enormous space of possible models for which to test. My recommendation is to find something that works and then from that functioning model determine plausible options for the above hyperparameters. Then throw what you have into hyperopt.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hyperopt/hyperopt&quot;&gt;HyperOpt does this automatically&lt;/a&gt;. It’s poorly documented but fairly easy to use.&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+
+      
+        <summary type="html">I often find myself in roughly this situation: I’ve done a lot of work to pre-process data, researched different DL architectures and selected one (or more), modified it so that it works well on my data. And now I’ve got a model that does well, but not quite as well as I want it to. Below I’ll outline steps that I find very useful in this situation. Of course, more detail about how to get to that point is for another post. Also, I’m using Keras so many of these are specific to that tool, but they could absolutely be applied to other DL packages. Clean up training code and improve logging. My typical workflow when I’m building or tweaking a model by hand is to run Kears in a Jupyter notebook. This works fine if the entire pipeline runs in a few minutes but doesn’t work if I need to close my laptop while the pipeline is running. Jupyter often has trouble gracefully reconnecting and then I lose all the verbose info. Porting my code into a self-contained python script allows me to connect to a machine over mosh and tmux, run the script, and then forget about it. This is handy on it’s own but it’ll be extremely handy when we get to the later tips. The tools I use for this are: keras.callbacks.CSVLogger(...) keras.callbacks.TensorBoard(...) keras.callbacks.ModelCheckpoint(..., save_best_only=True) CSVLogger takes the output from verbose and stores it in a csv file for later. If you’re using tmux, it should be preserving your terminal log (and the verbose output) but csv puts all of that history data in a format where you can easily use it. TensorBoard is super handy if you want to be able to monitor the progress of a long-running model from somewhere other than your terminal. I can access this from my iPad and it looks great! ModelCheckpoint saves your model every so often (you set the frequency as a parameter). This is nice on its own because it allows you to access a model that was trained in a script from anywhere (including my preferred tinkering environment, Jupyter). Even more than that, if you use save_best_only=True, then the script is automatically saving space by only saving the best performing model (you should youse val_loss or some other validation metric with this option). Learning Rate Schedule keras.callbacks.LearningRateScheduler keras.callbacks.ReduceLROnPlateau This is my preference. I use this in conjunction with EarlyStopping and ModelCheckpoint all the time. Use noise and other transformations to enlarge your datasets keras.preprocessing.image.ImageDataGenerator() Tensorflow blog discussing this with background noise Optimize There are many hyperparameters that can be optimized: Learning rate Dropout rate Preprocessing steps Different architectures (size and shape of layers as well as count) and parameters Regularizers and parameters Initializers and parameters and more! These create an enormous space of possible models for which to test. My recommendation is to find something that works and then from that functioning model determine plausible options for the above hyperparameters. Then throw what you have into hyperopt. HyperOpt does this automatically. It’s poorly documented but fairly easy to use.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Deep learning from scratch with python</title>
+      
+      
+      <link href="http://localhost:4000/2017/10/18/scratch/" rel="alternate" type="text/html" title="Deep learning from scratch with python" />
+      
+      <published>2017-10-18T10:09:10+00:00</published>
+      <updated>2017-10-18T10:09:10+00:00</updated>
+      <id>http://localhost:4000/2017/10/18/scratch</id>
+      <content type="html" xml:base="http://localhost:4000/2017/10/18/scratch/">&lt;p&gt;Last week I presented at the &lt;a href=&quot;https://web.archive.org/web/20171018141234/https://www.meetup.com/NYC-Data-Science-Study-Group/events/243747107/&quot;&gt;Data Science Study Group&lt;/a&gt; on a project of mine where I built a deep learning platform from scratch in python.&lt;/p&gt;
+
+&lt;p&gt;For reference, here’s my &lt;a href=&quot;https://github.com/sophiaray/sophscratch&quot;&gt;code&lt;/a&gt; and &lt;a href=&quot;http://soph.info/scratch.pdf&quot;&gt;slides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First, my project drew primarily from two sets of sources, without which I never would have completed this project. First, there are many examples of folks doing this online. Here’s an incomplete list in python:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;** &lt;a href=&quot;http://www.deepideas.net/deep-learning-from-scratch-i-computational-graphs/&quot;&gt;Deep Learning From Scratch I-V&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/deepideas_net&quot;&gt;Daniel Sabinasz&lt;/a&gt; **&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/&quot;&gt;Implementing a Neural Network from Scratch in Python – An Introduction&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/dennybritz&quot;&gt;Denny Britz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.analyticsvidhya.com/blog/2017/05/neural-network-from-scratch-in-python-and-r/&quot;&gt;Understanding and coding Neural Networks From Scratch in Python and R&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/sunil2ray?lang=en&quot;&gt;Sunil Ray&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/&quot;&gt;How to Implement the Backpropagation Algorithm From Scratch In Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While all of these are useful, Sabinasz’s was what I based my project on because he implements a system that builds a computational graph and includes a true backpropogation algorithm. The others I saw do this implicitly by calculating the gradients operation-by-operation. That approach is fine for a single demo but I wanted something that mimicked the flexibility of tensorflow, allowing me to compare different network structures and activations without starting over each time.&lt;/p&gt;
+
+&lt;p&gt;In addition to these resources, I drew heavily from &lt;a href=&quot;http://www.deeplearningbook.org/&quot;&gt;Deep Learning&lt;/a&gt; by Goodfellow, Bengio, and Courville. I’m certain that the other examples I looked toward used this book as well.&lt;/p&gt;
+
+&lt;p&gt;While I started with Sabinasz’s code, I made a few modifications and improvements including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add graph visualization with &lt;a href=&quot;http://graphviz.readthedocs.io/en/stable/manual.html&quot;&gt;python Graphviz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Remove the use of globals for the computational graph&lt;/li&gt;
+  &lt;li&gt;Simplify backprop algorithm by adding gradient calculations to the operation classes&lt;/li&gt;
+  &lt;li&gt;Add a Relu activation function&lt;/li&gt;
+  &lt;li&gt;Tweak the visualizations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s the learning rate plotted along with the classification boundary for a relu network with 4 hidden nodes.
+&lt;img src=&quot;/images/relu-w-hidden-nodes.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And here’s the computational graph. You can really see the benefit of tracking the graph and automating the backprop algorithm for a graph of this size.
+&lt;img src=&quot;/images/relu-graph.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;What I still want to do&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I want to write up a blog summarizing my talk and the process for creating this. I think it could be a very useful explanatory tool.&lt;/li&gt;
+  &lt;li&gt;I have a strong feeling that some of the gradients in here are inaccurate.
+    &lt;ul&gt;
+      &lt;li&gt;In many cases the network fails to learn for any learning rate schedule unless I give it a much higher capacity than it needs (e.g. 4+ hidden nodes in the XOR task).&lt;/li&gt;
+      &lt;li&gt;In simple cases, like separable data, the model should be able to get arbitrarily close to $J=0$ but fails to do so.&lt;/li&gt;
+      &lt;li&gt;The softmax gradient seems to differ from that found in other sources&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;I want to extend this model to larger datasets and deeper networks. Right now it runs into what I think are underflow errors in these cases but they should be possible to avoid.&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <category term="Deep" />
+      
+        <category term="learning," />
+      
+        <category term="Data" />
+      
+        <category term="Science," />
+      
+        <category term="Python" />
+      
+
+      
+        <summary type="html">Last week I presented at the Data Science Study Group on a project of mine where I built a deep learning platform from scratch in python. For reference, here’s my code and slides. First, my project drew primarily from two sets of sources, without which I never would have completed this project. First, there are many examples of folks doing this online. Here’s an incomplete list in python: ** Deep Learning From Scratch I-V by Daniel Sabinasz ** Implementing a Neural Network from Scratch in Python – An Introduction by Denny Britz Understanding and coding Neural Networks From Scratch in Python and R by Sunil Ray How to Implement the Backpropagation Algorithm From Scratch In Python While all of these are useful, Sabinasz’s was what I based my project on because he implements a system that builds a computational graph and includes a true backpropogation algorithm. The others I saw do this implicitly by calculating the gradients operation-by-operation. That approach is fine for a single demo but I wanted something that mimicked the flexibility of tensorflow, allowing me to compare different network structures and activations without starting over each time. In addition to these resources, I drew heavily from Deep Learning by Goodfellow, Bengio, and Courville. I’m certain that the other examples I looked toward used this book as well. While I started with Sabinasz’s code, I made a few modifications and improvements including: Add graph visualization with python Graphviz Remove the use of globals for the computational graph Simplify backprop algorithm by adding gradient calculations to the operation classes Add a Relu activation function Tweak the visualizations Here’s the learning rate plotted along with the classification boundary for a relu network with 4 hidden nodes. And here’s the computational graph. You can really see the benefit of tracking the graph and automating the backprop algorithm for a graph of this size. What I still want to do I want to write up a blog summarizing my talk and the process for creating this. I think it could be a very useful explanatory tool. I have a strong feeling that some of the gradients in here are inaccurate. In many cases the network fails to learn for any learning rate schedule unless I give it a much higher capacity than it needs (e.g. 4+ hidden nodes in the XOR task). In simple cases, like separable data, the model should be able to get arbitrarily close to $J=0$ but fails to do so. The softmax gradient seems to differ from that found in other sources I want to extend this model to larger datasets and deeper networks. Right now it runs into what I think are underflow errors in these cases but they should be possible to avoid.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">Trans fam, update your documents!</title>
+      
+      
+      <link href="http://localhost:4000/2017/07/26/Documents/" rel="alternate" type="text/html" title="Trans fam, update your documents!" />
+      
+      <published>2017-07-26T11:18:04+00:00</published>
+      <updated>2017-07-26T11:18:04+00:00</updated>
+      <id>http://localhost:4000/2017/07/26/Documents</id>
+      <content type="html" xml:base="http://localhost:4000/2017/07/26/Documents/">&lt;p&gt;Trans friends, here’s a periodic reminder that it might be useful to update your documents (name, gender marker, id). I’ve recently done this. Here’s the quickest and cheapest path for US citizens:&lt;/p&gt;
+
+&lt;p&gt;1 &lt;strong&gt;Update your passport gender marker.&lt;/strong&gt; For this you need proof of citizenship (like a birth certificate), a letter from your doctor, and a new passport photo. Use the template in the link below. The cost is $110 and this can be done in one or two days. &lt;a href=&quot;https://travel.state.gov/content/passports/en/passports/information/gender.html&quot;&gt;info here&lt;/a&gt;
+2 &lt;strong&gt;Update your name in court.&lt;/strong&gt; This process differs state by state. Roughly, you’ll schedule a hearing, gather documents including a birth certificate, publish an announcement in the paper (trans folks are generally able to waive the publication requirement in NY), then get certified copies of the court order &lt;a href=&quot;https://srlp.org/resources/namechange/&quot;&gt;NYC&lt;/a&gt;, &lt;a href=&quot;http://www.nycourts.gov/CourtHelp/DIY/nameChange.shtml&quot;&gt;NY&lt;/a&gt;, &lt;a href=&quot;https://slwordpress.rutgers.edu/socialjustice/wp-content/uploads/sites/51/2016/08/NJ-Name-Gender-Change-Guide-for-Residents-v1-1.pdf&quot;&gt;NJ&lt;/a&gt;
+3 &lt;strong&gt;Update your passport name.&lt;/strong&gt; Do this within a year of step one and it’s free and only requires the court order (&lt;a href=&quot;https://eforms.state.gov/Forms/ds5504.pdf&quot;&gt;form here&lt;/a&gt;).
+4 Everything else (except sometimes a birth certificate) can be done with an updated passport and possibly some additional documentation.&lt;/p&gt;
+
+&lt;p&gt;If you need help, I’d love to or help find someone who can. If money is a problem, &lt;a href=&quot;https://www.transassistance.org&quot;&gt;Trans Assistance Project&lt;/a&gt;, &lt;a href=&quot;http://tldef.org&quot;&gt;TLDEF&lt;/a&gt;, &lt;a href=&quot;https://srlp.org&quot;&gt;SRLP&lt;/a&gt;, and other places have provided that in the past. Let me know if you have any trouble.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+
+      
+        <summary type="html">Trans friends, here’s a periodic reminder that it might be useful to update your documents (name, gender marker, id). I’ve recently done this. Here’s the quickest and cheapest path for US citizens: 1 Update your passport gender marker. For this you need proof of citizenship (like a birth certificate), a letter from your doctor, and a new passport photo. Use the template in the link below. The cost is $110 and this can be done in one or two days. info here 2 Update your name in court. This process differs state by state. Roughly, you’ll schedule a hearing, gather documents including a birth certificate, publish an announcement in the paper (trans folks are generally able to waive the publication requirement in NY), then get certified copies of the court order NYC, NY, NJ 3 Update your passport name. Do this within a year of step one and it’s free and only requires the court order (form here). 4 Everything else (except sometimes a birth certificate) can be done with an updated passport and possibly some additional documentation. If you need help, I’d love to or help find someone who can. If money is a problem, Trans Assistance Project, TLDEF, SRLP, and other places have provided that in the past. Let me know if you have any trouble.</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+</feed>

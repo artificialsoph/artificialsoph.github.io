@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>soph</title>
+  <meta name="description" content="Minimal, responsive Jekyll theme for hackers.">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/posts/2/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="defsophiaray">
+  <meta name="twitter:title" content="soph">
+  <meta name="twitter:description" content="Minimal, responsive Jekyll theme for hackers.">
+  
+    <meta name="twitter:creator" content="defsophiaray">
+  
+  
+
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Bitter:400,700,400italic:latin' ] }
+  };
+  (function(d) {
+    var wf = d.createElement('script'), s = d.scripts[0];
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+    wf.async = true;
+    s.parentNode.insertBefore(wf, s);
+  })(document);
+</script>
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">soph</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="/archives/">Archives</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home">
+
+  
+
+  
+
+  <ul class="post-list">
+    
+      
+      
+
+      <li>
+        <header class="post-header">
+          <h1 class="post-title">
+            
+              <a class="post-link" href="/2017/10/18/scratch/">Deep learning from scratch with python</a>
+            
+          </h1>
+
+          <p class="post-meta">
+            Oct 18, 2017
+            
+              
+
+ •
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+
+
+            
+            
+          </p>
+        </header>
+
+        <div class="post-content">
+          <p>Last week I presented at the <a href="https://web.archive.org/web/20171018141234/https://www.meetup.com/NYC-Data-Science-Study-Group/events/243747107/">Data Science Study Group</a> on a project of mine where I built a deep learning platform from scratch in python.</p>
+
+<p>For reference, here’s my <a href="https://github.com/sophiaray/sophscratch">code</a> and <a href="http://soph.info/scratch.pdf">slides</a>.</p>
+
+<p>First, my project drew primarily from two sets of sources, without which I never would have completed this project. First, there are many examples of folks doing this online. Here’s an incomplete list in python:</p>
+
+<ul>
+  <li>** <a href="http://www.deepideas.net/deep-learning-from-scratch-i-computational-graphs/">Deep Learning From Scratch I-V</a> by <a href="https://twitter.com/deepideas_net">Daniel Sabinasz</a> **</li>
+  <li><a href="http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/">Implementing a Neural Network from Scratch in Python – An Introduction</a> by <a href="https://twitter.com/dennybritz">Denny Britz</a></li>
+  <li><a href="https://www.analyticsvidhya.com/blog/2017/05/neural-network-from-scratch-in-python-and-r/">Understanding and coding Neural Networks From Scratch in Python and R</a> by <a href="https://twitter.com/sunil2ray?lang=en">Sunil Ray</a></li>
+  <li><a href="https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/">How to Implement the Backpropagation Algorithm From Scratch In Python</a></li>
+</ul>
+
+<p>While all of these are useful, Sabinasz’s was what I based my project on because he implements a system that builds a computational graph and includes a true backpropogation algorithm. The others I saw do this implicitly by calculating the gradients operation-by-operation. That approach is fine for a single demo but I wanted something that mimicked the flexibility of tensorflow, allowing me to compare different network structures and activations without starting over each time.</p>
+
+<p>In addition to these resources, I drew heavily from <a href="http://www.deeplearningbook.org/">Deep Learning</a> by Goodfellow, Bengio, and Courville. I’m certain that the other examples I looked toward used this book as well.</p>
+
+<p>While I started with Sabinasz’s code, I made a few modifications and improvements including:</p>
+
+<ul>
+  <li>Add graph visualization with <a href="http://graphviz.readthedocs.io/en/stable/manual.html">python Graphviz</a></li>
+  <li>Remove the use of globals for the computational graph</li>
+  <li>Simplify backprop algorithm by adding gradient calculations to the operation classes</li>
+  <li>Add a Relu activation function</li>
+  <li>Tweak the visualizations</li>
+</ul>
+
+<p>Here’s the learning rate plotted along with the classification boundary for a relu network with 4 hidden nodes.
+<img src="/images/relu-w-hidden-nodes.png" alt="" /></p>
+
+<p>And here’s the computational graph. You can really see the benefit of tracking the graph and automating the backprop algorithm for a graph of this size.
+<img src="/images/relu-graph.png" alt="" /></p>
+
+<h2>What I still want to do</h2>
+
+<ol>
+  <li>I want to write up a blog summarizing my talk and the process for creating this. I think it could be a very useful explanatory tool.</li>
+  <li>I have a strong feeling that some of the gradients in here are inaccurate.
+    <ul>
+      <li>In many cases the network fails to learn for any learning rate schedule unless I give it a much higher capacity than it needs (e.g. 4+ hidden nodes in the XOR task).</li>
+      <li>In simple cases, like separable data, the model should be able to get arbitrarily close to $J=0$ but fails to do so.</li>
+      <li>The softmax gradient seems to differ from that found in other sources</li>
+    </ul>
+  </li>
+  <li>I want to extend this model to larger datasets and deeper networks. Right now it runs into what I think are underflow errors in these cases but they should be possible to avoid.</li>
+</ol>
+
+        </div>
+        
+      </li>
+    
+      
+      
+
+      <li>
+        <header class="post-header">
+          <h1 class="post-title">
+            
+              <a class="post-link" href="/2017/07/26/Documents/">Trans fam, update your documents!</a>
+            
+          </h1>
+
+          <p class="post-meta">
+            Jul 26, 2017
+            
+            
+          </p>
+        </header>
+
+        <div class="post-content">
+          <p>Trans friends, here’s a periodic reminder that it might be useful to update your documents (name, gender marker, id). I’ve recently done this. Here’s the quickest and cheapest path for US citizens:</p>
+
+<p>1 <strong>Update your passport gender marker.</strong> For this you need proof of citizenship (like a birth certificate), a letter from your doctor, and a new passport photo. Use the template in the link below. The cost is $110 and this can be done in one or two days. <a href="https://travel.state.gov/content/passports/en/passports/information/gender.html">info here</a>
+2 <strong>Update your name in court.</strong> This process differs state by state. Roughly, you’ll schedule a hearing, gather documents including a birth certificate, publish an announcement in the paper (trans folks are generally able to waive the publication requirement in NY), then get certified copies of the court order <a href="https://srlp.org/resources/namechange/">NYC</a>, <a href="http://www.nycourts.gov/CourtHelp/DIY/nameChange.shtml">NY</a>, <a href="https://slwordpress.rutgers.edu/socialjustice/wp-content/uploads/sites/51/2016/08/NJ-Name-Gender-Change-Guide-for-Residents-v1-1.pdf">NJ</a>
+3 <strong>Update your passport name.</strong> Do this within a year of step one and it’s free and only requires the court order (<a href="https://eforms.state.gov/Forms/ds5504.pdf">form here</a>).
+4 Everything else (except sometimes a birth certificate) can be done with an updated passport and possibly some additional documentation.</p>
+
+<p>If you need help, I’d love to or help find someone who can. If money is a problem, <a href="https://www.transassistance.org">Trans Assistance Project</a>, <a href="http://tldef.org">TLDEF</a>, <a href="https://srlp.org">SRLP</a>, and other places have provided that in the past. Let me know if you have any trouble.</p>
+
+        </div>
+        
+      </li>
+    
+  </ul>
+
+  
+  <div class="pagination">
+    
+
+    
+      <a class="next" href="/">Newer &raquo;</a>
+    
+  </div>
+
+
+
+</div>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>Paperspace how-to (cheap cloud GPU)</title>
+  <meta name="description" content="The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The cryptocurrency fad has led to GPUs becoming expensive and/or unavailable. One solution to this problem is to rent a computer with a GPU from Google, Amazon, Microsoft, and others. Google even recently lowered their GPU prices quite substantially. I’ll save doing a full comparison of each platform for later, but what I’ll go over today is getting started with a relatively new service, PaperSpace based in my home of Brooklyn &amp;lt;3. The virtue of paperspace is that their entry-level GPU offering costs $0.40/hr (compared to Google’s new $0.45/hr and Amazon’s $0.90/hr) but benchmarks ahead of Amazon and other offers based on the Tesla K80. Below, I’ll show you how to get up and running quickly and how to set up cost-saving measures, like auto-shutdown. Steps to get running First, as with any new machine, update the current packages with sudo apt update sudo apt upgrade (Note: I had to add the --fix-missing flag to sudo apt update) Add a new user according to these instructions. open ports with ufw By default, Paperspace has a very strict firewall (this is a good thing). We’re going to want to get to our jupyter notebooks, though, so we need to open up some ports. You can do that with these instructions. My version is pretty unsafe (it allows access from any IP) so feel free to check that link for info on restricting the IP that can access your jupyter port. sudo ufw allow 8888 sudo ufw allow 60000:61000/udp set up jupyter fix autoshutdown with ssh https://paperspace.zendesk.com/hc/en-us/articles/115002807447-How-do-I-use-Auto-Shutdown-on-my-Linux-machine-when-connecting-through-SSH- set up ssh keys https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys–2 https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically Install cuda 9.1 You can use the official guide but I prefer these instructions. Install cudnn http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="defsophiaray">
+  <meta name="twitter:title" content="Paperspace how-to (cheap cloud GPU)">
+  <meta name="twitter:description" content="The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The cryptocurrency fad has led to GPUs becoming ex...">
+  
+    <meta name="twitter:creator" content="defsophiaray">
+  
+  
+
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Bitter:400,700,400italic:latin' ] }
+  };
+  (function(d) {
+    var wf = d.createElement('script'), s = d.scripts[0];
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+    wf.async = true;
+    s.parentNode.insertBefore(wf, s);
+  })(document);
+</script>
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">soph</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="/archives/">Archives</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">Paperspace how-to (cheap cloud GPU)</h1>
+    
+    <p class="post-meta"><time datetime="2018-02-01T16:11:40+00:00" itemprop="datePublished">Feb 1, 2018</time>
+
+ •
+  
+    
+    
+  
+
+</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The <a href="https://arstechnica.com/tech-policy/2018/01/cryptocurrency-boom-creates-insane-global-graphics-card-shortage/">cryptocurrency fad</a> has led to GPUs becoming expensive and/or unavailable. One solution to this problem is to rent a computer with a GPU from Google, Amazon, Microsoft, and others. Google even <a href="https://cloudplatform.googleblog.com/2017/11/new-lower-prices-for-GPUs-and-preemptible-Local-SSDs.html">recently lowered</a> their GPU prices quite substantially. I’ll save doing a full comparison of each platform for later, but what I’ll go over today is getting started with a relatively new service, <a href="https://techcrunch.com/2017/05/03/paperspace-launches-gpu-powered-virtual-machines-loaded-with-tools-for-data-scientists/">PaperSpace</a> based in my home of Brooklyn &lt;3.</p>
+
+<p>The virtue of paperspace is that their entry-level GPU offering costs $0.40/hr (compared to Google’s new $0.45/hr and Amazon’s $0.90/hr) but <a href="https://medium.com/initialized-capital/benchmarking-tensorflow-performance-and-cost-across-different-gpu-options-69bd85fe5d58">benchmarks ahead</a> of Amazon and other offers based on the Tesla K80.</p>
+
+<p>Below, I’ll show you how to get up and running quickly and how to set up cost-saving measures, like auto-shutdown.</p>
+
+<h1>Steps to get running</h1>
+
+<p>First, as with any new machine, update the current packages with</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt update
+sudo apt upgrade
+</code></pre></div></div>
+
+<p>(Note: I had to add the <code class="highlighter-rouge">--fix-missing</code> flag to <code class="highlighter-rouge">sudo apt update</code>)</p>
+
+<p>Add a new user according to <a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart">these instructions</a>.</p>
+
+<h2>open ports with ufw</h2>
+
+<p>By default, Paperspace has a very strict firewall (this is a good thing). We’re going to want to get to our jupyter notebooks, though, so we need to open up some ports. You can do that with <a href="https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server">these instructions</a>.</p>
+
+<p>My version is pretty unsafe (it allows access from any IP) so feel free to check that link for info on restricting the IP that can access your jupyter port.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo ufw allow 8888
+sudo ufw allow 60000:61000/udp
+</code></pre></div></div>
+
+<h1>set up jupyter</h1>
+
+<h1>fix autoshutdown with ssh</h1>
+
+<p>https://paperspace.zendesk.com/hc/en-us/articles/115002807447-How-do-I-use-Auto-Shutdown-on-my-Linux-machine-when-connecting-through-SSH-</p>
+
+<h1>set up ssh keys</h1>
+
+<p>https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys–2</p>
+
+<p>https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically</p>
+
+<h1>Install cuda 9.1</h1>
+
+<p>You can use the <a href="http://docs.nvidia.com/cuda/cuda-installation-guide-linux/">official guide</a> but I prefer <a href="https://askubuntu.com/questions/967332/how-can-i-install-cuda-9-on-ubuntu-17-10">these instructions</a>.</p>
+
+<h1>Install cudnn</h1>
+
+<p>http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
