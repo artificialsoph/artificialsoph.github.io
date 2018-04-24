@@ -4,6 +4,8 @@ title: "About"
 permalink: /about/
 ---
 
+![](profile.jpg)
+
 data witch to watch out for \| ⚧
 
 Some of my primary interests include:
