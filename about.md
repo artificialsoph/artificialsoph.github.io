@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-![](profile.jpg)
+![](/profile.jpg)
 
 data witch to watch out for \| ⚧
 
