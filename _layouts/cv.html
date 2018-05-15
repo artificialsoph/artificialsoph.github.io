@@ -5,27 +5,41 @@
 
 <style>
   .wrapper {
-    width: 800px;
+    width: 8.5in;
+    padding: 0;
   }
   .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: .5em;
+    margin-bottom: .7em;
   }
   .top {
     align-items: flex-end;
   }
   .left {
-    width: 20%;
+    width: 18%;
     text-align: right;
   }
   .right {
-    width: 70%;
+    width: 81%;
+  }
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 0em;
+  }
+  h2 {
+    font-size: 1em;
+    margin-bottom: 0em;
+  }
+  h3 {
+    font-size: .9em;
+    margin-bottom: .1em;
   }
   p{
+    hyphens: auto;
     font-size: .8em;
-    margin-bottom: .5em;
+    margin-bottom: .25em;
   }
 
   /* hr {
@@ -43,13 +57,13 @@
 
   <!-- {% include header.html %} -->
 
-  <main class="page-content" aria-label="Content">
+  <!-- <main class="page-content" aria-label="Content"> -->
     <div class="wrapper">
       <div class="top row">
         <div class="col location">
           {{ site.data.cv.location }}
         </div>
-        <div class="col name">
+        <div class="col name" style="margin-bottom:0;">
           <h1>{{ site.data.cv.name }}</h1>
         </div>
         <div class="col site">
@@ -88,9 +102,11 @@
               {{ job.description | markdownify}}
             {% endif %}
 
+            <p>
             {% for mile in job.milestones %}
-              {{ mile | markdownify}}
+              {{ mile | markdownify | remove: '<p>' | remove: '</p>'}} <br>
             {% endfor %}
+            </p>
           </div>
         </div>
       {% endfor %}
@@ -130,7 +146,7 @@
 
 
     </div>
-  </main>
+  <!-- </main> -->
 
   <!-- {% include footer.html %} -->
 
