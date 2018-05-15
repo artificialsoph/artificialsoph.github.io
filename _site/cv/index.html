@@ -57,7 +57,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: .7em;
+
+  }
+  .outer {
+    margin-bottom: .5em;
+  }
+  .inner {
+    margin-bottom: .25em;
   }
   .top {
     align-items: flex-end;
@@ -70,7 +76,7 @@
     width: 81%;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 0em;
   }
   h2 {
@@ -83,19 +89,18 @@
   }
   p{
     hyphens: auto;
-    font-size: .8em;
+    font-size: .7em;
     margin-bottom: .25em;
   }
 
-  /* hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-} */
+  hr {
+      display: block;
+      height: 1px;
+      background: transparent;
+      width: 100%;
+      border: none;
+      border-top: solid 1px #aaa;
+  }
 </style>
 
 <body>
@@ -123,22 +128,22 @@
 
   <!-- <main class="page-content" aria-label="Content"> -->
     <div class="wrapper">
-      <div class="top row">
+      <div class="top row outer">
         <div class="col location">
-          Brooklyn, NY
+          <p>Brooklyn, NY</p>
         </div>
         <div class="col name" style="margin-bottom:0;">
           <h1>Sophie Searcy</h1>
         </div>
         <div class="col site">
-          s@soph.info | <a href="https://soph.info">soph.info</a>
+          <p>s@soph.info | <a href="https://soph.info">soph.info</a></p>
         </div>
       </div>
 
       <hr>
 
       <h2>Summary</h2>
-      <div class="row">
+      <div class="row outer">
         <div class="left"> </div>
         <div class="right">
           <p>Experienced, versatile data scientist and full-stack developer. Python (5yrs), Javascript/Coffeescirpt (3 yrs) R (3yrs), C (3 yrs); Modern ML including Deep Neural Nets and Generative Probabilistic Models.</p>
@@ -147,6 +152,8 @@
       </div>
 
       <h2>Experience</h2>
+      <div class="outer">
+
 
       
         <div class="cv row">
@@ -248,9 +255,10 @@
           </div>
         </div>
       
+      </div>
 
       <h2>Publications</h2>
-      <div class="row">
+      <div class="row outer">
         <div class="left col"></div>
         <div class="right col">
         
@@ -288,41 +296,43 @@
 
       <h2>Education</h2>
 
-
-        
-        <div class="row">
-        <div class="left col"> MENG </div>
-        <div class="right col">
-        <p>
-          University of Louisville <br>
-          Electrical and Computer Engineering <br>
-          University Fellowship Award (2 years Full tuition plus stipend)
-        </p>
-        </div>
-        </div>
-        
-        <div class="row">
-        <div class="left col"> MS </div>
-        <div class="right col">
-        <p>
-          University of Louisville <br>
-          Experimental Psychology: Cognitive Science <br>
+        <div class="outer">
           
-        </p>
+          <div class="row inner">
+          <div class="left col"> <p>MENG</p> </div>
+          <div class="right col">
+          <p>
+            University of Louisville <br>
+            Electrical and Computer Engineering <br>
+            University Fellowship Award (2 years Full tuition plus stipend)
+          </p>
+          </div>
+          </div>
+          
+          <div class="row inner">
+          <div class="left col"> <p>MS</p> </div>
+          <div class="right col">
+          <p>
+            University of Louisville <br>
+            Experimental Psychology: Cognitive Science <br>
+            
+          </p>
+          </div>
+          </div>
+          
+          <div class="row inner">
+          <div class="left col"> <p>BS</p> </div>
+          <div class="right col">
+          <p>
+            University of Louisville <br>
+            Electrical and Computer Engineering <br>
+            National Merit Scholarship (5 years full tuition plus stipend)
+          </p>
+          </div>
+          </div>
+          
         </div>
-        </div>
-        
-        <div class="row">
-        <div class="left col"> BS </div>
-        <div class="right col">
-        <p>
-          University of Louisville <br>
-          Electrical and Computer Engineering <br>
-          National Merit Scholarship (5 years full tuition plus stipend)
-        </p>
-        </div>
-        </div>
-        
+
 
 
 

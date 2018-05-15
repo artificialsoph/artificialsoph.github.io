@@ -12,7 +12,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: .7em;
+
+  }
+  .outer {
+    margin-bottom: .5em;
+  }
+  .inner {
+    margin-bottom: .25em;
   }
   .top {
     align-items: flex-end;
@@ -25,7 +31,7 @@
     width: 81%;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 0em;
   }
   h2 {
@@ -38,19 +44,18 @@
   }
   p{
     hyphens: auto;
-    font-size: .8em;
+    font-size: .7em;
     margin-bottom: .25em;
   }
 
-  /* hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-} */
+  hr {
+      display: block;
+      height: 1px;
+      background: transparent;
+      width: 100%;
+      border: none;
+      border-top: solid 1px #aaa;
+  }
 </style>
 
 <body>
@@ -59,22 +64,22 @@
 
   <!-- <main class="page-content" aria-label="Content"> -->
     <div class="wrapper">
-      <div class="top row">
+      <div class="top row outer">
         <div class="col location">
-          {{ site.data.cv.location }}
+          <p>{{ site.data.cv.location }}</p>
         </div>
         <div class="col name" style="margin-bottom:0;">
           <h1>{{ site.data.cv.name }}</h1>
         </div>
         <div class="col site">
-          {{ site.data.cv.email }} | <a href="{{ site.data.cv.website[1] }}">{{ site.data.cv.website[0] }}</a>
+          <p>{{ site.data.cv.email }} | <a href="{{ site.data.cv.website[1] }}">{{ site.data.cv.website[0] }}</a></p>
         </div>
       </div>
 
       <hr>
 
       <h2>Summary</h2>
-      <div class="row">
+      <div class="row outer">
         <div class="left"> </div>
         <div class="right">
           {{ site.data.cv.summary | markdownify}}
@@ -82,6 +87,8 @@
       </div>
 
       <h2>Experience</h2>
+      <div class="outer">
+
 
       {% for job in site.data.cv.experience %}
         <div class="cv row">
@@ -110,9 +117,10 @@
           </div>
         </div>
       {% endfor %}
+      </div>
 
       <h2>Publications</h2>
-      <div class="row">
+      <div class="row outer">
         <div class="left col"></div>
         <div class="right col">
         {% for pub in site.data.cv.publications%}
@@ -127,19 +135,21 @@
 
       <h2>Education</h2>
 
+        <div class="outer">
+          {% for ed in site.data.cv.education %}
+          <div class="row inner">
+          <div class="left col"> <p>{{ ed.degree }}</p> </div>
+          <div class="right col">
+          <p>
+            {{ ed.institution }} <br>
+            {{ ed.major }} <br>
+            {{ ed.awards }}
+          </p>
+          </div>
+          </div>
+          {% endfor %}
+        </div>
 
-        {% for ed in site.data.cv.education %}
-        <div class="row">
-        <div class="left col"> {{ ed.degree }} </div>
-        <div class="right col">
-        <p>
-          {{ ed.institution }} <br>
-          {{ ed.major }} <br>
-          {{ ed.awards }}
-        </p>
-        </div>
-        </div>
-        {% endfor %}
 
 
 
