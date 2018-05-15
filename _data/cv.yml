@@ -5,32 +5,65 @@ email: s@soph.info
 summary: |
   Experienced, versatile data scientist and full-stack developer. Python (5yrs), Javascript/Coffeescirpt (3 yrs) R (3yrs), C (3 yrs); Modern ML including Deep Neural Nets and Generative Probabilistic Models.
 experience:
-  - Company: Elektra
-    Website: https://angel.co/elektra-1
-    Location: New York, NY
-    Role: CTO, Cofounder
-    Dates: 2016-2017
-    Description: |
-      Building the iPhone for haptics. Wearables start-up. Fabrics that pair electrical stimulation to apps. Verticals include accessibility, entertainment, communication, healthcare, VR, gaming, & military. Fundraising: 20k convertible note (1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner ($500 award, 10 hours consultation). "
-    Milestones:
-      - Title: Proof of concept
-        Description: Design and build proof of concept. Validate underlying technology, collect data on 100+ customer experiences in target audience and demonstrate product-market fit.
-      - Title: Scalable design
-        Description: "Lead engineering teams managing user data and designing a product at 10k/yr volume: electronics hardware, firmware, desktop app."
-      - Title: Human resources
-        Description: Manage HR. Design collaborative, version controlled, company Handbook.
-  - Company: Cognitive and Data Science Lab
-    Website: http://shaftolab.com/
-    Location: Newark, NJ
-    Role: Research Assistant, PhD Candidate
-    Dates: 2012-2017
-    Description:
-    Milestones:
-      - Title: Project manager
-        Description: Manage a data science team developing FOSS tools for replicable cross-platform video data processing in the age of Big Data.
-      - Title: Web experiments
-        Description: Design full-stack web apps for large-n (~1,000 Ss) behavioral experiments and administer through Amazon Mechanical Turk. Mentor data scientists in full-stack design.
-      - Title: Interdisciplinary research on learning
-        Description: Published author on the foundations of learning and computational tractability of learning algorithms. Experience with modern machine learning techniques and mathematics.
-      - Title: Communication.
-        Description: Present work in journals and conferences. Manage lead author responsibilities on manuscripts, conference papers, and presentations.
+  - company: Metis
+    website: https://www.thisismetis.com/
+    location: New York, NY
+    role: Senior Data Scientist
+    dates: 2017-
+    description: |
+      Metis is an award-winning Data Science Bootcamp—currently the only such bootcamp that is accredited. The 12 week bootcamp is a project-based curriculum that covers the breadth of the field of Data Science.
+    milestones:
+      - "**Corporate Training**: developed materials for, led, and instructed corporate training projects at Intel, Vanguard, Blackrock, and Houghton Mifflin Harcourt. Topics included Intro to Data Science, Deep learning, Python."
+      - "**Curriculum Design**: Currently leading a team to re-design the data science curriculum to better serve instructors and target material to the data science industry."
+  - company: Elektra
+    website: https://angel.co/elektra-1
+    location: New York, NY
+    role: CTO, Cofounder
+    dates: 2016-2017
+    description: |
+      Elektra is a wearables start-up building fabrics that pair electrical stimulation to apps. Verticals include accessibility, entertainment, communication, healthcare, VR, gaming, & military. Fundraising: 20k convertible note (1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner ($500 award, 10 hours consultation).
+    milestones:
+      - "**Proof of concept**: Design and build proof of concept. Validate underlying technology, collect data on 100+ customer experiences in target audience and demonstrate product-market fit."
+      - "**Scalable design**: Lead engineering teams managing user data and designing a product at 10k/yr volume: electronics hardware, firmware, desktop app."
+      - "**Human resources**: Manage HR. Design collaborative, version controlled, company Handbook."
+  - company: Cognitive and Data Science Lab
+    website: http://shaftolab.com/
+    location: Newark, NJ
+    role: Research Assistant, PhD Candidate
+    dates: 2012-2017
+    description:
+    milestones:
+      - "**Project manager**: Manage a data science team developing FOSS tools for replicable cross-platform video data processing in the age of Big Data."
+      - "**Web experiments**: Design full-stack web apps for large-n (~1,000 Ss) behavioral experiments and administer through Amazon Mechanical Turk. Mentor data scientists in full-stack design."
+      - "**Interdisciplinary research on machine teaching and learning**: Published author on the foundations of learning and computational tractability of learning algorithms. Experience with modern machine learning techniques and mathematics."
+      - "**Communication**: Present work in journals and conferences. Manage lead author responsibilities on manuscripts, conference papers, and presentations."
+publications:
+  - authors: "**Searcy**, W.K. Vong, Lane & Shafto"
+    year: In prep
+    title: "Cause and affect: Subjectively rational causal inference about affective content."
+  - authors: "**Searcy**"
+    year: In prep
+    title: "Levels of expressivity: Learning across incompatible representational levels"
+  - authors: "**Searcy** & Shafto"
+    year: 2016
+    title: "Cooperative Inference: Features, objects, and collections. Psychological Review."
+    pdf: http://shaftolab.com/papers/searcys2016.pdf
+  - authors: "**Searcy** & Shafto "
+    year: 2014
+    title: Learning biases for teaching boolean concepts.
+    pdf: http://shaftolab.com/assets/papers/Cooperative%20Inference%20(CogSci).pdf
+  - authors:
+    year: 2010
+    title: Energy Efficiency Comparisons of Wireless Communication Technology Options for Smart Grid Enabled Devices
+education:
+  - degree: MENG
+    institution: University of Louisville
+    major: Electrical and Computer Engineering
+    awards: University Fellowship Award (2 years Full tuition plus stipend)
+  - degree: MS
+    institution: University of Louisville
+    major: "Experimental Psychology: Cognitive Science"
+  - degree: BS
+    institution: University of Louisville
+    major: Electrical and Computer Engineering
+    awards: National Merit Scholarship (5 years full tuition plus stipend)

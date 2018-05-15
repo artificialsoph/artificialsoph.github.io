@@ -7,12 +7,25 @@
   .wrapper {
     width: 800px;
   }
-
-  .cv.row {
+  .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: .5em;
+  }
+  .top {
     align-items: flex-end;
+  }
+  .left {
+    width: 20%;
+    text-align: right;
+  }
+  .right {
+    width: 70%;
+  }
+  p{
+    font-size: .8em;
+    margin-bottom: .5em;
   }
 
   /* hr {
@@ -32,7 +45,7 @@
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      <div class="cv row">
+      <div class="top row">
         <div class="col location">
           {{ site.data.cv.location }}
         </div>
@@ -47,9 +60,71 @@
       <hr>
 
       <h2>Summary</h2>
-      <p>{{ site.data.cv.summary | markdownify}}</p>
+      <div class="row">
+        <div class="left"> </div>
+        <div class="right">
+          {{ site.data.cv.summary | markdownify}}
+        </div>
+      </div>
 
       <h2>Experience</h2>
+
+      {% for job in site.data.cv.experience %}
+        <div class="cv row">
+          <div class="left col">
+            <h3>
+              <a href="{{ job.website }}">{{ job.company }}</a>
+            </h3>
+            <p>
+              {{ job.role }} <br>
+              {{ job.dates }} <br>
+              {{ job.location }}
+            </p>
+
+          </div>
+          <div class="right col">
+
+            {% if job.description %}
+              {{ job.description | markdownify}}
+            {% endif %}
+
+            {% for mile in job.milestones %}
+              {{ mile | markdownify}}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+
+      <h2>Publications</h2>
+      <div class="row">
+        <div class="left col"></div>
+        <div class="right col">
+        {% for pub in site.data.cv.publications%}
+        <p>{{pub.authors | markdownify | remove: '<p>' | remove: '</p>'}} ({{pub.year}}) {{pub.title}}
+          {% if pub.pdf %}
+          <a href="pub.pdf">PDF</a>
+          {% endif %}
+        </p>
+        {% endfor %}
+        </div>
+      </div>
+
+      <h2>Education</h2>
+
+
+        {% for ed in site.data.cv.education %}
+        <div class="row">
+        <div class="left col"> {{ ed.degree }} </div>
+        <div class="right col">
+        <p>
+          {{ ed.institution }} <br>
+          {{ ed.major }} <br>
+          {{ ed.awards }}
+        </p>
+        </div>
+        </div>
+        {% endfor %}
+
 
 
 
