@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="3.7.3">Jekyll</generator>
   
   
-  <link href="http://soph.info/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://soph.info/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2018-05-09T12:20:10+00:00</updated>
-  <id>http://soph.info//</id>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
+  <updated>2018-05-15T14:44:21+00:00</updated>
+  <id>http://localhost:4000//</id>
 
   
     <title type="html">soph</title>
@@ -31,12 +31,12 @@
       <title type="html">How to: Backup iMessages using OSX and Google Drive</title>
       
       
-      <link href="http://soph.info/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/" rel="alternate" type="text/html" title="How to: Backup iMessages using OSX and Google Drive" />
+      <link href="http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/" rel="alternate" type="text/html" title="How to: Backup iMessages using OSX and Google Drive" />
       
       <published>2018-03-01T12:57:45+00:00</published>
       <updated>2018-03-01T12:57:45+00:00</updated>
-      <id>http://soph.info/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive</id>
-      <content type="html" xml:base="http://soph.info/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/">&lt;p&gt;This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive.&lt;/p&gt;
+      <id>http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive</id>
+      <content type="html" xml:base="http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/">&lt;p&gt;This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive.&lt;/p&gt;
 
 &lt;p&gt;First, find the folder iMessages uses to store all its data. Mine is in &lt;code class=&quot;highlighter-rouge&quot;&gt;/Users/soph/Library/Messages&lt;/code&gt;. If you aren’t able to see the Library folder, use &lt;code class=&quot;highlighter-rouge&quot;&gt;cmd-shift-.&lt;/code&gt; to make hidden items viewable.&lt;/p&gt;
 
@@ -79,12 +79,12 @@
       <title type="html">A Case for Diversity</title>
       
       
-      <link href="http://soph.info/2018/02/21/A-Case-for-Diversity/" rel="alternate" type="text/html" title="A Case for Diversity" />
+      <link href="http://localhost:4000/2018/02/21/A-Case-for-Diversity/" rel="alternate" type="text/html" title="A Case for Diversity" />
       
       <published>2018-02-21T08:26:09+00:00</published>
       <updated>2018-02-21T08:26:09+00:00</updated>
-      <id>http://soph.info/2018/02/21/A-Case-for-Diversity</id>
-      <content type="html" xml:base="http://soph.info/2018/02/21/A-Case-for-Diversity/">&lt;p&gt;Author’s note: This is a pre-publication draft. Parts of this material may appear in subsequent publications. I’m sharing in this format to enable transparency and dialogue but I do not wish to misrepresent the relationship this draft may have with any later work.&lt;/p&gt;
+      <id>http://localhost:4000/2018/02/21/A-Case-for-Diversity</id>
+      <content type="html" xml:base="http://localhost:4000/2018/02/21/A-Case-for-Diversity/">&lt;p&gt;Author’s note: This is a pre-publication draft. Parts of this material may appear in subsequent publications. I’m sharing in this format to enable transparency and dialogue but I do not wish to misrepresent the relationship this draft may have with any later work.&lt;/p&gt;
 
 &lt;p&gt;There’s a lot of talk of diversity, especially discussion of the reasons companies and other groups should prioritize diversity.&lt;/p&gt;
 
@@ -149,12 +149,12 @@
       <title type="html">Soph’s VM tweaks</title>
       
       
-      <link href="http://soph.info/2018/02/14/Soph-s-VM-tweaks/" rel="alternate" type="text/html" title="Soph's VM tweaks" />
+      <link href="http://localhost:4000/2018/02/14/Soph-s-VM-tweaks/" rel="alternate" type="text/html" title="Soph's VM tweaks" />
       
       <published>2018-02-14T11:11:48+00:00</published>
       <updated>2018-02-14T11:11:48+00:00</updated>
-      <id>http://soph.info/2018/02/14/Soph-s-VM-tweaks</id>
-      <content type="html" xml:base="http://soph.info/2018/02/14/Soph-s-VM-tweaks/">&lt;h1&gt;What’s this&lt;/h1&gt;
+      <id>http://localhost:4000/2018/02/14/Soph-s-VM-tweaks</id>
+      <content type="html" xml:base="http://localhost:4000/2018/02/14/Soph-s-VM-tweaks/">&lt;h1&gt;What’s this&lt;/h1&gt;
 
 &lt;p&gt;This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested.&lt;/p&gt;
 
@@ -219,12 +219,12 @@ set-option -g default-command /usr/bin/fish
       <title type="html">Paperspace how-to (cheap cloud GPU)</title>
       
       
-      <link href="http://soph.info/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/" rel="alternate" type="text/html" title="Paperspace how-to (cheap cloud GPU)" />
+      <link href="http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/" rel="alternate" type="text/html" title="Paperspace how-to (cheap cloud GPU)" />
       
       <published>2018-02-01T16:11:40+00:00</published>
       <updated>2018-02-01T16:11:40+00:00</updated>
-      <id>http://soph.info/2018/02/01/Paperspace-how-to-cheap-cloud-GPU</id>
-      <content type="html" xml:base="http://soph.info/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/">&lt;p&gt;The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The &lt;a href=&quot;https://arstechnica.com/tech-policy/2018/01/cryptocurrency-boom-creates-insane-global-graphics-card-shortage/&quot;&gt;cryptocurrency fad&lt;/a&gt; has led to GPUs becoming expensive and/or unavailable. One solution to this problem is to rent a computer with a GPU from Google, Amazon, Microsoft, and others. Google even &lt;a href=&quot;https://cloudplatform.googleblog.com/2017/11/new-lower-prices-for-GPUs-and-preemptible-Local-SSDs.html&quot;&gt;recently lowered&lt;/a&gt; their GPU prices quite substantially. I’ll save doing a full comparison of each platform for later, but what I’ll go over today is getting started with a relatively new service, &lt;a href=&quot;https://techcrunch.com/2017/05/03/paperspace-launches-gpu-powered-virtual-machines-loaded-with-tools-for-data-scientists/&quot;&gt;PaperSpace&lt;/a&gt; based in my home of Brooklyn &amp;lt;3.&lt;/p&gt;
+      <id>http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU</id>
+      <content type="html" xml:base="http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/">&lt;p&gt;The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The &lt;a href=&quot;https://arstechnica.com/tech-policy/2018/01/cryptocurrency-boom-creates-insane-global-graphics-card-shortage/&quot;&gt;cryptocurrency fad&lt;/a&gt; has led to GPUs becoming expensive and/or unavailable. One solution to this problem is to rent a computer with a GPU from Google, Amazon, Microsoft, and others. Google even &lt;a href=&quot;https://cloudplatform.googleblog.com/2017/11/new-lower-prices-for-GPUs-and-preemptible-Local-SSDs.html&quot;&gt;recently lowered&lt;/a&gt; their GPU prices quite substantially. I’ll save doing a full comparison of each platform for later, but what I’ll go over today is getting started with a relatively new service, &lt;a href=&quot;https://techcrunch.com/2017/05/03/paperspace-launches-gpu-powered-virtual-machines-loaded-with-tools-for-data-scientists/&quot;&gt;PaperSpace&lt;/a&gt; based in my home of Brooklyn &amp;lt;3.&lt;/p&gt;
 
 &lt;p&gt;The virtue of paperspace is that their entry-level GPU offering costs $0.40/hr (compared to Google’s new $0.45/hr and Amazon’s $0.90/hr) but &lt;a href=&quot;https://medium.com/initialized-capital/benchmarking-tensorflow-performance-and-cost-across-different-gpu-options-69bd85fe5d58&quot;&gt;benchmarks ahead&lt;/a&gt; of Amazon and other offers based on the Tesla K80.&lt;/p&gt;
 
@@ -307,12 +307,12 @@ sudo ufw allow 60000:61000/udp
       <title type="html">Deep Learning Tips</title>
       
       
-      <link href="http://soph.info/2017/12/04/Deep-Learning-Tips/" rel="alternate" type="text/html" title="Deep Learning Tips" />
+      <link href="http://localhost:4000/2017/12/04/Deep-Learning-Tips/" rel="alternate" type="text/html" title="Deep Learning Tips" />
       
       <published>2017-12-04T13:15:11+00:00</published>
       <updated>2017-12-04T13:15:11+00:00</updated>
-      <id>http://soph.info/2017/12/04/Deep-Learning-Tips</id>
-      <content type="html" xml:base="http://soph.info/2017/12/04/Deep-Learning-Tips/">&lt;p&gt;I often find myself in roughly this situation:&lt;/p&gt;
+      <id>http://localhost:4000/2017/12/04/Deep-Learning-Tips</id>
+      <content type="html" xml:base="http://localhost:4000/2017/12/04/Deep-Learning-Tips/">&lt;p&gt;I often find myself in roughly this situation:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;I’ve done a lot of work to pre-process data, researched different DL architectures and selected one (or more), modified it so that it works well on my data.
@@ -408,12 +408,12 @@ And now I’ve got a model that does well, but not quite as well as I want it to
       <title type="html">Deep learning from scratch with python</title>
       
       
-      <link href="http://soph.info/2017/10/18/scratch/" rel="alternate" type="text/html" title="Deep learning from scratch with python" />
+      <link href="http://localhost:4000/2017/10/18/scratch/" rel="alternate" type="text/html" title="Deep learning from scratch with python" />
       
       <published>2017-10-18T10:09:10+00:00</published>
       <updated>2017-10-18T10:09:10+00:00</updated>
-      <id>http://soph.info/2017/10/18/scratch</id>
-      <content type="html" xml:base="http://soph.info/2017/10/18/scratch/">&lt;p&gt;Last week I presented at the &lt;a href=&quot;https://web.archive.org/web/20171018141234/https://www.meetup.com/NYC-Data-Science-Study-Group/events/243747107/&quot;&gt;Data Science Study Group&lt;/a&gt; on a project of mine where I built a deep learning platform from scratch in python.&lt;/p&gt;
+      <id>http://localhost:4000/2017/10/18/scratch</id>
+      <content type="html" xml:base="http://localhost:4000/2017/10/18/scratch/">&lt;p&gt;Last week I presented at the &lt;a href=&quot;https://web.archive.org/web/20171018141234/https://www.meetup.com/NYC-Data-Science-Study-Group/events/243747107/&quot;&gt;Data Science Study Group&lt;/a&gt; on a project of mine where I built a deep learning platform from scratch in python.&lt;/p&gt;
 
 &lt;p&gt;For reference, here’s my &lt;a href=&quot;https://github.com/sophiaray/sophscratch&quot;&gt;code&lt;/a&gt; and &lt;a href=&quot;http://soph.info/scratch.pdf&quot;&gt;slides&lt;/a&gt;.&lt;/p&gt;
 
@@ -503,12 +503,12 @@ And now I’ve got a model that does well, but not quite as well as I want it to
       <title type="html">Trans fam, update your documents!</title>
       
       
-      <link href="http://soph.info/2017/07/26/Documents/" rel="alternate" type="text/html" title="Trans fam, update your documents!" />
+      <link href="http://localhost:4000/2017/07/26/Documents/" rel="alternate" type="text/html" title="Trans fam, update your documents!" />
       
       <published>2017-07-26T11:18:04+00:00</published>
       <updated>2017-07-26T11:18:04+00:00</updated>
-      <id>http://soph.info/2017/07/26/Documents</id>
-      <content type="html" xml:base="http://soph.info/2017/07/26/Documents/">&lt;p&gt;Trans friends, here’s a periodic reminder that it might be useful to update your documents (name, gender marker, id). I’ve recently done this. Here’s the quickest and cheapest path for US citizens:&lt;/p&gt;
+      <id>http://localhost:4000/2017/07/26/Documents</id>
+      <content type="html" xml:base="http://localhost:4000/2017/07/26/Documents/">&lt;p&gt;Trans friends, here’s a periodic reminder that it might be useful to update your documents (name, gender marker, id). I’ve recently done this. Here’s the quickest and cheapest path for US citizens:&lt;/p&gt;
 
 &lt;p&gt;1 &lt;strong&gt;Update your passport gender marker.&lt;/strong&gt; For this you need proof of citizenship (like a birth certificate), a letter from your doctor, and a new passport photo. Use the template in the link below. The cost is $110 and this can be done in one or two days. &lt;a href=&quot;https://travel.state.gov/content/passports/en/passports/information/gender.html&quot;&gt;info here&lt;/a&gt;
 2 &lt;strong&gt;Update your name in court.&lt;/strong&gt; This process differs state by state. Roughly, you’ll schedule a hearing, gather documents including a birth certificate, publish an announcement in the paper (trans folks are generally able to waive the publication requirement in NY), then get certified copies of the court order &lt;a href=&quot;https://srlp.org/resources/namechange/&quot;&gt;NYC&lt;/a&gt;, &lt;a href=&quot;http://www.nycourts.gov/CourtHelp/DIY/nameChange.shtml&quot;&gt;NY&lt;/a&gt;, &lt;a href=&quot;https://slwordpress.rutgers.edu/socialjustice/wp-content/uploads/sites/51/2016/08/NJ-Name-Gender-Change-Guide-for-Residents-v1-1.pdf&quot;&gt;NJ&lt;/a&gt;
@@ -550,12 +550,12 @@ And now I’ve got a model that does well, but not quite as well as I want it to
       <title type="html">Sophia</title>
       
       
-      <link href="http://soph.info/2016/04/02/sophia/" rel="alternate" type="text/html" title="Sophia" />
+      <link href="http://localhost:4000/2016/04/02/sophia/" rel="alternate" type="text/html" title="Sophia" />
       
       <published>2016-04-02T00:00:00+00:00</published>
       <updated>2016-04-02T00:00:00+00:00</updated>
-      <id>http://soph.info/2016/04/02/sophia</id>
-      <content type="html" xml:base="http://soph.info/2016/04/02/sophia/">&lt;p&gt;One thing about being trans is that I get to come up with my own name. Plenty of non-trans people do this, sure, but to me it sort of feels like a rite of passage for trans folk. I’ve chosen “Sophia” for myself. I wanted to go through my thought process in choosing this name, both for myself and for others, as I found reading other people’s accounts of choosing their name to be quite helpful in choosing mine.&lt;/p&gt;
+      <id>http://localhost:4000/2016/04/02/sophia</id>
+      <content type="html" xml:base="http://localhost:4000/2016/04/02/sophia/">&lt;p&gt;One thing about being trans is that I get to come up with my own name. Plenty of non-trans people do this, sure, but to me it sort of feels like a rite of passage for trans folk. I’ve chosen “Sophia” for myself. I wanted to go through my thought process in choosing this name, both for myself and for others, as I found reading other people’s accounts of choosing their name to be quite helpful in choosing mine.&lt;/p&gt;
 
 &lt;p&gt;My checklist was something like the following (in approximate order of importance):&lt;/p&gt;
 

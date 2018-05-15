@@ -1,0 +1,36 @@
+location: Brooklyn, NY
+name: Sophie Searcy
+website: [soph.info, "https://soph.info"]
+email: s@soph.info
+summary: |
+  Experienced, versatile data scientist and full-stack developer. Python (5yrs), Javascript/Coffeescirpt (3 yrs) R (3yrs), C (3 yrs); Modern ML including Deep Neural Nets and Generative Probabilistic Models.
+experience:
+  - Company: Elektra
+    Website: https://angel.co/elektra-1
+    Location: New York, NY
+    Role: CTO, Cofounder
+    Dates: 2016-2017
+    Description: |
+      Building the iPhone for haptics. Wearables start-up. Fabrics that pair electrical stimulation to apps. Verticals include accessibility, entertainment, communication, healthcare, VR, gaming, & military. Fundraising: 20k convertible note (1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner ($500 award, 10 hours consultation). "
+    Milestones:
+      - Title: Proof of concept
+        Description: Design and build proof of concept. Validate underlying technology, collect data on 100+ customer experiences in target audience and demonstrate product-market fit.
+      - Title: Scalable design
+        Description: "Lead engineering teams managing user data and designing a product at 10k/yr volume: electronics hardware, firmware, desktop app."
+      - Title: Human resources
+        Description: Manage HR. Design collaborative, version controlled, company Handbook.
+  - Company: Cognitive and Data Science Lab
+    Website: http://shaftolab.com/
+    Location: Newark, NJ
+    Role: Research Assistant, PhD Candidate
+    Dates: 2012-2017
+    Description:
+    Milestones:
+      - Title: Project manager
+        Description: Manage a data science team developing FOSS tools for replicable cross-platform video data processing in the age of Big Data.
+      - Title: Web experiments
+        Description: Design full-stack web apps for large-n (~1,000 Ss) behavioral experiments and administer through Amazon Mechanical Turk. Mentor data scientists in full-stack design.
+      - Title: Interdisciplinary research on learning
+        Description: Published author on the foundations of learning and computational tractability of learning algorithms. Experience with modern machine learning techniques and mathematics.
+      - Title: Communication.
+        Description: Present work in journals and conferences. Manage lead author responsibilities on manuscripts, conference papers, and presentations.

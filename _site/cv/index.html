@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,12 +9,12 @@
   
   
   
-  <title>About</title>
+  <title>CV</title>
   <meta name="description" content="Minimal, responsive Jekyll theme for hackers.">
   
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="canonical" href="http://localhost:4000/cv/">
   
   
   <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
@@ -24,7 +24,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="defsophiaray">
-  <meta name="twitter:title" content="About">
+  <meta name="twitter:title" content="CV">
   <meta name="twitter:description" content="Minimal, responsive Jekyll theme for hackers.">
   
     <meta name="twitter:creator" content="defsophiaray">
@@ -48,9 +48,32 @@
 </head>
 
 
-  <body>
+<style>
+  .wrapper {
+    width: 800px;
+  }
 
-    <header class="site-header">
+  .cv.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  /* hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} */
+</style>
+
+<body>
+
+  <!-- <header class="site-header">
 
   <div class="wrapper">
 
@@ -69,48 +92,37 @@
   </div>
 
 </header>
+ -->
 
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
-
-  <div class="post-content">
-    <p><img src="/profile.jpg" alt="" /></p>
-
-<p>data witch to watch out for | ⚧</p>
-
-<p>Some of my primary interests include:</p>
-<ul>
-  <li><em>Ethics in Data Science</em>: I work advance the field’s approach to ethics in the present day and to understand the often dark history of the field.</li>
-  <li><em>Deep Learning applications</em>: audio recognition, sequence processing, image recognition.</li>
-  <li><em>Education and Computational Psychology</em>: computational and theoretical accounts of how people and agents intentionally communicate in order to teach and learn.</li>
-</ul>
-
-<p>Find me at:</p>
-<ul>
-  <li><a href="https://www.thisismetis.com/">Metis</a></li>
-  <li><a href="https://github.com/sophiaray">GitHub</a></li>
-  <li><a href="https://twitter.com/defsophiaray">Twitter</a></li>
-  <li><a href="https://www.linkedin.com/in/sophsea/">LinkedIn</a></li>
-  <li><a href="https://www.instagram.com/defsophiaray/">Instagram</a></li>
-  <li><a href="https://www.strava.com/athletes/5317572">Strava</a></li>
-</ul>
-
-  </div>
-
-  
-
-</article>
-
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="cv row">
+        <div class="col location">
+          Brooklyn, NY
+        </div>
+        <div class="col name">
+          <h1>Sophie Searcy</h1>
+        </div>
+        <div class="col site">
+          s@soph.info | <a href="https://soph.info">soph.info</a>
+        </div>
       </div>
-    </main>
 
-    <footer class="site-footer">
+      <hr>
+
+      <h2>Summary</h2>
+      <p><p>Experienced, versatile data scientist and full-stack developer. Python (5yrs), Javascript/Coffeescirpt (3 yrs) R (3yrs), C (3 yrs); Modern ML including Deep Neural Nets and Generative Probabilistic Models.</p>
+</p>
+
+      <h2>Experience</h2>
+
+
+
+
+    </div>
+  </main>
+
+  <!-- <footer class="site-footer">
 
   <div class="wrapper">
 
@@ -124,8 +136,8 @@
   </div>
 
 </footer>
+ -->
 
-
-  </body>
+</body>
 
 </html>

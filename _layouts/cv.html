@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{% include head.html %}
+
+<style>
+  .wrapper {
+    width: 800px;
+  }
+
+  .cv.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  /* hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} */
+</style>
+
+<body>
+
+  <!-- {% include header.html %} -->
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="cv row">
+        <div class="col location">
+          {{ site.data.cv.location }}
+        </div>
+        <div class="col name">
+          <h1>{{ site.data.cv.name }}</h1>
+        </div>
+        <div class="col site">
+          {{ site.data.cv.email }} | <a href="{{ site.data.cv.website[1] }}">{{ site.data.cv.website[0] }}</a>
+        </div>
+      </div>
+
+      <hr>
+
+      <h2>Summary</h2>
+      <p>{{ site.data.cv.summary | markdownify}}</p>
+
+      <h2>Experience</h2>
+
+
+
+
+    </div>
+  </main>
+
+  <!-- {% include footer.html %} -->
+
+</body>
+
+</html>
