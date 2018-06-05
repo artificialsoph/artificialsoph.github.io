@@ -33,3 +33,21 @@ set-option -g default-command /usr/bin/fish
   - `sudo apt install dtrx`
 - [glances](http://glances.readthedocs.io/en/stable/index.html)
 - [gpustat](https://github.com/wookayin/gpustat)
+
+# Access Jupyter from your server
+
+I typically set up a jupyter server mostly according to Chris Albon's instructions [here](https://chrisalbon.com/software_engineering/cloud_computing/run_project_jupyter_on_amazon_ec2/).
+
+# Start Jupyter on restart
+
+Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to
+browser and use jupyter. That's an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine's resource usage).
+
+Here's the solution I found, which is a modification of [this](http://rodriguezandres.github.io/2017/01/18/jupyter-aws/). Modify your `/etc/rc.local` to include the following above the `exit 0` line:
+```bash
+export PATH="$PATH:/home/ubuntu/miniconda3/bin"
+nohup jupyter notebook --notebook-dir=/home/ubuntu/ &
+nohup glances -w &
+
+exit 0
+```
