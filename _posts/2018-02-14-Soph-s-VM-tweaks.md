@@ -8,6 +8,8 @@ tags:
 
 # What's this
 
+(hi, this is a test)
+
 This is a scratch pad for me to use when I set up new virtual machines. I'm sharing it in case anyone else is interested.
 
 # fish is by far my favorite shell
