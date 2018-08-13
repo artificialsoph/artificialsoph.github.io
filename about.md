@@ -8,6 +8,8 @@ permalink: /about/
 
 data witch to watch out for \| ⚧
 
+test
+
 Some of my primary interests include:
 - *Ethics in Data Science*: I work advance the field's approach to ethics in the present day and to understand the often dark history of the field.
 - *Deep Learning applications*: audio recognition, sequence processing, image recognition.
