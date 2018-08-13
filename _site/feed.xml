@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="3.7.3">Jekyll</generator>
   
   
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2018-05-16T01:50:26+00:00</updated>
-  <id>http://localhost:4000//</id>
+  <link href="http://soph.info/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://soph.info/" rel="alternate" type="text/html" hreflang="en" />
+  <updated>2018-08-13T13:56:54+00:00</updated>
+  <id>http://soph.info//</id>
 
   
     <title type="html">soph</title>
@@ -31,12 +31,12 @@
       <title type="html">How to: Backup iMessages using OSX and Google Drive</title>
       
       
-      <link href="http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/" rel="alternate" type="text/html" title="How to: Backup iMessages using OSX and Google Drive" />
+      <link href="http://soph.info/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/" rel="alternate" type="text/html" title="How to: Backup iMessages using OSX and Google Drive" />
       
       <published>2018-03-01T12:57:45+00:00</published>
       <updated>2018-03-01T12:57:45+00:00</updated>
-      <id>http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive</id>
-      <content type="html" xml:base="http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/">&lt;p&gt;This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive.&lt;/p&gt;
+      <id>http://soph.info/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive</id>
+      <content type="html" xml:base="http://soph.info/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/">&lt;p&gt;This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive.&lt;/p&gt;
 
 &lt;p&gt;First, find the folder iMessages uses to store all its data. Mine is in &lt;code class=&quot;highlighter-rouge&quot;&gt;/Users/soph/Library/Messages&lt;/code&gt;. If you aren’t able to see the Library folder, use &lt;code class=&quot;highlighter-rouge&quot;&gt;cmd-shift-.&lt;/code&gt; to make hidden items viewable.&lt;/p&gt;
 
@@ -79,12 +79,12 @@
       <title type="html">A Case for Diversity</title>
       
       
-      <link href="http://localhost:4000/2018/02/21/A-Case-for-Diversity/" rel="alternate" type="text/html" title="A Case for Diversity" />
+      <link href="http://soph.info/2018/02/21/A-Case-for-Diversity/" rel="alternate" type="text/html" title="A Case for Diversity" />
       
       <published>2018-02-21T08:26:09+00:00</published>
       <updated>2018-02-21T08:26:09+00:00</updated>
-      <id>http://localhost:4000/2018/02/21/A-Case-for-Diversity</id>
-      <content type="html" xml:base="http://localhost:4000/2018/02/21/A-Case-for-Diversity/">&lt;p&gt;Author’s note: This is a pre-publication draft. Parts of this material may appear in subsequent publications. I’m sharing in this format to enable transparency and dialogue but I do not wish to misrepresent the relationship this draft may have with any later work.&lt;/p&gt;
+      <id>http://soph.info/2018/02/21/A-Case-for-Diversity</id>
+      <content type="html" xml:base="http://soph.info/2018/02/21/A-Case-for-Diversity/">&lt;p&gt;Author’s note: This is a pre-publication draft. Parts of this material may appear in subsequent publications. I’m sharing in this format to enable transparency and dialogue but I do not wish to misrepresent the relationship this draft may have with any later work.&lt;/p&gt;
 
 &lt;p&gt;There’s a lot of talk of diversity, especially discussion of the reasons companies and other groups should prioritize diversity.&lt;/p&gt;
 
@@ -149,12 +149,14 @@
       <title type="html">Soph’s VM tweaks</title>
       
       
-      <link href="http://localhost:4000/2018/02/14/Soph-s-VM-tweaks/" rel="alternate" type="text/html" title="Soph's VM tweaks" />
+      <link href="http://soph.info/2018/02/14/Soph-s-VM-tweaks/" rel="alternate" type="text/html" title="Soph's VM tweaks" />
       
       <published>2018-02-14T11:11:48+00:00</published>
       <updated>2018-02-14T11:11:48+00:00</updated>
-      <id>http://localhost:4000/2018/02/14/Soph-s-VM-tweaks</id>
-      <content type="html" xml:base="http://localhost:4000/2018/02/14/Soph-s-VM-tweaks/">&lt;h1&gt;What’s this&lt;/h1&gt;
+      <id>http://soph.info/2018/02/14/Soph-s-VM-tweaks</id>
+      <content type="html" xml:base="http://soph.info/2018/02/14/Soph-s-VM-tweaks/">&lt;h1&gt;What’s this&lt;/h1&gt;
+
+&lt;p&gt;(hi, this is a test)&lt;/p&gt;
 
 &lt;p&gt;This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested.&lt;/p&gt;
 
@@ -184,7 +186,24 @@ set-option -g default-command /usr/bin/fish
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://glances.readthedocs.io/en/stable/index.html&quot;&gt;glances&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/wookayin/gpustat&quot;&gt;gpustat&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;/ul&gt;
+
+&lt;h1&gt;Access Jupyter from your server&lt;/h1&gt;
+
+&lt;p&gt;I typically set up a jupyter server mostly according to Chris Albon’s instructions &lt;a href=&quot;https://chrisalbon.com/software_engineering/cloud_computing/run_project_jupyter_on_amazon_ec2/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Start Jupyter on restart&lt;/h1&gt;
+
+&lt;p&gt;Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to
+browser and use jupyter. That’s an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine’s resource usage).&lt;/p&gt;
+
+&lt;p&gt;Here’s the solution I found, which is a modification of &lt;a href=&quot;http://rodriguezandres.github.io/2017/01/18/jupyter-aws/&quot;&gt;this&lt;/a&gt;. Modify your &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/rc.local&lt;/code&gt; to include the following above the &lt;code class=&quot;highlighter-rouge&quot;&gt;exit 0&lt;/code&gt; line:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;:/home/ubuntu/miniconda3/bin&quot;&lt;/span&gt;
+nohup jupyter notebook &lt;span class=&quot;nt&quot;&gt;--notebook-dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/ubuntu/ &amp;amp;
+nohup glances &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; &amp;amp;
+
+&lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
       
@@ -205,7 +224,7 @@ set-option -g default-command /usr/bin/fish
       
 
       
-        <summary type="html">What’s this This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it following this tutorial omf is a handy package manager for fish. You can install themes with it and my fav is probably sushi. If you’re using anaconda, you’ll have to remember to use activate instead of source activate details. tmux I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at ~/.tmux.conf. set-option -g mouse on set-option -g default-command /usr/bin/fish other tools install dtrx for common sense file extraction sudo apt install dtrx glances gpustat</summary>
+        <summary type="html">What’s this (hi, this is a test) This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it following this tutorial omf is a handy package manager for fish. You can install themes with it and my fav is probably sushi. If you’re using anaconda, you’ll have to remember to use activate instead of source activate details. tmux I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at ~/.tmux.conf. set-option -g mouse on set-option -g default-command /usr/bin/fish other tools install dtrx for common sense file extraction sudo apt install dtrx glances gpustat Access Jupyter from your server I typically set up a jupyter server mostly according to Chris Albon’s instructions here. Start Jupyter on restart Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to browser and use jupyter. That’s an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine’s resource usage). Here’s the solution I found, which is a modification of this. Modify your /etc/rc.local to include the following above the exit 0 line: export PATH=&quot;$PATH:/home/ubuntu/miniconda3/bin&quot; nohup jupyter notebook --notebook-dir=/home/ubuntu/ &amp;amp; nohup glances -w &amp;amp; exit 0</summary>
       
 
       
@@ -219,12 +238,12 @@ set-option -g default-command /usr/bin/fish
       <title type="html">Paperspace how-to (cheap cloud GPU)</title>
       
       
-      <link href="http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/" rel="alternate" type="text/html" title="Paperspace how-to (cheap cloud GPU)" />
+      <link href="http://soph.info/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/" rel="alternate" type="text/html" title="Paperspace how-to (cheap cloud GPU)" />
       
       <published>2018-02-01T16:11:40+00:00</published>
       <updated>2018-02-01T16:11:40+00:00</updated>
-      <id>http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU</id>
-      <content type="html" xml:base="http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/">&lt;p&gt;The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The &lt;a href=&quot;https://arstechnica.com/tech-policy/2018/01/cryptocurrency-boom-creates-insane-global-graphics-card-shortage/&quot;&gt;cryptocurrency fad&lt;/a&gt; has led to GPUs becoming expensive and/or unavailable. One solution to this problem is to rent a computer with a GPU from Google, Amazon, Microsoft, and others. Google even &lt;a href=&quot;https://cloudplatform.googleblog.com/2017/11/new-lower-prices-for-GPUs-and-preemptible-Local-SSDs.html&quot;&gt;recently lowered&lt;/a&gt; their GPU prices quite substantially. I’ll save doing a full comparison of each platform for later, but what I’ll go over today is getting started with a relatively new service, &lt;a href=&quot;https://techcrunch.com/2017/05/03/paperspace-launches-gpu-powered-virtual-machines-loaded-with-tools-for-data-scientists/&quot;&gt;PaperSpace&lt;/a&gt; based in my home of Brooklyn &amp;lt;3.&lt;/p&gt;
+      <id>http://soph.info/2018/02/01/Paperspace-how-to-cheap-cloud-GPU</id>
+      <content type="html" xml:base="http://soph.info/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/">&lt;p&gt;The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The &lt;a href=&quot;https://arstechnica.com/tech-policy/2018/01/cryptocurrency-boom-creates-insane-global-graphics-card-shortage/&quot;&gt;cryptocurrency fad&lt;/a&gt; has led to GPUs becoming expensive and/or unavailable. One solution to this problem is to rent a computer with a GPU from Google, Amazon, Microsoft, and others. Google even &lt;a href=&quot;https://cloudplatform.googleblog.com/2017/11/new-lower-prices-for-GPUs-and-preemptible-Local-SSDs.html&quot;&gt;recently lowered&lt;/a&gt; their GPU prices quite substantially. I’ll save doing a full comparison of each platform for later, but what I’ll go over today is getting started with a relatively new service, &lt;a href=&quot;https://techcrunch.com/2017/05/03/paperspace-launches-gpu-powered-virtual-machines-loaded-with-tools-for-data-scientists/&quot;&gt;PaperSpace&lt;/a&gt; based in my home of Brooklyn &amp;lt;3.&lt;/p&gt;
 
 &lt;p&gt;The virtue of paperspace is that their entry-level GPU offering costs $0.40/hr (compared to Google’s new $0.45/hr and Amazon’s $0.90/hr) but &lt;a href=&quot;https://medium.com/initialized-capital/benchmarking-tensorflow-performance-and-cost-across-different-gpu-options-69bd85fe5d58&quot;&gt;benchmarks ahead&lt;/a&gt; of Amazon and other offers based on the Tesla K80.&lt;/p&gt;
 
@@ -307,12 +326,12 @@ sudo ufw allow 60000:61000/udp
       <title type="html">Deep Learning Tips</title>
       
       
-      <link href="http://localhost:4000/2017/12/04/Deep-Learning-Tips/" rel="alternate" type="text/html" title="Deep Learning Tips" />
+      <link href="http://soph.info/2017/12/04/Deep-Learning-Tips/" rel="alternate" type="text/html" title="Deep Learning Tips" />
       
       <published>2017-12-04T13:15:11+00:00</published>
       <updated>2017-12-04T13:15:11+00:00</updated>
-      <id>http://localhost:4000/2017/12/04/Deep-Learning-Tips</id>
-      <content type="html" xml:base="http://localhost:4000/2017/12/04/Deep-Learning-Tips/">&lt;p&gt;I often find myself in roughly this situation:&lt;/p&gt;
+      <id>http://soph.info/2017/12/04/Deep-Learning-Tips</id>
+      <content type="html" xml:base="http://soph.info/2017/12/04/Deep-Learning-Tips/">&lt;p&gt;I often find myself in roughly this situation:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;I’ve done a lot of work to pre-process data, researched different DL architectures and selected one (or more), modified it so that it works well on my data.
@@ -408,12 +427,12 @@ And now I’ve got a model that does well, but not quite as well as I want it to
       <title type="html">Deep learning from scratch with python</title>
       
       
-      <link href="http://localhost:4000/2017/10/18/scratch/" rel="alternate" type="text/html" title="Deep learning from scratch with python" />
+      <link href="http://soph.info/2017/10/18/scratch/" rel="alternate" type="text/html" title="Deep learning from scratch with python" />
       
       <published>2017-10-18T10:09:10+00:00</published>
       <updated>2017-10-18T10:09:10+00:00</updated>
-      <id>http://localhost:4000/2017/10/18/scratch</id>
-      <content type="html" xml:base="http://localhost:4000/2017/10/18/scratch/">&lt;p&gt;Last week I presented at the &lt;a href=&quot;https://web.archive.org/web/20171018141234/https://www.meetup.com/NYC-Data-Science-Study-Group/events/243747107/&quot;&gt;Data Science Study Group&lt;/a&gt; on a project of mine where I built a deep learning platform from scratch in python.&lt;/p&gt;
+      <id>http://soph.info/2017/10/18/scratch</id>
+      <content type="html" xml:base="http://soph.info/2017/10/18/scratch/">&lt;p&gt;Last week I presented at the &lt;a href=&quot;https://web.archive.org/web/20171018141234/https://www.meetup.com/NYC-Data-Science-Study-Group/events/243747107/&quot;&gt;Data Science Study Group&lt;/a&gt; on a project of mine where I built a deep learning platform from scratch in python.&lt;/p&gt;
 
 &lt;p&gt;For reference, here’s my &lt;a href=&quot;https://github.com/sophiaray/sophscratch&quot;&gt;code&lt;/a&gt; and &lt;a href=&quot;http://soph.info/scratch.pdf&quot;&gt;slides&lt;/a&gt;.&lt;/p&gt;
 
@@ -503,12 +522,12 @@ And now I’ve got a model that does well, but not quite as well as I want it to
       <title type="html">Trans fam, update your documents!</title>
       
       
-      <link href="http://localhost:4000/2017/07/26/Documents/" rel="alternate" type="text/html" title="Trans fam, update your documents!" />
+      <link href="http://soph.info/2017/07/26/Documents/" rel="alternate" type="text/html" title="Trans fam, update your documents!" />
       
       <published>2017-07-26T11:18:04+00:00</published>
       <updated>2017-07-26T11:18:04+00:00</updated>
-      <id>http://localhost:4000/2017/07/26/Documents</id>
-      <content type="html" xml:base="http://localhost:4000/2017/07/26/Documents/">&lt;p&gt;Trans friends, here’s a periodic reminder that it might be useful to update your documents (name, gender marker, id). I’ve recently done this. Here’s the quickest and cheapest path for US citizens:&lt;/p&gt;
+      <id>http://soph.info/2017/07/26/Documents</id>
+      <content type="html" xml:base="http://soph.info/2017/07/26/Documents/">&lt;p&gt;Trans friends, here’s a periodic reminder that it might be useful to update your documents (name, gender marker, id). I’ve recently done this. Here’s the quickest and cheapest path for US citizens:&lt;/p&gt;
 
 &lt;p&gt;1 &lt;strong&gt;Update your passport gender marker.&lt;/strong&gt; For this you need proof of citizenship (like a birth certificate), a letter from your doctor, and a new passport photo. Use the template in the link below. The cost is $110 and this can be done in one or two days. &lt;a href=&quot;https://travel.state.gov/content/passports/en/passports/information/gender.html&quot;&gt;info here&lt;/a&gt;
 2 &lt;strong&gt;Update your name in court.&lt;/strong&gt; This process differs state by state. Roughly, you’ll schedule a hearing, gather documents including a birth certificate, publish an announcement in the paper (trans folks are generally able to waive the publication requirement in NY), then get certified copies of the court order &lt;a href=&quot;https://srlp.org/resources/namechange/&quot;&gt;NYC&lt;/a&gt;, &lt;a href=&quot;http://www.nycourts.gov/CourtHelp/DIY/nameChange.shtml&quot;&gt;NY&lt;/a&gt;, &lt;a href=&quot;https://slwordpress.rutgers.edu/socialjustice/wp-content/uploads/sites/51/2016/08/NJ-Name-Gender-Change-Guide-for-Residents-v1-1.pdf&quot;&gt;NJ&lt;/a&gt;
@@ -550,12 +569,12 @@ And now I’ve got a model that does well, but not quite as well as I want it to
       <title type="html">Sophia</title>
       
       
-      <link href="http://localhost:4000/2016/04/02/sophia/" rel="alternate" type="text/html" title="Sophia" />
+      <link href="http://soph.info/2016/04/02/sophia/" rel="alternate" type="text/html" title="Sophia" />
       
       <published>2016-04-02T00:00:00+00:00</published>
       <updated>2016-04-02T00:00:00+00:00</updated>
-      <id>http://localhost:4000/2016/04/02/sophia</id>
-      <content type="html" xml:base="http://localhost:4000/2016/04/02/sophia/">&lt;p&gt;One thing about being trans is that I get to come up with my own name. Plenty of non-trans people do this, sure, but to me it sort of feels like a rite of passage for trans folk. I’ve chosen “Sophia” for myself. I wanted to go through my thought process in choosing this name, both for myself and for others, as I found reading other people’s accounts of choosing their name to be quite helpful in choosing mine.&lt;/p&gt;
+      <id>http://soph.info/2016/04/02/sophia</id>
+      <content type="html" xml:base="http://soph.info/2016/04/02/sophia/">&lt;p&gt;One thing about being trans is that I get to come up with my own name. Plenty of non-trans people do this, sure, but to me it sort of feels like a rite of passage for trans folk. I’ve chosen “Sophia” for myself. I wanted to go through my thought process in choosing this name, both for myself and for others, as I found reading other people’s accounts of choosing their name to be quite helpful in choosing mine.&lt;/p&gt;
 
 &lt;p&gt;My checklist was something like the following (in approximate order of importance):&lt;/p&gt;
 

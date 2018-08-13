@@ -10,14 +10,14 @@
   
   
   <title>Soph&#39;s VM tweaks</title>
-  <meta name="description" content="What’s this This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it following this tutorial omf is a handy package manager for fish. You can install themes with it and my fav is probably sushi. If you’re using anaconda, you’ll have to remember to use activate instead of source activate details. tmux I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at ~/.tmux.conf. set-option -g mouse on set-option -g default-command /usr/bin/fish other tools install dtrx for common sense file extraction sudo apt install dtrx glances gpustat">
+  <meta name="description" content="What’s this (hi, this is a test) This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it following this tutorial omf is a handy package manager for fish. You can install themes with it and my fav is probably sushi. If you’re using anaconda, you’ll have to remember to use activate instead of source activate details. tmux I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at ~/.tmux.conf. set-option -g mouse on set-option -g default-command /usr/bin/fish other tools install dtrx for common sense file extraction sudo apt install dtrx glances gpustat Access Jupyter from your server I typically set up a jupyter server mostly according to Chris Albon’s instructions here. Start Jupyter on restart Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to browser and use jupyter. That’s an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine’s resource usage). Here’s the solution I found, which is a modification of this. Modify your /etc/rc.local to include the following above the exit 0 line: export PATH=&quot;$PATH:/home/ubuntu/miniconda3/bin&quot; nohup jupyter notebook --notebook-dir=/home/ubuntu/ &amp;amp; nohup glances -w &amp;amp; exit 0">
   
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/2018/02/14/Soph-s-VM-tweaks/">
+  <link rel="canonical" href="http://soph.info/2018/02/14/Soph-s-VM-tweaks/">
   
   
-  <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="soph" href="http://soph.info/feed.xml">
 
   
 
@@ -25,7 +25,7 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="defsophiaray">
   <meta name="twitter:title" content="Soph&#39;s VM tweaks">
-  <meta name="twitter:description" content="What’s this This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it fo...">
+  <meta name="twitter:description" content="What’s this (hi, this is a test) This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install i...">
   
     <meta name="twitter:creator" content="defsophiaray">
   
@@ -85,6 +85,8 @@
   <div class="post-content" itemprop="articleBody">
     <h1>What’s this</h1>
 
+<p>(hi, this is a test)</p>
+
 <p>This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested.</p>
 
 <h1>fish is by far my favorite shell</h1>
@@ -115,6 +117,23 @@ set-option -g default-command /usr/bin/fish
   <li><a href="https://github.com/wookayin/gpustat">gpustat</a></li>
 </ul>
 
+<h1>Access Jupyter from your server</h1>
+
+<p>I typically set up a jupyter server mostly according to Chris Albon’s instructions <a href="https://chrisalbon.com/software_engineering/cloud_computing/run_project_jupyter_on_amazon_ec2/">here</a>.</p>
+
+<h1>Start Jupyter on restart</h1>
+
+<p>Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to
+browser and use jupyter. That’s an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine’s resource usage).</p>
+
+<p>Here’s the solution I found, which is a modification of <a href="http://rodriguezandres.github.io/2017/01/18/jupyter-aws/">this</a>. Modify your <code class="highlighter-rouge">/etc/rc.local</code> to include the following above the <code class="highlighter-rouge">exit 0</code> line:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"</span><span class="nv">$PATH</span><span class="s2">:/home/ubuntu/miniconda3/bin"</span>
+nohup jupyter notebook <span class="nt">--notebook-dir</span><span class="o">=</span>/home/ubuntu/ &amp;
+nohup glances <span class="nt">-w</span> &amp;
+
+<span class="nb">exit </span>0
+</code></pre></div></div>
+
   </div>
 
   
@@ -131,7 +150,7 @@ set-option -g default-command /usr/bin/fish
     <p>
       
 
-&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://soph.info/feed.xml">RSS</a>
 
     </p>
 

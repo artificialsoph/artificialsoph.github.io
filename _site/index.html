@@ -14,10 +14,10 @@
   
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://soph.info/">
   
   
-  <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="soph" href="http://soph.info/feed.xml">
 
   
 
@@ -198,6 +198,8 @@
         <div class="post-content">
           <h1>What’s this</h1>
 
+<p>(hi, this is a test)</p>
+
 <p>This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested.</p>
 
 <h1>fish is by far my favorite shell</h1>
@@ -227,6 +229,23 @@ set-option -g default-command /usr/bin/fish
   <li><a href="http://glances.readthedocs.io/en/stable/index.html">glances</a></li>
   <li><a href="https://github.com/wookayin/gpustat">gpustat</a></li>
 </ul>
+
+<h1>Access Jupyter from your server</h1>
+
+<p>I typically set up a jupyter server mostly according to Chris Albon’s instructions <a href="https://chrisalbon.com/software_engineering/cloud_computing/run_project_jupyter_on_amazon_ec2/">here</a>.</p>
+
+<h1>Start Jupyter on restart</h1>
+
+<p>Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to
+browser and use jupyter. That’s an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine’s resource usage).</p>
+
+<p>Here’s the solution I found, which is a modification of <a href="http://rodriguezandres.github.io/2017/01/18/jupyter-aws/">this</a>. Modify your <code class="highlighter-rouge">/etc/rc.local</code> to include the following above the <code class="highlighter-rouge">exit 0</code> line:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"</span><span class="nv">$PATH</span><span class="s2">:/home/ubuntu/miniconda3/bin"</span>
+nohup jupyter notebook <span class="nt">--notebook-dir</span><span class="o">=</span>/home/ubuntu/ &amp;
+nohup glances <span class="nt">-w</span> &amp;
+
+<span class="nb">exit </span>0
+</code></pre></div></div>
 
         </div>
         
@@ -424,7 +443,7 @@ And now I’ve got a model that does well, but not quite as well as I want it to
     <p>
       
 
-&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://soph.info/feed.xml">RSS</a>
 
     </p>
 
