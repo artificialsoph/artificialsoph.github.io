@@ -6,14 +6,9 @@ permalink: /about/
 
 ![](/profile.jpg)
 
-data witch to watch out for \| ⚧
+data witch to watch out for \| ⚧ \| she/they
 
-test
-
-Some of my primary interests include:
-- *Ethics in Data Science*: I work advance the field's approach to ethics in the present day and to understand the often dark history of the field.
-- *Deep Learning applications*: audio recognition, sequence processing, image recognition.
-- *Education and Computational Psychology*: computational and theoretical accounts of how people and agents intentionally communicate in order to teach and learn.
+Sophie is a Senior Data Scientist for Metis where she is a bootcamp instructor and leads curriculum development. Sophie works in deep learning and data science ethics. Through [t4tech](https://t4tech-nyc.github.io/) Sophie helps provide free trans-centered classes in programming and data science. Her writing has appeared in [them.](https://www.them.us/contributor/sophie-searcy) and [Information Week](https://www.informationweek.com/big-data/ai-machine-learning/how-biased-ai-is-holding-us-back-and-two-things-we-can-do-about-it/a/d-id/1331177). 
 
 
 Find me at:
