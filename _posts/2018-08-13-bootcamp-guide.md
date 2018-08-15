@@ -7,9 +7,7 @@ tags: Bootcamps
 
 *note 8/15: this is still a work in progress so check back as I fill it in*
 
-I've been a bootcamp instructor at [Metis](https://www.thisismetis.com/) for about a year now. It's been an incredible, rewarding experience and I plan to stick around for a while.
-
-I get asked a lot about bootcamps. People want to know how bootcamps work, if bootcamps are right for them, holy cow are they really $15,000? I'm putting this guide together to answer those questions.
+I've been a bootcamp instructor at [Metis](https://www.thisismetis.com/) for about a year now. It's been an incredible, rewarding experience and I plan to stick around for a while. In that time, I've been asked a lot about bootcamps. People want to know how bootcamps work, if bootcamps are right for them, holy cow are they really $15,000? I'm putting this guide together to answer those questions.
 
 This guide is for anyone interested in moving to a technical career, like coding, data science, or similar and are able to participate in an immersive (roughly 3 months of full time work) bootcamp. I especially intend this for people who aren't already familiar with tech/coding world and who can't affford to drop ~$15,000 on a bootcamp.
 
