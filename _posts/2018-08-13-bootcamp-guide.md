@@ -7,12 +7,12 @@ tags: Bootcamps
 
 *note 8/15: this is still a work in progress so check back as I fill it in*
 
-I've been a bootcamp instructor at [Metis](https://www.thisismetis.com/) for about a year now. It's been an incredible, rewarding experience and I plan to stick around for a while. In that time, I've been asked a lot about bootcamps. People want to know how bootcamps work, if bootcamps are right for them, holy cow are they really $15,000? I'm putting this guide together to answer those questions.
+I've been a bootcamp instructor at [Metis](https://www.thisismetis.com/) for about a year now[^1]. It's been an incredible, rewarding experience and I plan to stick around for a while. In that time, I've been asked a lot about bootcamps. People want to know how bootcamps work, if bootcamps are right for them, holy cow are they really $15,000? I'm putting this guide together to answer those questions.
 
 This guide is for anyone interested in moving to a technical career, like coding, data science, or similar and are able to participate in an immersive (roughly 3 months of full time work) bootcamp. I especially intend this for people who aren't already familiar with tech/coding world and who can't afford to drop ~$15,000 on a bootcamp.
 
 My TLDR:
-- Bootcamps are for real. They can be a legitimately great way to start a career that pays well.
+- Bootcamps are for real. They can be a legitimately great way to start a good career that too few people have access to.
 - First, make sure joining an bootcamp is right for you.
   - Are you likely to finish and likely to be fully committed to the job search after finishing? Be very honest with yourself about this.
   - A great way to figure this out is to complete a [bootcamp prep program](https://www.coursereport.com/blog/coding-bootcamp-prep-programs-the-ultimate-guide) (many are free). Bootcamp prep is also a great way to figure out which type of bootcamp (like coding vs data science) is right for you.
@@ -29,3 +29,5 @@ I'm going to talk specifically about immersive tech/coding bootcamps. Still, it'
 Let's stop here and just appreciate how tall of an order that is. If someone wants to prepare for an entirely new career, they might go to a 4 year college or get masters degree ([2+ years with low graduation rates](https://www.usnews.com/higher-education/online-education/articles/2017-05-12/us-news-data-how-long-it-takes-to-earn-an-online-masters-degree)). These bootcamps try to accomplish the same thing in 3 months for a much, much lower cost.
 
 That's an extremely tall order, but for those who get into and complete bootcamps, it tends to work: Course Report [found](https://www.coursereport.com/reports/coding-bootcamp-job-placement-2017) that in 2017 "80% of graduates surveyed say they've been employed in a job requiring the technical skills learned at bootcamp, with an average salary  increase of 50.5% or $23,724. The average starting salary of a bootcamp grad is $70,698." One reason this is possible is the immersive bootcamp model, where students are present, full-time,
+
+[^1]: I work for Metis and I'm super proud of what we do, but this guide isn't an ad for my company. I'm honestly not going to mention Metis very often. But if you really want to know, I think that we're the best in the business for people interested in Data Science and for whom our immersive bootcamp model and cost structure works.
