@@ -9,14 +9,14 @@ tags: Bootcamps
 
 I've been a bootcamp instructor at [Metis](https://www.thisismetis.com/) for about a year now. It's been an incredible, rewarding experience and I plan to stick around for a while. In that time, I've been asked a lot about bootcamps. People want to know how bootcamps work, if bootcamps are right for them, holy cow are they really $15,000? I'm putting this guide together to answer those questions.
 
-This guide is for anyone interested in moving to a technical career, like coding, data science, or similar and are able to participate in an immersive (roughly 3 months of full time work) bootcamp. I especially intend this for people who aren't already familiar with tech/coding world and who can't affford to drop ~$15,000 on a bootcamp.
+This guide is for anyone interested in moving to a technical career, like coding, data science, or similar and are able to participate in an immersive (roughly 3 months of full time work) bootcamp. I especially intend this for people who aren't already familiar with tech/coding world and who can't afford to drop ~$15,000 on a bootcamp.
 
 My TLDR:
 - Bootcamps are for real. They can be a legitimately great way to start a career that pays well.
 - First, make sure joining an bootcamp is right for you.
   - Are you likely to finish and likely to be fully committed to the job search after finishing? Be very honest with yourself about this.
   - A great way to figure this out is to complete a [bootcamp prep program](https://www.coursereport.com/blog/coding-bootcamp-prep-programs-the-ultimate-guide) (many are free). Bootcamp prep is also a great way to figure out which type of bootcamp (like coding vs data science) is right for you.
-- Don't put too much pressure getting in. Bootcamps can be selective and admissions necessarily involves chance. You'll learn each time you interview. You might have a favorite bootcamp but there are many good ones. Most bootcamps allow you to interview again later if you are rejected.
+- Don't put too much pressure on getting in and plan to get rejected from your first bootcamp. Bootcamps can be selective and admissions necessarily involves chance. You'll learn each time you interview. You might have a favorite bootcamp but there are many good ones. Most bootcamps allow you to interview again later if you are rejected.
 - Don't let cost be an issue.
   - Any decent bootcamp will work with you on payment if you are admitted. They'll walk you through alternative payment options.
   - If cost is a problem, consider bootcamps with [alternative payment options](https://www.coursereport.com/blog/coding-bootcamp-deferred-tuition-income-share-agreements) like deferred tuition (you aren't required to make payments until you get a job) or income sharing (your payment is comes as a percentage of your salary once you get hired). Beware that there's typically a lot of fine print for both of these.
