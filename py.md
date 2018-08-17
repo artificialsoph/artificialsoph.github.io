@@ -10,4 +10,4 @@ Find details for and RSVP to the event [here](https://www.meetup.com/Metis-New-Y
 
 Find installation instructions [here](https://github.com/sophiaray/t4tech_python_plus_data_science/blob/master/install.md).
 
-![](images/python.jpg)
+![](/images/python.jpg)
