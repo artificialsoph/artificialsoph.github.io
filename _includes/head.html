@@ -6,6 +6,10 @@
   {% assign title = page.title | default: site.title | escape %}
   {% assign canonical = page.url | replace:'index.html','' | absolute_url %}
   {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | escape %}
+  {% if page.image %}
+    {% assign page.facebook.image = page.image %}
+    {% assign page.twitter_card.image = page.image %}
+  {% endif %}
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
   {% if page.keywords %}

@@ -2,6 +2,7 @@
 layout: page
 title: "t4tech: Python from Scratch"
 permalink: /py/
+image: https://soph.info/images/python.jpg
 ---
 
 Hey there! thanks for checking out our event <3
