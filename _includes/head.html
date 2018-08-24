@@ -6,10 +6,6 @@
   {% assign title = page.title | default: site.title | escape %}
   {% assign canonical = page.url | replace:'index.html','' | absolute_url %}
   {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | escape %}
-  {% if page.image %}
-    {% assign page.facebook.image = page.image %}
-    {% assign page.twitter_card.image = page.image %}
-  {% endif %}
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
   {% if page.keywords %}
@@ -39,8 +35,8 @@
     <meta property="og:url" content="{{ canonical }}">
     <meta property="og:description" content="{{ description }}">
     {% if site.facebook_page %}<meta property="article:author" content="{{ site.facebook_page }}">{% endif %}
-    {% if page.facebook.image %}
-      <meta property="og:image" content="{{ page.facebook.image }}">
+    {% if page.image %}
+      <meta property="og:image" content="{{ page.image }}">
     {% elsif site.facebook_image %}
       <meta property="og:image" content="{{ site.facebook_image }}">
     {% endif %}
@@ -55,14 +51,14 @@
     <meta name="twitter:creator" content="{{ site.twitter_username }}">
     <meta name="twitter:site" content="{{ site.twitter_username }}">
   {% endif %}
-  {% if page.twitter_card.image %}
+  {% if page.image %}
     {% if page.twitter_card.type == 'gallery' %}
       <meta name="twitter:image0" content="{{ page.twitter_card.image }}">
       <meta name="twitter:image1" content="{{ page.twitter_card.image1 }}">
       <meta name="twitter:image2" content="{{ page.twitter_card.image2 }}">
       <meta name="twitter:image3" content="{{ page.twitter_card.image3 }}">
     {% else %}
-      <meta name="twitter:image" content="{{ page.twitter_card.image }}">
+      <meta name="twitter:image" content="{{ page.image }}">
       {% if page.twitter_card.type == 'photo' %}
         {% if page.twitter_card.width %}<meta name="twitter:image:width" content="{{ page.twitter_card.width }}">{% endif %}
         {% if page.twitter_card.height %}<meta name="twitter:image:height" content="{{ page.twitter_card.height }}">{% endif %}
