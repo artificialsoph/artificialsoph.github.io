@@ -1,5 +1,5 @@
 ---
-title: How to clean apple's butterfly keys with a metrocard
+title: How to clean Apple's butterfly keys with a metrocard
 layout: post
 date: 2018-09-21 18:46
 tags: howto
