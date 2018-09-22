@@ -5,7 +5,7 @@
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2018-09-21T23:53:50+00:00</updated>
+  <updated>2018-09-21T23:55:02+00:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -28,10 +28,10 @@
   
     <entry>
       
-      <title type="html">How to clean apple’s butterfly keys with a metrocard</title>
+      <title type="html">How to clean Apple’s butterfly keys with a metrocard</title>
       
       
-      <link href="http://localhost:4000/2018/09/21/butterfly-keys/" rel="alternate" type="text/html" title="How to clean apple's butterfly keys with a metrocard" />
+      <link href="http://localhost:4000/2018/09/21/butterfly-keys/" rel="alternate" type="text/html" title="How to clean Apple's butterfly keys with a metrocard" />
       
       <published>2018-09-21T18:46:00+00:00</published>
       <updated>2018-09-21T18:46:00+00:00</updated>
