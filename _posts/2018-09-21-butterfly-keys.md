@@ -18,13 +18,15 @@ I've been using this dumb keyboard for 3.5 years now (what can I say, I love the
 
 # Step 1: Remove the key cap and switch
 
+{% include image.html src="https://www.dropbox.com/s/z72ku05ca1nbhfg/IMG_4826.jpg?dl=1" caption="The back of the 'U' key cap and butterfly switch. I've marked the 4 points where the key cap connects to the switch. Sorry my potato phone stinks at macros!" %}
+
 Before you do anything, make sure you understand how the key cap and switch connect to each other. The **key cap** is what I'm calling the black piece with the key printed on int. The **switch** is what I'm calling the gray-white mechanism inside the keycap that flaps its wings like a butterfly.
 
 There are four points that connect the key cap and switch: two clips on the top and two hooks on the bottom.
 
 **When removing the key cap from the keyboard, it is very important that you only lift from the top, where the clips are. The hooks should only be disconnected after the clips have.** If you get this wrong, you can break the hooks on the bottom of the key cap or the pins on the bottom of the switch. Trust me, I've done this!
 
-{% include image.html src="https://www.dropbox.com/s/z72ku05ca1nbhfg/IMG_4826.jpg?dl=1" caption="The back of the 'U' key cap and butterfly switch. I've marked the 4 points where the key cap connects to the switch. Sorry my potato phone stinks at macros!" %}
+
 
 Now, first thing you'll do is insert one of the corners of your key cap removal tool (metrocard) under the **top** of the key and pry it up. (video of this below) Sometimes you'll get both the key cap and switch together, sometimes the key cap will come loose first. The switch is held in by four little pins on the inner rim and you can easily remove it with a fingernail or your key cap removal tool.
 
