@@ -1,0 +1,27 @@
+name: KNN (K Nearest Neighbors)
+output:
+  labeled:
+    - Supervised
+  type:
+    - Regression
+    - Classification
+function: Set based on $y$ for $k$ nearest neighbors in labeled data.
+update:
+  - Keeps an array of training examples.
+parameters:
+  params:
+    - Array of training examples
+  hyper:
+    - "$k$ : the number of neighbors"
+    - Distance metric
+complexity:
+  train:
+    value: Θ(1)
+    class: constant
+    source:
+      - https://nlp.stanford.edu/IR-book/html/htmledition/time-complexity-and-optimality-of-knn-1.html
+  predict:
+    value: Θ(nk)
+    class: linear
+    source:
+      - https://nlp.stanford.edu/IR-book/html/htmledition/time-complexity-and-optimality-of-knn-1.html

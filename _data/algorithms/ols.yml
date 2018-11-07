@@ -1,0 +1,22 @@
+name: OLS (Ordinary Least Squares)
+output:
+  labeled:
+    - Supervised
+  type:
+    - Regression
+function: $y = X\beta$
+loss: Sum of squared residuals $$ \sum_{i=1}^{n}(y_i - x_i^Tb)^2 $$
+update:
+  - 'Pseudoinverse: $\beta = (X^TX)^{-1}X^Ty$'
+  - Stochastic Gradient Descent
+parameters:
+  params:
+    - '$\beta$: Coefficients'
+complexity:
+  train:
+    value: Θ(nk^2)
+    class: linear
+    source: https://en.wikipedia.org/wiki/Computational_complexity_of_mathematical_operations#Matrix_algebra
+  predict:
+    value: Θ(k)
+    class: constant

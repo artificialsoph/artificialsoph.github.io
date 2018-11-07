@@ -2,50 +2,69 @@
 <html lang="en">
 
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-  
-  
-  <title>About</title>
-  <meta name="description" content="Minimal, responsive Jekyll theme for hackers.">
-  
+    
+    
+    
+    <title>About</title>
+    <meta name="description" content="Minimal, responsive Jekyll theme for hackers.">
+    
 
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/about/">
-  
-  
-  <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
+    <!-- Configure mathjax according to https://docs.mathjax.org/en/latest/configuration.html#using-plain-javascript -->
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [
+                    ['$', '$'],
+                    ["\\(", "\\)"]
+                ],
+                processEscapes: true
+            }
+        };
+    </script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
 
-  
 
-  
-    <meta property="og:type"               content="article" />
+    <link rel="stylesheet" href="/assets/soph.css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="canonical" href="http://localhost:4000/about/">
+    
+    
+    <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
+
+    
+
+    
+    <meta property="og:type" content="article" />
     <meta property="fb:admins" content="123">
     <meta property="og:title" content="About">
     <meta property="og:site_name" content="soph">
     <meta property="og:url" content="http://localhost:4000/about/">
     <meta property="og:description" content="Minimal, responsive Jekyll theme for hackers.">
+    
     <meta property="article:author" content="https://www.facebook.com/defsophiaray">
     
-      <meta property="og:image" content="http://soph.info/images/fb_teach.png">
+    <meta property="og:image" content="http://soph.info/images/fb_teach.png">
     
-  
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="defsophiaray">
-  <meta name="twitter:title" content="About">
-  <meta name="twitter:description" content="Minimal, responsive Jekyll theme for hackers.">
-  
+    
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta name="twitter:site" content="defsophiaray">
+    <meta name="twitter:title" content="About">
+    <meta name="twitter:description" content="Minimal, responsive Jekyll theme for hackers.">
+    
     <meta name="twitter:creator" content="defsophiaray">
     <meta name="twitter:site" content="defsophiaray">
-  
-  
+    
+    
     <meta name="twitter:image" content="http://soph.info/images/fb_teach.png">
-  
+    
 
-  <script type="text/javascript">
+    <script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Bitter:400,700,400italic:latin' ] }
   };
@@ -57,7 +76,7 @@
   })(document);
 </script>
 
-  
+    
   <!-- Google Analytics -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -72,7 +91,6 @@
 
 
 </head>
-
 
   <body>
 

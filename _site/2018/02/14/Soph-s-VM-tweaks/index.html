@@ -2,50 +2,69 @@
 <html lang="en">
 
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-  
-  
-  <title>Soph&#39;s VM tweaks</title>
-  <meta name="description" content="What’s this (hi, this is a test) This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it following this tutorial omf is a handy package manager for fish. You can install themes with it and my fav is probably sushi. If you’re using anaconda, you’ll have to remember to use activate instead of source activate details. tmux I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at ~/.tmux.conf. set-option -g mouse on set-option -g default-command /usr/bin/fish other tools install dtrx for common sense file extraction sudo apt install dtrx glances gpustat Access Jupyter from your server I typically set up a jupyter server mostly according to Chris Albon’s instructions here. Start Jupyter on restart Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to browser and use jupyter. That’s an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine’s resource usage). Here’s the solution I found, which is a modification of this. Modify your /etc/rc.local to include the following above the exit 0 line: export PATH=&quot;$PATH:/home/ubuntu/miniconda3/bin&quot; nohup jupyter notebook --notebook-dir=/home/ubuntu/ &amp;amp; nohup glances -w &amp;amp; exit 0">
-  
+    
+    
+    
+    <title>Soph&#39;s VM tweaks</title>
+    <meta name="description" content="What’s this (hi, this is a test) This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it following this tutorial omf is a handy package manager for fish. You can install themes with it and my fav is probably sushi. If you’re using anaconda, you’ll have to remember to use activate instead of source activate details. tmux I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at ~/.tmux.conf. set-option -g mouse on set-option -g default-command /usr/bin/fish other tools install dtrx for common sense file extraction sudo apt install dtrx glances gpustat Access Jupyter from your server I typically set up a jupyter server mostly according to Chris Albon’s instructions here. Start Jupyter on restart Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to browser and use jupyter. That’s an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine’s resource usage). Here’s the solution I found, which is a modification of this. Modify your /etc/rc.local to include the following above the exit 0 line: export PATH=&quot;$PATH:/home/ubuntu/miniconda3/bin&quot; nohup jupyter notebook --notebook-dir=/home/ubuntu/ &amp;amp; nohup glances -w &amp;amp; exit 0">
+    
 
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/2018/02/14/Soph-s-VM-tweaks/">
-  
-  
-  <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
+    <!-- Configure mathjax according to https://docs.mathjax.org/en/latest/configuration.html#using-plain-javascript -->
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [
+                    ['$', '$'],
+                    ["\\(", "\\)"]
+                ],
+                processEscapes: true
+            }
+        };
+    </script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
 
-  
 
-  
-    <meta property="og:type"               content="article" />
+    <link rel="stylesheet" href="/assets/soph.css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="canonical" href="http://localhost:4000/2018/02/14/Soph-s-VM-tweaks/">
+    
+    
+    <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
+
+    
+
+    
+    <meta property="og:type" content="article" />
     <meta property="fb:admins" content="123">
     <meta property="og:title" content="Soph&#39;s VM tweaks">
     <meta property="og:site_name" content="soph">
     <meta property="og:url" content="http://localhost:4000/2018/02/14/Soph-s-VM-tweaks/">
     <meta property="og:description" content="What’s this (hi, this is a test) This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it following this tutorial omf is a handy package manager for fish. You can install themes with it and my fav is probably sushi. If you’re using anaconda, you’ll have to remember to use activate instead of source activate details. tmux I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at ~/.tmux.conf. set-option -g mouse on set-option -g default-command /usr/bin/fish other tools install dtrx for common sense file extraction sudo apt install dtrx glances gpustat Access Jupyter from your server I typically set up a jupyter server mostly according to Chris Albon’s instructions here. Start Jupyter on restart Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to browser and use jupyter. That’s an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine’s resource usage). Here’s the solution I found, which is a modification of this. Modify your /etc/rc.local to include the following above the exit 0 line: export PATH=&quot;$PATH:/home/ubuntu/miniconda3/bin&quot; nohup jupyter notebook --notebook-dir=/home/ubuntu/ &amp;amp; nohup glances -w &amp;amp; exit 0">
+    
     <meta property="article:author" content="https://www.facebook.com/defsophiaray">
     
-      <meta property="og:image" content="http://soph.info/images/fb_teach.png">
+    <meta property="og:image" content="http://soph.info/images/fb_teach.png">
     
-  
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="defsophiaray">
-  <meta name="twitter:title" content="Soph&#39;s VM tweaks">
-  <meta name="twitter:description" content="What’s this (hi, this is a test) This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install i...">
-  
+    
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta name="twitter:site" content="defsophiaray">
+    <meta name="twitter:title" content="Soph&#39;s VM tweaks">
+    <meta name="twitter:description" content="What’s this (hi, this is a test) This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install i...">
+    
     <meta name="twitter:creator" content="defsophiaray">
     <meta name="twitter:site" content="defsophiaray">
-  
-  
+    
+    
     <meta name="twitter:image" content="http://soph.info/images/fb_teach.png">
-  
+    
 
-  <script type="text/javascript">
+    <script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Bitter:400,700,400italic:latin' ] }
   };
@@ -57,7 +76,7 @@
   })(document);
 </script>
 
-  
+    
   <!-- Google Analytics -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -72,7 +91,6 @@
 
 
 </head>
-
 
   <body>
 

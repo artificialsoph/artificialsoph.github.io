@@ -1,0 +1,24 @@
+name: Linear SVM (Support Vector Machine)
+output:
+  labeled:
+    - Supervised
+  type:
+    - Regression
+    - Classification
+function: $y = w^Tx + b \geq 0$
+update:
+  - todo
+parameters:
+  params:
+    - Support Vectors
+  hyper:
+    - Soft Margin
+complexity:
+  train:
+    value: Θ(n**3)
+    class: polynomial
+    source:
+      - https://leon.bottou.org/publications/pdf/lin-2006.pdf
+  predict:
+    value: Θ(k)
+    class: constant
