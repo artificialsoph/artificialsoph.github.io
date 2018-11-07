@@ -246,7 +246,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll (~> 3.7)
+  jekyll (>= 3.7.4)
   jekyll-analytics
 
 BUNDLED WITH
