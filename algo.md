@@ -1,6 +1,6 @@
 ---
 layout: algo
-title: "Algorithms"
+title: "Machine Learning Algorithms Cheatsheet"
 permalink: /algo/
 ---
 
