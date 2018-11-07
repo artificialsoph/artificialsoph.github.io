@@ -6,6 +6,7 @@ output:
     - Regression
     - Classification
 function: $y = w^Tx + b \geq 0$
+loss: todo
 update:
   - todo
 parameters:
