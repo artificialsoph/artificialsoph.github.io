@@ -14,10 +14,15 @@ layout: default
 
     table {
         /* word-break: break-word; */
+        font-size: 12;
         table-layout: fixed;
         border-collapse: collapse;
         border: 1px solid #E5E5E5;
 
+    }
+
+    .table {
+        font-size: 12px;
     }
 
     .clearfix {
@@ -114,48 +119,51 @@ layout: default
 
     <div class="post-content">
 
+        <div class="table">
 
-        <table style="width:200px; float:right;">
-            <tr>
-                <th colspan="2">Complexity Legend</th>
-            </tr>
-            <tr>
-                <th>Name</th>
-                <th>Example</th>
-            </tr>
-            <tr>
-                <td>Constant</td>
-                <td> <code class="constant">Θ(1)</code> </td>
-            </tr>
-            <tr>
-                <td>Log</td>
-                <td> <code class="log">Θ(log(n))</code> </td>
-            </tr>
-            <tr>
-                <td>Linear</td>
-                <td> <code class="linear">Θ(n)</code> </td>
-            </tr>
-            <tr>
-                <td>Log-Linear</td>
-                <td> <code class="log-linear">Θ(nlog(n))</code> </td>
-            </tr>
-            <tr>
-                <td>Square</td>
-                <td> <code class="square">Θ(n**2)</code> </td>
-            </tr>
-            <tr>
-                <td>Polynomial</td>
-                <td> <code class="polynomial">Θ(n**k)</code> </td>
-            </tr>
-            <tr>
-                <td>Exponential</td>
-                <td> <code class="exponential">Θ(k**n)</code> </td>
-            </tr>
-            <tr>
-                <td>Factorial</td>
-                <td> <code class="factorial">Θ(n!)</code> </td>
-            </tr>
-        </table>
+
+            <table style="width:200px; float:right;">
+                <tr>
+                    <th colspan="2">Complexity Legend</th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>Constant</td>
+                    <td> <code class="constant">Θ(1)</code> </td>
+                </tr>
+                <tr>
+                    <td>Log</td>
+                    <td> <code class="log">Θ(log(n))</code> </td>
+                </tr>
+                <tr>
+                    <td>Linear</td>
+                    <td> <code class="linear">Θ(n)</code> </td>
+                </tr>
+                <tr>
+                    <td>Log-Linear</td>
+                    <td> <code class="log-linear">Θ(nlog(n))</code> </td>
+                </tr>
+                <tr>
+                    <td>Square</td>
+                    <td> <code class="square">Θ(n**2)</code> </td>
+                </tr>
+                <tr>
+                    <td>Polynomial</td>
+                    <td> <code class="polynomial">Θ(n**k)</code> </td>
+                </tr>
+                <tr>
+                    <td>Exponential</td>
+                    <td> <code class="exponential">Θ(k**n)</code> </td>
+                </tr>
+                <tr>
+                    <td>Factorial</td>
+                    <td> <code class="factorial">Θ(n!)</code> </td>
+                </tr>
+            </table>
+        </div>
 
         {{ content }}
         <div class="clearfix">
@@ -164,102 +172,105 @@ layout: default
 
         <div class="over">
 
+            <div class="table">
 
-            <table class="main">
-                <col class="big">
-                <col class="med">
-                <col class="med">
-                <col class="big">
-                <col class="big">
-                <col class="big">
-                <col class="big">
-                <col class="big">
-                <col class="small">
-                <col class="small">
-                <tr>
-                    <th></th>
-                    <th colspan="2">Output</th>
-                    <th> </th>
-                    <th> </th>
-                    <th> </th>
-                    <th colspan="2"> $\Omega$ </th>
-                    <th colspan="2"> Complexity </th>
-                </tr>
-                <tr>
-                    <th>Name</th>
-                    <th>Labeled</th>
-                    <th>Type</th>
-                    <th>Prediction function $y = f(\Omega, X)$</th>
-                    <th>Loss</th>
-                    <th>Update Rule</th>
-                    <th> Parameters</th>
-                    <th> Hyper-parameters</th>
-                    <th>Train</th>
-                    <th>Predict</th>
-                </tr>
 
-                {% for algodata in site.data.algorithms %}
-                <tr>
-                    {% assign algo=algodata[1] %}
+                <table class="main">
+                    <col class="big">
+                    <col class="med">
+                    <col class="med">
+                    <col class="big">
+                    <col class="big">
+                    <col class="big">
+                    <col class="big">
+                    <col class="big">
+                    <col class="small">
+                    <col class="small">
+                    <tr>
+                        <th></th>
+                        <th colspan="2">Output</th>
+                        <th> </th>
+                        <th> </th>
+                        <th> </th>
+                        <th colspan="2"> $\Omega$ </th>
+                        <th colspan="2"> Complexity </th>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <th>Labeled</th>
+                        <th>Type</th>
+                        <th>Prediction function $y = f(\Omega, X)$</th>
+                        <th>Loss</th>
+                        <th>Update Rule</th>
+                        <th> Parameters</th>
+                        <th> Hyper-parameters</th>
+                        <th>Train</th>
+                        <th>Predict</th>
+                    </tr>
 
-                    <td> <b>{{ algo["name"] }} </b></td>
-                    <td>{{ algo.output.labeled | join:", "}}</td>
-                    <td>{{ algo.output.type | join:", " }}</td>
-                    <td>{{ algo.function | markdownify}}</td>
-                    <td>
-                        {% if algo.loss %}
-                        {{ algo.loss }}
-                        {% else %}
-                        -
-                        {% endif %}
-                    </td>
-                    <td>
-                        <ul>
-                            {% for u in algo.update %}
-                            <li>
-                                {{ u | markdownify | remove: '<p>' | remove: '</p>' }}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            {% for p in algo.parameters.params %}
-                            <li>
-                                {{ p | markdownify | remove: '<p>' | remove: '</p>' }}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            {% for p in algo.parameters.hyper %}
-                            <li>
-                                {{ p | markdownify | remove: '<p>' | remove: '</p>' }}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </td>
-                    <td><code {% if algo.complexity.train.class %}class="{{ algo.complexity.train.class }}" {% endif %}>{{ algo.complexity.train.value }}</code>
-                        {% if algo.complexity.train.source %}
-                        <small class="source">[{% for s in algo.complexity.train.source %}
-                            <a href="s">{{ forloop.index }}</a>
-                            {% unless forloop.last %},{% endunless %}
-                            {% endfor %}]</small>
-                        {% endif %}
-                    </td>
-                    <td><code {% if algo.complexity.predict.class %}class="{{ algo.complexity.predict.class }}" {% endif %}>{{ algo.complexity.predict.value }}</code>
-                        {% if algo.complexity.predict.source %}
-                        <small class="source">[{% for s in algo.complexity.predict.source %}
-                            <a href="s">{{ forloop.index }}</a>
-                            {% unless forloop.last %},{% endunless %}
-                            {% endfor %}]</small>
-                        {% endif %}
-                    </td>
-                </tr>
-                {% endfor %}
+                    {% for algodata in site.data.algorithms %}
+                    <tr>
+                        {% assign algo=algodata[1] %}
 
-            </table>
+                        <td> <b>{{ algo["name"] }} </b></td>
+                        <td>{{ algo.output.labeled | join:", "}}</td>
+                        <td>{{ algo.output.type | join:", " }}</td>
+                        <td>{{ algo.function | markdownify}}</td>
+                        <td>
+                            {% if algo.loss %}
+                            {{ algo.loss }}
+                            {% else %}
+                            -
+                            {% endif %}
+                        </td>
+                        <td>
+                            <ul>
+                                {% for u in algo.update %}
+                                <li>
+                                    {{ u | markdownify | remove: '<p>' | remove: '</p>' }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                {% for p in algo.parameters.params %}
+                                <li>
+                                    {{ p | markdownify | remove: '<p>' | remove: '</p>' }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                {% for p in algo.parameters.hyper %}
+                                <li>
+                                    {{ p | markdownify | remove: '<p>' | remove: '</p>' }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                        <td><code {% if algo.complexity.train.class %}class="{{ algo.complexity.train.class }}" {% endif %}>{{ algo.complexity.train.value }}</code>
+                            {% if algo.complexity.train.source %}
+                            <small class="source">[{% for s in algo.complexity.train.source %}
+                                <a href="s">{{ forloop.index }}</a>
+                                {% unless forloop.last %},{% endunless %}
+                                {% endfor %}]</small>
+                            {% endif %}
+                        </td>
+                        <td><code {% if algo.complexity.predict.class %}class="{{ algo.complexity.predict.class }}" {% endif %}>{{ algo.complexity.predict.value }}</code>
+                            {% if algo.complexity.predict.source %}
+                            <small class="source">[{% for s in algo.complexity.predict.source %}
+                                <a href="s">{{ forloop.index }}</a>
+                                {% unless forloop.last %},{% endunless %}
+                                {% endfor %}]</small>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+
+                </table>
+            </div>
         </div>
     </div>
     </div>

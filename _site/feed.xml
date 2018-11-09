@@ -5,7 +5,7 @@
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2018-11-07T21:25:44+00:00</updated>
+  <updated>2018-11-09T04:41:50+00:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -24,6 +24,58 @@
     </author>
   
 
+  
+  
+    <entry>
+      
+      <title type="html">Performance of different model types on MNIST by year</title>
+      
+      
+      <link href="http://localhost:4000/2018/11/08/mnist-history/" rel="alternate" type="text/html" title="Performance of different model types on MNIST by year" />
+      
+      <published>2018-11-08T11:35:00+00:00</published>
+      <updated>2018-11-08T11:35:00+00:00</updated>
+      <id>http://localhost:4000/2018/11/08/mnist-history</id>
+      <content type="html" xml:base="http://localhost:4000/2018/11/08/mnist-history/">&lt;p&gt;Today I was trying to answer the question of why it seems like so much attention was given to support vector machines in the past. I had assumed that before the Deep Learning renaissance in 2006, SVMs were the dominate model because they outperformed Deep Learning models of the time. But if that was true, I wanted to see how it changed over time and how SVMs and DL models compared to less practical models like KNN.&lt;/p&gt;
+
+&lt;p&gt;To investigate this, I went to a table of top performances on the MNIST dataset maintained by Yann LeCun. This table is helpfully organized by model type and year.&lt;/p&gt;
+
+&lt;p&gt;I made a bunch of hand modifications (which you can find &lt;a href=&quot;images/mnist-history.csv&quot;&gt;here&lt;/a&gt;) to allow me to plot the performance of different model types. To my surprise, SVMs were actually never the dominant. The reasons SVMs were favored over Deep Learning turn out to be much more subtle and I’ll save them for later.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/mnist-history.png&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <category term="data" />
+      
+        <category term="science," />
+      
+        <category term="history" />
+      
+
+      
+        <summary type="html">Today I was trying to answer the question of why it seems like so much attention was given to support vector machines in the past. I had assumed that before the Deep Learning renaissance in 2006, SVMs were the dominate model because they outperformed Deep Learning models of the time. But if that was true, I wanted to see how it changed over time and how SVMs and DL models compared to less practical models like KNN. To investigate this, I went to a table of top performances on the MNIST dataset maintained by Yann LeCun. This table is helpfully organized by model type and year. I made a bunch of hand modifications (which you can find here) to allow me to plot the performance of different model types. To my surprise, SVMs were actually never the dominant. The reasons SVMs were favored over Deep Learning turn out to be much more subtle and I’ll save them for later.</summary>
+      
+
+      
+      
+    </entry>
+  
   
   
     <entry>

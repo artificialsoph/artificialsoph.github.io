@@ -1,0 +1,71 @@
+﻿Name,Model,Preprocessing,Error,Year,Cite
+linear classifier (1-layer NN),linear,none,12,1998,LeCun et al. 1998
+linear classifier (1-layer NN),linear,deskewing,8.4,1994,Bottou et al 1994
+pairwise linear classifier,linear,deskewing,7.6,1998,LeCun et al. 1998
+"K-nearest-neighbors, Euclidean (L2)",knn,none,5,1998,LeCun et al. 1998
+"K-nearest-neighbors, Euclidean (L2)",knn,none,3.09,2002,"Kenneth Wilder, U. Chicago"
+"K-nearest-neighbors, L3",knn,none,2.83,2002,"Kenneth Wilder, U. Chicago"
+"K-nearest-neighbors, Euclidean (L2)",knn,deskewing,2.4,1994,Bottou et al 1994
+"K-nearest-neighbors, Euclidean (L2)",knn,"deskewing, noise removal, blurring",1.8,2002,"Kenneth Wilder, U. Chicago"
+"K-nearest-neighbors, L3",knn,"deskewing, noise removal, blurring",1.73,2002,"Kenneth Wilder, U. Chicago"
+"K-nearest-neighbors, L3",knn,"deskewing, noise removal, blurring, 1 pixel shift",1.33,2002,"Kenneth Wilder, U. Chicago"
+"K-nearest-neighbors, L3",knn,"deskewing, noise removal, blurring, 2 pixel shift",1.22,2002,"Kenneth Wilder, U. Chicago"
+K-NN with non-linear deformation (IDM),knn,shiftable edges,0.54,2007,Keysers et al. IEEE PAMI 2007
+K-NN with non-linear deformation (P2DHMDM),knn,shiftable edges,0.52,2007,Keysers et al. IEEE PAMI 2007
+"K-NN, Tangent Distance",knn,subsampling to 16x16 pixels,1.1,1994,Bottou et al 1994
+"K-NN, shape context matching",knn,shape context feature extraction,0.63,2002,Belongie et al. IEEE PAMI 2002
+boosted stumps,boosted stumps,none,7.7,2009,"Kegl et al., ICML 2009"
+products of boosted stumps (3 terms),boosted stumps,none,1.26,2009,"Kegl et al., ICML 2009"
+boosted trees (17 leaves),boosted stumps,none,1.53,2009,"Kegl et al., ICML 2009"
+stumps on Haar features,boosted stumps,Haar features,1.02,2009,"Kegl et al., ICML 2009"
+product of stumps on Haar f.,boosted stumps,Haar features,0.87,2009,"Kegl et al., ICML 2009"
+40 PCA + quadratic classifier,nonlinear,none,3.3,1998,LeCun et al. 1998
+1000 RBF + linear classifier,nonlinear,none,3.6,1998,LeCun et al. 1998
+"Virtual SVM, deg-5 poly, 1-pixel translations",svm,todo,1,1996,Schlokopf et al 1996
+"SVM, Gaussian Kernel",svm,none,1.4,,
+SVM deg 4 polynomial,svm,deskewing,1.1,1994,Bottou et al 1994
+Reduced Set SVM deg 5 polynomial,svm,deskewing,1,1998,LeCun et al. 1998
+Virtual SVM deg-9 poly [distortions],svm,none,0.8,1998,LeCun et al. 1998
+"Virtual SVM, deg-9 poly, 1-pixel jittered",svm,none,0.68,2002,"DeCoste and Scholkopf, MLJ 2002"
+"Virtual SVM, deg-9 poly, 1-pixel jittered",svm,deskewing,0.68,2002,"DeCoste and Scholkopf, MLJ 2002"
+"Virtual SVM, deg-9 poly, 2-pixel jittered",svm,deskewing,0.56,2002,"DeCoste and Scholkopf, MLJ 2002"
+"2-layer NN, 300 hidden units, mean square error",neural net,none,4.7,1998,LeCun et al. 1998
+"2-layer NN, 300 HU, MSE, [distortions]",neural net,none,3.6,1998,LeCun et al. 1998
+"2-layer NN, 300 HU",neural net,deskewing,1.6,1998,LeCun et al. 1998
+"2-layer NN, 1000 hidden units",neural net,none,4.5,1998,LeCun et al. 1998
+"2-layer NN, 1000 HU, [distortions]",neural net,none,3.8,1998,LeCun et al. 1998
+"3-layer NN, 300+100 hidden units",neural net,none,3.05,1998,LeCun et al. 1998
+"3-layer NN, 300+100 HU [distortions]",neural net,none,2.5,1998,LeCun et al. 1998
+"3-layer NN, 500+150 hidden units",neural net,none,2.95,1998,LeCun et al. 1998
+"3-layer NN, 500+150 HU [distortions]",neural net,none,2.45,1998,LeCun et al. 1998
+"3-layer NN, 500+300 HU, softmax, cross entropy, weight decay",neural net,none,1.53,2005,"Hinton, unpublished, 2005"
+"2-layer NN, 800 HU, Cross-Entropy Loss",neural net,none,1.6,2003,"Simard et al., ICDAR 2003"
+"2-layer NN, 800 HU, cross-entropy [affine distortions]",neural net,none,1.1,2003,"Simard et al., ICDAR 2003"
+"2-layer NN, 800 HU, MSE [elastic distortions]",neural net,none,0.9,2003,"Simard et al., ICDAR 2003"
+"2-layer NN, 800 HU, cross-entropy [elastic distortions]",neural net,none,0.7,2003,"Simard et al., ICDAR 2003"
+"NN, 784-500-500-2000-30 + nearest neighbor, RBM + NCA training [no distortions]",neural net,none,1,2007,"Salakhutdinov and Hinton, AI-Stats 2007"
+6-layer NN 784-2500-2000-1500-1000-500-10 (on GPU) [elastic distortions],neural net,none,0.35,2010,"Ciresan et al. Neural Computation 10, 2010 and arXiv 1003.0358, 2010"
+committee of 25 NN 784-800-10 [elastic distortions],neural net,"width normalization, deslanting",0.39,2011,Meier et al. ICDAR 2011
+"deep convex net, unsup pre-training [no distortions]",neural net,none,0.83,2010,Deng et al. Interspeech 2010
+Convolutional net LeNet-1,convnet,subsampling to 16x16 pixels,1.7,1994,Bottou et al 1994
+Convolutional net LeNet-4,convnet,none,1.1,1994,Bottou et al 1994
+Convolutional net LeNet-4 with K-NN instead of last layer,convnet,none,1.1,1994,Bottou et al 1994
+Convolutional net LeNet-4 with local learning instead of last layer,convnet,none,1.1,1994,Bottou et al 1994
+"Convolutional net LeNet-5, [no distortions]",convnet,none,0.95,1994,Bottou et al 1994
+"Convolutional net LeNet-5, [huge distortions]",convnet,none,0.85,1994,Bottou et al 1994
+"Convolutional net LeNet-5, [distortions]",convnet,none,0.8,1994,Bottou et al 1994
+"Convolutional net Boosted LeNet-4, [distortions]",convnet,none,0.7,1994,Bottou et al 1994
+Trainable feature extractor + SVMs [no distortions],convnet,none,0.83,2007,"Lauer et al., Pattern Recognition 40-6, 2007"
+Trainable feature extractor + SVMs [elastic distortions],convnet,none,0.56,2007,"Lauer et al., Pattern Recognition 40-6, 2007"
+Trainable feature extractor + SVMs [affine distortions],convnet,none,0.54,2007,"Lauer et al., Pattern Recognition 40-6, 2007"
+"unsupervised sparse features + SVM, [no distortions]",convnet,none,0.59,2008,"Labusch et al., IEEE TNN 2008"
+"Convolutional net, cross-entropy [affine distortions]",convnet,none,0.6,2003,"Simard et al., ICDAR 2003"
+"Convolutional net, cross-entropy [elastic distortions]",convnet,none,0.4,2003,"Simard et al., ICDAR 2003"
+"large conv. net, random features [no distortions]",convnet,none,0.89,2007,"Ranzato et al., CVPR 2007"
+"large conv. net, unsup features [no distortions]",convnet,none,0.62,2007,"Ranzato et al., CVPR 2007"
+"large conv. net, unsup pretraining [no distortions]",convnet,none,0.6,2006,"Ranzato et al., NIPS 2006"
+"large conv. net, unsup pretraining [elastic distortions]",convnet,none,0.39,2006,"Ranzato et al., NIPS 2006"
+"large conv. net, unsup pretraining [no distortions]",convnet,none,0.53,2009,"Jarrett et al., ICCV 2009"
+"large/deep conv. net, 1-20-40-60-80-100-120-120-10 [elastic distortions]",convnet,none,0.35,2011,Ciresan et al. IJCAI 2011
+"committee of 7 conv. net, 1-20-P-40-P-150-10 [elastic distortions]",convnet,width normalization,0.27,2011,Ciresan et al. ICDAR 2011
+"committee of 35 conv. net, 1-20-P-40-P-150-10 [elastic distortions]",convnet,width normalization,0.23,2012,Ciresan et al. CVPR 2012
