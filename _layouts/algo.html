@@ -261,7 +261,7 @@ layout: default
                         <td><code {% if algo.complexity.predict.class %}class="{{ algo.complexity.predict.class }}" {% endif %}>{{ algo.complexity.predict.value }}</code>
                             {% if algo.complexity.predict.source %}
                             <small class="source">[{% for s in algo.complexity.predict.source %}
-                                <a href="s">{{ forloop.index }}</a>
+                                <a href="{{s}}">{{ forloop.index }}</a>
                                 {% unless forloop.last %},{% endunless %}
                                 {% endfor %}]</small>
                             {% endif %}

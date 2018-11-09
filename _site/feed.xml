@@ -5,7 +5,7 @@
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2018-11-09T04:41:50+00:00</updated>
+  <updated>2018-11-09T23:38:04+00:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -42,7 +42,7 @@
 
 &lt;p&gt;I made a bunch of hand modifications (which you can find &lt;a href=&quot;images/mnist-history.csv&quot;&gt;here&lt;/a&gt;) to allow me to plot the performance of different model types. To my surprise, SVMs were actually never the dominant. The reasons SVMs were favored over Deep Learning turn out to be much more subtle and I’ll save them for later.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/mnist-history.png&quot; /&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;img src=&quot;/images/mnist-history.png&quot; /&gt;&lt;/p&gt;</content>
 
       
       
