@@ -9,6 +9,6 @@ Today I was trying to answer the question of why it seems like so much attention
 
 To investigate this, I went to a table of top performances on the MNIST dataset maintained by Yann LeCun. This table is helpfully organized by model type and year.
 
-I made a bunch of hand modifications (which you can find [here](images/mnist-history.csv)) to allow me to plot the performance of different model types. To my surprise, SVMs were actually never the dominant. The reasons SVMs were favored over Deep Learning turn out to be much more subtle and I'll save them for later. 
+I made a bunch of hand modifications (which you can find [here](images/mnist-history.csv)) to allow me to plot the performance of different model types. To my surprise, SVMs were actually never the dominant. The reasons SVMs were favored over Deep Learning turn out to be much more subtle and I'll save them for later.
 
-<img src="images/mnist-history.png">
+<img src="/images/mnist-history.png">
