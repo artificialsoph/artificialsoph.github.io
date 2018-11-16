@@ -13,8 +13,8 @@ Sophie is a Senior Data Scientist at Metis where she is a bootcamp instructor an
 
 Find me at:
 - [Metis](https://www.thisismetis.com/)
-- [GitHub](https://github.com/sophiaray)
-- [Twitter](https://twitter.com/defsophiaray)
+- [GitHub](https://github.com/artificialsoph)
+- [Twitter](https://twitter.com/artificialsoph)
 - [LinkedIn](https://www.linkedin.com/in/sophsea/)
-- [Instagram](https://www.instagram.com/defsophiaray/)
+- [Instagram](https://www.instagram.com/artificialsoph/)
 - [Strava](https://www.strava.com/athletes/5317572)
