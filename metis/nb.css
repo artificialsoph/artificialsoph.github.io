@@ -1,0 +1,19 @@
+@import 'https://fontlibrary.org/face/cmu-serif';
+
+
+div#notebook div.text_cell_render {
+   font-family: 'CMUSerifRoman';
+   font-weight: normal;
+   font-style: normal;
+}
+
+div.text_cell_render img {
+   float: right;
+   max-width: 50%;
+   max-height: 50%;
+}
+
+div#notebook cell {
+   max-width: 80vw;
+   max-height: 80vh;
+}
