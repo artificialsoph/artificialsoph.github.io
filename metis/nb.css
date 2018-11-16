@@ -1,7 +1,7 @@
 @import 'https://fontlibrary.org/face/cmu-serif';
 
 
-div#notebook div.text_cell_render {
+div.text_cell_render {
    font-family: 'CMUSerifRoman';
    font-weight: normal;
    font-style: normal;
@@ -13,16 +13,37 @@ div.text_cell_render img {
    max-height: 50%;
 }
 
-div#notebook cell {
+body.rise-enabled .text_cell {
+   font-size: 120%;
+}
+
+body.rise-enabled .output_wrapper img{
+   margin: 0;
+   max-height: 25vh;
+}
+
+body.rise-enabled .text_cell_render{
+   padding: 0;
+}
+
+body.rise-enabled .text_cell p,ul{
+   margin: .7rem 0 .7rem 0 ;
+}
+
+body.rise-enabled div#notebook cell {
    max-width: 80vw;
    max-height: 80vh;
 }
 
-section.present {
+body.rise-enabled section.present {
   background: white;
 }
 
-div.slide-background.stack > div.slide-background {
+body.rise-enabled div.slide-background.stack > div.slide-background {
   background-image: url(https://soph.info/metis/metis_logo_two.svg);
   background-position: center;
+}
+
+body.rise-enabled div.output_png img{
+  max-height: 50vh;
 }
