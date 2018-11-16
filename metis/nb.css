@@ -17,3 +17,12 @@ div#notebook cell {
    max-width: 80vw;
    max-height: 80vh;
 }
+
+section.present {
+  background: white;
+}
+
+div.slide-background.stack > div.slide-background {
+  background-image: url(https://soph.info/metis/metis_logo_two.svg);
+  background-position: center;
+}
