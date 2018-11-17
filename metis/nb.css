@@ -20,6 +20,7 @@ body.rise-enabled .text_cell {
 body.rise-enabled .output_wrapper img{
    margin: 0;
    max-height: 25vh;
+   max-width: 90vw;
 }
 
 body.rise-enabled .text_cell_render{
@@ -27,7 +28,11 @@ body.rise-enabled .text_cell_render{
 }
 
 body.rise-enabled .text_cell p,ul{
-   margin: .7rem 0 .7rem 0 ;
+   margin: 1rem 0 1rem 0 ;
+}
+
+body.rise-enabled .text_cell h1,h2,h3,h4{
+   margin: 1.5rem 0 1.5rem 0 ;
 }
 
 body.rise-enabled div#notebook cell {
