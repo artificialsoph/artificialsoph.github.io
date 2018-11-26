@@ -1,54 +1,5 @@
-@import 'https://fontlibrary.org/face/cmu-serif';
-
-
-div.text_cell_render {
-   font-family: 'CMUSerifRoman';
-   font-weight: normal;
-   font-style: normal;
-}
-
 div.text_cell_render img {
    float: right;
    max-width: 50%;
    max-height: 50%;
-}
-
-body.rise-enabled .text_cell {
-   font-size: 120%;
-}
-
-body.rise-enabled .output_wrapper img{
-   margin: 0;
-   max-height: 25vh;
-   max-width: 90vw;
-}
-
-body.rise-enabled .text_cell_render{
-   padding: 0;
-}
-
-body.rise-enabled .text_cell p,ul{
-   margin: 1rem 0 1rem 0 ;
-}
-
-body.rise-enabled .text_cell h1,h2,h3,h4{
-   margin: 1.5rem 0 1.5rem 0 ;
-}
-
-body.rise-enabled div#notebook cell {
-   max-width: 80vw;
-   max-height: 80vh;
-}
-
-body.rise-enabled section.present {
-  background: white;
-}
-
-body.rise-enabled div.slide-background.stack > div.slide-background {
-  background-image: url(https://soph.info/metis/metis_logo_two.svg);
-  background-position: center;
-}
-
-body.rise-enabled div.output_png img{
-  max-height: 50vh;
 }
