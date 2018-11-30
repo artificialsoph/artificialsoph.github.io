@@ -1,4 +1,4 @@
-div.text_cell_render img {
+div.text_cell_render img:not(.big) {
    float: right;
    max-width: 50%;
    max-height: 50%;
