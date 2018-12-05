@@ -16,7 +16,11 @@ This is a scratch pad for me to use when I set up new virtual machines. I'm shar
 
 Install it and configure it following [this tutorial](https://geowarin.github.io/the-missing-fish-shell-tutorial.html)
 
-`omf` is a handy package manager for fish. You can install [themes](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#sushi) with it and my fav is probably `sushi`.
+[`omf`](https://github.com/oh-my-fish/oh-my-fish) is a handy package manager for fish.
+
+I use the [foreign environment interface](https://github.com/oh-my-fish/plugin-foreign-env) to load my `~/.bash_profile` and similar. ([Thank you](https://superuser.com/a/1162592))
+
+You can install [themes](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#sushi) with it and my fav is probably `sushi`.
 
 If you're using anaconda, you'll have to remember to use `activate` instead of `source activate` [details](https://github.com/conda/conda/issues/2611#issuecomment-230894534).
 
