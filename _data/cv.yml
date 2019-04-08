@@ -2,8 +2,15 @@ location: Brooklyn, NY
 name: Sophie Searcy
 website: [soph.info, "https://soph.info"]
 email: s@soph.info
+languages:
+  - name: Python
+    expertise: expert
+  - name: Javascript
+    expertise: fluent
+  - name: R
+    expertise: fluent
 summary: |
-  Experienced, versatile data scientist and full-stack developer. Python (5yrs), Javascript/Coffeescirpt (3 yrs) R (3yrs), C (3 yrs); Modern ML including Deep Neural Nets and Generative Probabilistic Models.
+  Experienced data scientist and engineer. Versatile leader and communicator. Expertise in modern ML including Deep Neural Nets and Generative Probabilistic Models.
 experience:
   - company: Metis
     website: https://www.thisismetis.com/
@@ -13,15 +20,17 @@ experience:
     description: |
       Metis is an award-winning Data Science Bootcamp—currently the only such bootcamp that is accredited. The 12 week bootcamp is a project-based curriculum that covers the breadth of the field of Data Science.
     milestones:
+      - "**Curriculum Design**: led project that included 15 Senior Data Scientists to completely revise bootcamp curriculum (90+ lessons)."
+      - "**Data science**: designed the company's first data science project pipeline to apply 'agile' prioritization to internal projects. Built data infrastructure to track lessons across 16 cohorts per year. Redesigned student assessments to be automated and trackable."
       - "**Corporate Training**: developed materials for, led, and instructed corporate training projects at Intel, Vanguard, Blackrock, and Houghton Mifflin Harcourt. Topics included Intro to Data Science, Deep learning, Python."
-      - "**Curriculum Design**: Currently leading a team to re-design the data science curriculum to better serve instructors and target material to the data science industry."
+      - "**Instruction**: taught and mentored >100 students changing careers to data science."
   - company: Elektra
     website: https://angel.co/elektra-1
     location: New York, NY
     role: CTO, Cofounder
     dates: 2016-2017
     description: |
-      Elektra is a wearables start-up building fabrics that pair electrical stimulation to apps. Verticals include accessibility, entertainment, communication, healthcare, VR, gaming, & military. Fundraising: 20k convertible note (1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner ($500 award, 10 hours consultation).
+      Elektra is a wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: 20k convertible note (1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner ($500 award, 10 hours consultation).
     milestones:
       - "**Proof of concept**: Design and build proof of concept. Validate underlying technology, collect data on 100+ customer experiences in target audience and demonstrate product-market fit."
       - "**Scalable design**: Lead engineering teams managing user data and designing a product at 10k/yr volume: electronics hardware, firmware, desktop app."
@@ -38,6 +47,14 @@ experience:
       - "**Interdisciplinary research on machine teaching and learning**: Published author on the foundations of learning and computational tractability of learning algorithms. Experience with modern machine learning techniques and mathematics."
       - "**Communication**: Present work in journals and conferences. Manage lead author responsibilities on manuscripts, conference papers, and presentations."
 publications:
+  - authors: "**Searcy**"
+    year: 2019
+    title: Building Generative Adversarial Networks in Tensorflow and Keras
+    link: https://staging5.odsc.com/training/portfolio/building-generative-adversarial-networks-in-tensorflow-and-keras
+  - authors: "**Searcy** and Blinder"
+    year: 2018
+    title: "Making Faces: Conditional generation of faces using GANs via Keras+Tensorflow"
+    link: https://pydata.org/nyc2018/schedule/presentation/52/
   - authors: "**Searcy**, W.K. Vong, Lane & Shafto"
     year: In prep
     title: "Cause and affect: Subjectively rational causal inference about affective content."
@@ -47,11 +64,11 @@ publications:
   - authors: "**Searcy** & Shafto"
     year: 2016
     title: "Cooperative Inference: Features, objects, and collections. Psychological Review."
-    pdf: http://shaftolab.com/papers/searcys2016.pdf
+    link: http://shaftolab.com/papers/searcys2016.pdf
   - authors: "**Searcy** & Shafto "
     year: 2014
     title: Learning biases for teaching boolean concepts.
-    pdf: http://shaftolab.com/assets/papers/Cooperative%20Inference%20(CogSci).pdf
+    link: http://shaftolab.com/assets/papers/Cooperative%20Inference%20(CogSci).pdf
   - authors:
     year: 2010
     title: Energy Efficiency Comparisons of Wireless Communication Technology Options for Smart Grid Enabled Devices

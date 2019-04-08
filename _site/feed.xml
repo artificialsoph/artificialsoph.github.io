@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <generator uri="http://jekyllrb.com" version="3.7.3">Jekyll</generator>
+  <generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
   
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2018-11-09T23:38:04+00:00</updated>
+  <updated>2019-04-05T22:34:17+00:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -24,6 +24,69 @@
     </author>
   
 
+  
+  
+    <entry>
+      
+      <title type="html">Neat papers in ML and DS: Dec 2018</title>
+      
+      
+      <link href="http://localhost:4000/2018/11/08/Recent-papers/" rel="alternate" type="text/html" title="Neat papers in ML and DS: Dec 2018" />
+      
+      <published>2018-11-08T11:35:00+00:00</published>
+      <updated>2018-11-08T11:35:00+00:00</updated>
+      <id>http://localhost:4000/2018/11/08/Recent-papers</id>
+      <content type="html" xml:base="http://localhost:4000/2018/11/08/Recent-papers/">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.12231&quot;&gt;ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://openreview.net/forum?id=SkfMWhAqYQ&quot;&gt;Approximating CNNs with Bag-of-local-Features models works surprisingly well on ImageNet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;NeurIPS&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/7350-are-gans-created-equal-a-large-scale-study&quot;&gt;Are GANs Created Equal? A Large-Scale Study&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/8169-an-intriguing-failing-of-convolutional-neural-networks-and-the-coordconv-solution&quot;&gt;An intriguing failing of convolutional neural networks and the CoordConv solution&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/7368-on-the-dimensionality-of-word-embedding&quot;&gt;On the Dimensionality of Word Embedding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/7647-adversarial-examples-that-fool-both-computer-vision-and-time-limited-humans&quot;&gt;Adversarial Examples that Fool both Computer Vision and Time-Limited Humans&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/8277-bias-and-generalization-in-deep-generative-models-an-empirical-study&quot;&gt;Bias and Generalization in Deep Generative Models: An Empirical Study&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/7515-how-does-batch-normalization-help-optimization&quot;&gt;How Does Batch Normalization Help Optimization?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/7957-training-deep-models-faster-with-robust-approximate-importance-sampling&quot;&gt;Training Deep Models Faster with Robust, Approximate Importance Sampling&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/7371-dropmax-adaptive-variational-softmax&quot;&gt;DropMax: Adaptive Variational Softmax&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/7960-relational-recurrent-neural-networks&quot;&gt;Relational recurrent neural networks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://papers.nips.cc/paper/8027-neural-arithmetic-logic-units&quot;&gt;Neural Arithmetic Logic Units&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <category term="data" />
+      
+        <category term="science," />
+      
+        <category term="history" />
+      
+
+      
+        <summary type="html">ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness Approximating CNNs with Bag-of-local-Features models works surprisingly well on ImageNet NeurIPS Are GANs Created Equal? A Large-Scale Study An intriguing failing of convolutional neural networks and the CoordConv solution On the Dimensionality of Word Embedding Adversarial Examples that Fool both Computer Vision and Time-Limited Humans Bias and Generalization in Deep Generative Models: An Empirical Study How Does Batch Normalization Help Optimization? Training Deep Models Faster with Robust, Approximate Importance Sampling DropMax: Adaptive Variational Softmax Relational recurrent neural networks Neural Arithmetic Logic Units</summary>
+      
+
+      
+      
+    </entry>
+  
   
   
     <entry>
@@ -386,7 +449,11 @@
 
 &lt;p&gt;Install it and configure it following &lt;a href=&quot;https://geowarin.github.io/the-missing-fish-shell-tutorial.html&quot;&gt;this tutorial&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;omf&lt;/code&gt; is a handy package manager for fish. You can install &lt;a href=&quot;https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#sushi&quot;&gt;themes&lt;/a&gt; with it and my fav is probably &lt;code class=&quot;highlighter-rouge&quot;&gt;sushi&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/oh-my-fish/oh-my-fish&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;omf&lt;/code&gt;&lt;/a&gt; is a handy package manager for fish.&lt;/p&gt;
+
+&lt;p&gt;I use the &lt;a href=&quot;https://github.com/oh-my-fish/plugin-foreign-env&quot;&gt;foreign environment interface&lt;/a&gt; to load my &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.bash_profile&lt;/code&gt; and similar. (&lt;a href=&quot;https://superuser.com/a/1162592&quot;&gt;Thank you&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;You can install &lt;a href=&quot;https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#sushi&quot;&gt;themes&lt;/a&gt; with it and my fav is probably &lt;code class=&quot;highlighter-rouge&quot;&gt;sushi&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you’re using anaconda, you’ll have to remember to use &lt;code class=&quot;highlighter-rouge&quot;&gt;activate&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;source activate&lt;/code&gt; &lt;a href=&quot;https://github.com/conda/conda/issues/2611#issuecomment-230894534&quot;&gt;details&lt;/a&gt;.&lt;/p&gt;
 
@@ -421,8 +488,8 @@ browser and use jupyter. That’s an annoying amount of steps. I like to simplif
 
 &lt;p&gt;Here’s the solution I found, which is a modification of &lt;a href=&quot;http://rodriguezandres.github.io/2017/01/18/jupyter-aws/&quot;&gt;this&lt;/a&gt;. Modify your &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/rc.local&lt;/code&gt; to include the following above the &lt;code class=&quot;highlighter-rouge&quot;&gt;exit 0&lt;/code&gt; line:&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;:/home/ubuntu/miniconda3/bin&quot;&lt;/span&gt;
-nohup jupyter notebook &lt;span class=&quot;nt&quot;&gt;--notebook-dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/ubuntu/ &amp;amp;
-nohup glances &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; &amp;amp;
+&lt;span class=&quot;nb&quot;&gt;nohup &lt;/span&gt;jupyter notebook &lt;span class=&quot;nt&quot;&gt;--notebook-dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/ubuntu/ &amp;amp;
+&lt;span class=&quot;nb&quot;&gt;nohup &lt;/span&gt;glances &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; &amp;amp;
 
 &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;0
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
@@ -446,7 +513,7 @@ nohup glances &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; &amp;amp;
       
 
       
-        <summary type="html">What’s this (hi, this is a test) This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it following this tutorial omf is a handy package manager for fish. You can install themes with it and my fav is probably sushi. If you’re using anaconda, you’ll have to remember to use activate instead of source activate details. tmux I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at ~/.tmux.conf. set-option -g mouse on set-option -g default-command /usr/bin/fish other tools install dtrx for common sense file extraction sudo apt install dtrx glances gpustat Access Jupyter from your server I typically set up a jupyter server mostly according to Chris Albon’s instructions here. Start Jupyter on restart Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to browser and use jupyter. That’s an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine’s resource usage). Here’s the solution I found, which is a modification of this. Modify your /etc/rc.local to include the following above the exit 0 line: export PATH=&quot;$PATH:/home/ubuntu/miniconda3/bin&quot; nohup jupyter notebook --notebook-dir=/home/ubuntu/ &amp;amp; nohup glances -w &amp;amp; exit 0</summary>
+        <summary type="html">What’s this (hi, this is a test) This is a scratch pad for me to use when I set up new virtual machines. I’m sharing it in case anyone else is interested. fish is by far my favorite shell Install it and configure it following this tutorial omf is a handy package manager for fish. I use the foreign environment interface to load my ~/.bash_profile and similar. (Thank you) You can install themes with it and my fav is probably sushi. If you’re using anaconda, you’ll have to remember to use activate instead of source activate details. tmux I love tmux! I p much always install it first thing. To make it more useful, I add options by creating the following file at ~/.tmux.conf. set-option -g mouse on set-option -g default-command /usr/bin/fish other tools install dtrx for common sense file extraction sudo apt install dtrx glances gpustat Access Jupyter from your server I typically set up a jupyter server mostly according to Chris Albon’s instructions here. Start Jupyter on restart Previously, my workflow was something like this: go to console in browser and start ec2, go to terminal and mosh into ec2, start jupyter notebook, go back to browser and use jupyter. That’s an annoying amount of steps. I like to simplify this so that on every device restart, my machine automagically starts a jupyter notebook server and glances (which I use to monitor the machine’s resource usage). Here’s the solution I found, which is a modification of this. Modify your /etc/rc.local to include the following above the exit 0 line: export PATH=&quot;$PATH:/home/ubuntu/miniconda3/bin&quot; nohup jupyter notebook --notebook-dir=/home/ubuntu/ &amp;amp; nohup glances -w &amp;amp; exit 0</summary>
       
 
       

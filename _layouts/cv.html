@@ -82,7 +82,12 @@
       <div class="row outer">
         <div class="left"> </div>
         <div class="right">
-          {{ site.data.cv.summary | markdownify}}
+          <p>
+          {{ site.data.cv.summary | markdownify | remove: '<p>' | remove: '</p>'}}
+          {% for language in site.data.cv.languages %}
+            {{ language.name }} ({{ language.expertise }}){% if forloop.last == false %}, {% endif %}
+          {% endfor %}. 
+        </p>
         </div>
       </div>
 
@@ -119,14 +124,15 @@
       {% endfor %}
       </div>
 
-      <h2>Publications</h2>
+      <h2>Talks and Publications</h2>
       <div class="row outer">
         <div class="left col"></div>
         <div class="right col">
         {% for pub in site.data.cv.publications%}
-        <p>{{pub.authors | markdownify | remove: '<p>' | remove: '</p>'}} ({{pub.year}}) {{pub.title}}
-          {% if pub.pdf %}
-          <a href="pub.pdf">PDF</a>
+        <p>{{pub.authors | markdownify | remove: '<p>' | remove: '</p>'}} ({{pub.year}}){% if pub.link %}
+          <a href="pub.pdf">{{pub.title}}</a>
+          {% else %}
+          {{pub.title}}
           {% endif %}
         </p>
         {% endfor %}
