@@ -20,10 +20,10 @@ experience:
     description: |
       Metis is an award-winning Data Science Bootcamp—currently the only such bootcamp that is accredited. The 12 week bootcamp is a project-based curriculum that covers the breadth of the field of Data Science.
     milestones:
-      - "**Curriculum Design**: led project that included 15 Senior Data Scientists to completely revise bootcamp curriculum (90+ lessons)."
-      - "**Data science**: designed the company's first data science project pipeline to apply 'agile' prioritization to internal projects. Built data infrastructure to track lessons across 16 cohorts per year. Redesigned student assessments to be automated and trackable."
-      - "**Corporate Training**: developed materials for, led, and instructed corporate training projects at Intel, Vanguard, Blackrock, and Houghton Mifflin Harcourt. Topics included Intro to Data Science, Deep learning, Python."
-      - "**Instruction**: taught and mentored >100 students changing careers to data science."
+      - "**Curriculum Design**: lead curriculum revision project that includes 15 Senior Data Scientists to completely revise data science curriculum (90+ lessons). Coverage includes introduction materials through advanced modeling and big data."
+      - "**Data science**: design the company's first data science project pipeline to apply 'agile' prioritization to internal projects. Build data infrastructure to track lessons across 16 cohorts per year. Redesign student assessments to be automated and trackable."
+      - "**Corporate Training**: develop materials for, led, and instruct corporate training projects at Intel, Vanguard, Blackrock, and Houghton Mifflin Harcourt. Topics include Intro to Data Science, Deep learning, Python."
+      - "**Instruction**: teach and mentor >100 students as they change careers to data science."
   - company: Elektra
     website: https://angel.co/elektra-1
     location: New York, NY
