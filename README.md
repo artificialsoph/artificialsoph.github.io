@@ -1,4 +1,10 @@
-# whiteglass
+# Soph
+
+This is my personal site. I always forget so:
+
+serve with `bundle exec jekyll serve`
+
+## whiteglass
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-whiteglass.svg)](https://badge.fury.io/rb/jekyll-whiteglass)
 [![Build Status](https://travis-ci.org/yous/whiteglass.svg?branch=master)](https://travis-ci.org/yous/whiteglass)
@@ -12,25 +18,25 @@ Minimal, responsive Jekyll theme for hackers.
 
 Add this line to your Jekyll site's Gemfile:
 
-``` ruby
+```ruby
 gem "jekyll-whiteglass"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
-``` yaml
+```yaml
 theme: jekyll-whiteglass
 ```
 
 And then execute:
 
-``` sh
+```sh
 bundle
 ```
 
 Or install it yourself as:
 
-``` sh
+```sh
 gem install jekyll-whiteglass
 ```
 
@@ -38,20 +44,20 @@ gem install jekyll-whiteglass
 
 1. Generate a new Jekyll blog:
 
-   ``` sh
+   ```sh
    jekyll new blog --skip-bundle
    cd blog
    ```
 
 2. Edit `Gemfile` to use whiteglass theme:
 
-   ``` ruby
+   ```ruby
    gem "jekyll-whiteglass"
    ```
 
 3. Edit `_config.yml` to use whiteglass theme and its plugins:
 
-   ``` yaml
+   ```yaml
    theme: jekyll-whiteglass
    plugins:
      - jekyll-archives
@@ -80,7 +86,7 @@ gem install jekyll-whiteglass
    [`_data/navigation.yml`](https://github.com/yous/whiteglass/blob/master/_data/navigation.yml)
    from the theme:
 
-   ``` sh
+   ```sh
    rm index.md
    curl -L -O "https://github.com/yous/whiteglass/raw/master/{index.html,about.md,archives.md,feed.xml}"
    curl -L --create-dirs -o _data/navigation.yml https://github.com/yous/whiteglass/raw/master/_data/navigation.yml
@@ -89,7 +95,7 @@ gem install jekyll-whiteglass
 5. Install gems and you're good to go! The blog will be available on
    `http://127.0.0.1:4000`.
 
-   ``` sh
+   ```sh
    bundle install
    bundle exec jekyll serve
    ```
@@ -108,13 +114,15 @@ contents to footer, create an `_includes` directory, copy
 
 For example, you can add favicons to `_includes/head_custom.html`:
 
-``` html
+```html
 <link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
-<link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
-<link rel="apple-touch-icon" sizes="76x76" href="{{ "/apple-touch-icon-76x76.png" | relative_url }}">
-<link rel="apple-touch-icon" sizes="120x120" href="{{ "/apple-touch-icon-120x120.png" | relative_url }}">
-<link rel="apple-touch-icon" sizes="152x152" href="{{ "/apple-touch-icon-152x152.png" | relative_url }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon-180x180.png" | relative_url }}">
+<link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url
+}}"> <link rel="apple-touch-icon" sizes="76x76" href="{{
+"/apple-touch-icon-76x76.png" | relative_url }}"> <link rel="apple-touch-icon"
+sizes="120x120" href="{{ "/apple-touch-icon-120x120.png" | relative_url }}">
+<link rel="apple-touch-icon" sizes="152x152" href="{{
+"/apple-touch-icon-152x152.png" | relative_url }}"> <link rel="apple-touch-icon"
+sizes="180x180" href="{{ "/apple-touch-icon-180x180.png" | relative_url }}">
 ```
 
 The site's default CSS is in the gem itself,
@@ -145,7 +153,7 @@ Country codes are optional and the shorter variation `lang: en` is also
 acceptable. You may want to write a post in different language, then add `lang`
 attribute to the frontmatter of that post:
 
-``` yaml
+```yaml
 layout: post
 title: "안녕하세요"
 lang: ko
@@ -156,7 +164,7 @@ lang: ko
 `site.description` describes the site. This is mainly used in meta descriptions
 for improving SEO. Also, you can set `description` attribute for each post:
 
-``` yaml
+```yaml
 layout: post
 title: Awesome Post
 description: This is an awesome post.
@@ -170,7 +178,7 @@ exist.
 `external-url` turns the title of your post to a link. Specify a URL which you
 want to link to.
 
-``` yaml
+```yaml
 layout: post
 title: Jekyll whiteglass theme
 external-url: https://github.com/yous/whiteglass
@@ -185,13 +193,13 @@ Each post can have `categories` attribute. It can be a string or an array. This
 will be displayed on index, archive and each post, and provide a link to the
 archive of category.
 
-``` yaml
+```yaml
 layout: post
 title: Awesome Post
 categories: Misc
 ```
 
-``` yaml
+```yaml
 layout: post
 title: Another Awesome Post
 categories:
@@ -205,13 +213,13 @@ Each post can have `tags` attribute. It can be a string or an array. This will
 be displayed on index, archive and each post, and provide a link to the archive
 of tag.
 
-``` yaml
+```yaml
 layout: post
 title: Awesome Post
 tags: food
 ```
 
-``` yaml
+```yaml
 layout: post
 title: Another Awesome Post
 tags:
@@ -223,16 +231,17 @@ tags:
 
 Create `<your-site>/feed.xml` with:
 
-``` yaml
+```yaml
 ---
 layout: feed
 ---
+
 ```
 
 If you want to use another path for feed, you can specify a non-default path via
 your site's config.
 
-``` yaml
+```yaml
 feed:
   path: atom.xml
 ```
@@ -244,6 +253,7 @@ Then create `<your-site>/atom.xml` with the same content of `feed.xml` above.
 whiteglass provides the ability to include your favourite commenting service, like [Disqus](https://disqus.com) or [Isso](https://posativ.org/isso).
 
 To enable comments on pages and posts:
+
 1. Overwrite the `_includes/custom_comments_provider.html` with your custom provider of comments.
 2. Add `comments: true` to your `_config.yml`.
 
@@ -256,7 +266,7 @@ To disable comments on certain pages or posts specify `comments: false` in the f
 Each post can have `keywords` attribute. This is a comma-separated list which is
 used in meta descriptions for improving SEO.
 
-``` yaml
+```yaml
 layout: post
 title: How to configure jekyll-whiteglass
 keywords: jekyll, whiteglass, github pages
@@ -264,7 +274,7 @@ keywords: jekyll, whiteglass, github pages
 
 YAML list is also available:
 
-``` yaml
+```yaml
 keywords:
   - jekyll
   - whiteglass
@@ -293,7 +303,7 @@ keywords:
 To define header links, add titles and URLs under the `main` key in
 `_data/navigation.yml`:
 
-``` yaml
+```yaml
 main:
   - title: "About"
     url: /about/
@@ -307,7 +317,7 @@ main:
 
 To enable Google Analytics, add the following lines to your Jekyll site:
 
-``` yaml
+```yaml
 google_analytics: UA-NNNNNNNN-N
 ```
 

@@ -31,10 +31,10 @@
 
     <link rel="stylesheet" href="/assets/soph.css">
     <link rel="stylesheet" href="/assets/main.css">
-    <link rel="canonical" href="http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/">
+    <link rel="canonical" href="http://soph.info/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/">
     
     
-    <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="soph" href="http://soph.info/feed.xml">
 
     
 
@@ -43,7 +43,7 @@
     <meta property="fb:admins" content="123">
     <meta property="og:title" content="Paperspace how-to (cheap cloud GPU)">
     <meta property="og:site_name" content="soph">
-    <meta property="og:url" content="http://localhost:4000/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/">
+    <meta property="og:url" content="http://soph.info/2018/02/01/Paperspace-how-to-cheap-cloud-GPU/">
     <meta property="og:description" content="The use of GPUs have become quite important for applications of Deep Learning. The landscape of this hardware has lately become quite interesting. The cryptocurrency fad has led to GPUs becoming expensive and/or unavailable. One solution to this problem is to rent a computer with a GPU from Google, Amazon, Microsoft, and others. Google even recently lowered their GPU prices quite substantially. I’ll save doing a full comparison of each platform for later, but what I’ll go over today is getting started with a relatively new service, PaperSpace based in my home of Brooklyn &amp;lt;3. The virtue of paperspace is that their entry-level GPU offering costs $0.40/hr (compared to Google’s new $0.45/hr and Amazon’s $0.90/hr) but benchmarks ahead of Amazon and other offers based on the Tesla K80. Below, I’ll show you how to get up and running quickly and how to set up cost-saving measures, like auto-shutdown. Steps to get running First, as with any new machine, update the current packages with sudo apt update sudo apt upgrade (Note: I had to add the --fix-missing flag to sudo apt update) Add a new user according to these instructions. open ports with ufw By default, Paperspace has a very strict firewall (this is a good thing). We’re going to want to get to our jupyter notebooks, though, so we need to open up some ports. You can do that with these instructions. My version is pretty unsafe (it allows access from any IP) so feel free to check that link for info on restricting the IP that can access your jupyter port. sudo ufw allow 8888 sudo ufw allow 60000:61000/udp set up jupyter fix autoshutdown with ssh https://paperspace.zendesk.com/hc/en-us/articles/115002807447-How-do-I-use-Auto-Shutdown-on-my-Linux-machine-when-connecting-through-SSH- set up ssh keys https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys–2 https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically Install cuda 9.1 You can use the official guide but I prefer these instructions. Install cudnn http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html">
     
     <meta property="article:author" content="https://www.facebook.com/defsophiaray">
@@ -153,6 +153,10 @@
     
       
     
+      
+    
+      
+    
   
 
 </p>
@@ -223,7 +227,7 @@ sudo ufw allow 60000:61000/udp
     <p>
       
 
-&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://soph.info/feed.xml">RSS</a>
 
     </p>
 

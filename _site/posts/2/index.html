@@ -31,10 +31,10 @@
 
     <link rel="stylesheet" href="/assets/soph.css">
     <link rel="stylesheet" href="/assets/main.css">
-    <link rel="canonical" href="http://localhost:4000/posts/2/">
+    <link rel="canonical" href="http://soph.info/posts/2/">
     
     
-    <link rel="alternate" type="application/rss+xml" title="soph" href="http://localhost:4000/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="soph" href="http://soph.info/feed.xml">
 
     
 
@@ -43,7 +43,7 @@
     <meta property="fb:admins" content="123">
     <meta property="og:title" content="soph">
     <meta property="og:site_name" content="soph">
-    <meta property="og:url" content="http://localhost:4000/posts/2/">
+    <meta property="og:url" content="http://soph.info/posts/2/">
     <meta property="og:description" content="Minimal, responsive Jekyll theme for hackers.">
     
     <meta property="article:author" content="https://www.facebook.com/defsophiaray">
@@ -124,6 +124,75 @@
   
 
   <ul class="post-list">
+    
+      
+      
+
+      <li>
+        <header class="post-header">
+          <h1 class="post-title">
+            
+              <a class="post-link" href="/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/">How to: Backup iMessages using OSX and Google Drive</a>
+            
+          </h1>
+
+          <p class="post-meta">
+            Mar 1, 2018
+            
+              
+
+ •
+  
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href="/tags/howto/">howto</a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+
+            
+            
+          </p>
+        </header>
+
+        <div class="post-content">
+          <p>This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive.</p>
+
+<p>First, find the folder iMessages uses to store all its data. Mine is in <code class="highlighter-rouge">/Users/soph/Library/Messages</code>. If you aren’t able to see the Library folder, use <code class="highlighter-rouge">cmd-shift-.</code> to make hidden items viewable.</p>
+
+<p>Select the Google  Backup and Sync icon in your menu bar at the top of your screen. Go to …-&gt;Preferences-&gt;Choose Folder and select that folder.</p>
+
+<p>And, there, you’re done!</p>
+
+        </div>
+        
+      </li>
     
       
       
@@ -302,6 +371,10 @@ browser and use jupyter. That’s an annoying amount of steps. I like to simplif
     
       
     
+      
+    
+      
+    
   
 
 
@@ -449,218 +522,6 @@ And now I’ve got a model that does well, but not quite as well as I want it to
         
       </li>
     
-      
-      
-
-      <li>
-        <header class="post-header">
-          <h1 class="post-title">
-            
-              <a class="post-link" href="/2017/10/18/scratch/">Deep learning from scratch with python</a>
-            
-          </h1>
-
-          <p class="post-meta">
-            Oct 18, 2017
-            
-              
-
- •
-  
-    
-    
-      
-        <a href="/tags/deep/">Deep</a>,
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-    
-      
-    
-      
-        <a href="/tags/learning/">learning,</a>,
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-    
-      
-    
-      
-    
-      
-        <a href="/tags/data/">Data</a>,
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-    
-      
-    
-      
-    
-      
-    
-      
-        <a href="/tags/science/">Science,</a>,
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-        <a href="/tags/python/">Python</a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-
-
-            
-            
-          </p>
-        </header>
-
-        <div class="post-content">
-          <p>Last week I presented at the <a href="https://web.archive.org/web/20171018141234/https://www.meetup.com/NYC-Data-Science-Study-Group/events/243747107/">Data Science Study Group</a> on a project of mine where I built a deep learning platform from scratch in python.</p>
-
-<p>For reference, here’s my <a href="https://github.com/sophiaray/sophscratch">code</a> and <a href="http://soph.info/scratch.pdf">slides</a>.</p>
-
-<p>First, my project drew primarily from two sets of sources, without which I never would have completed this project. First, there are many examples of folks doing this online. Here’s an incomplete list in python:</p>
-
-<ul>
-  <li>** <a href="http://www.deepideas.net/deep-learning-from-scratch-i-computational-graphs/">Deep Learning From Scratch I-V</a> by <a href="https://twitter.com/deepideas_net">Daniel Sabinasz</a> **</li>
-  <li><a href="http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/">Implementing a Neural Network from Scratch in Python – An Introduction</a> by <a href="https://twitter.com/dennybritz">Denny Britz</a></li>
-  <li><a href="https://www.analyticsvidhya.com/blog/2017/05/neural-network-from-scratch-in-python-and-r/">Understanding and coding Neural Networks From Scratch in Python and R</a> by <a href="https://twitter.com/sunil2ray?lang=en">Sunil Ray</a></li>
-  <li><a href="https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/">How to Implement the Backpropagation Algorithm From Scratch In Python</a></li>
-</ul>
-
-<p>While all of these are useful, Sabinasz’s was what I based my project on because he implements a system that builds a computational graph and includes a true backpropogation algorithm. The others I saw do this implicitly by calculating the gradients operation-by-operation. That approach is fine for a single demo but I wanted something that mimicked the flexibility of tensorflow, allowing me to compare different network structures and activations without starting over each time.</p>
-
-<p>In addition to these resources, I drew heavily from <a href="http://www.deeplearningbook.org/">Deep Learning</a> by Goodfellow, Bengio, and Courville. I’m certain that the other examples I looked toward used this book as well.</p>
-
-<p>While I started with Sabinasz’s code, I made a few modifications and improvements including:</p>
-
-<ul>
-  <li>Add graph visualization with <a href="http://graphviz.readthedocs.io/en/stable/manual.html">python Graphviz</a></li>
-  <li>Remove the use of globals for the computational graph</li>
-  <li>Simplify backprop algorithm by adding gradient calculations to the operation classes</li>
-  <li>Add a Relu activation function</li>
-  <li>Tweak the visualizations</li>
-</ul>
-
-<p>Here’s the learning rate plotted along with the classification boundary for a relu network with 4 hidden nodes.
-<img src="/images/relu-w-hidden-nodes.png" alt="" /></p>
-
-<p>And here’s the computational graph. You can really see the benefit of tracking the graph and automating the backprop algorithm for a graph of this size.
-<img src="/images/relu-graph.png" alt="" /></p>
-
-<h2>What I still want to do</h2>
-
-<ol>
-  <li>I want to write up a blog summarizing my talk and the process for creating this. I think it could be a very useful explanatory tool.</li>
-  <li>I have a strong feeling that some of the gradients in here are inaccurate.
-    <ul>
-      <li>In many cases the network fails to learn for any learning rate schedule unless I give it a much higher capacity than it needs (e.g. 4+ hidden nodes in the XOR task).</li>
-      <li>In simple cases, like separable data, the model should be able to get arbitrarily close to $J=0$ but fails to do so.</li>
-      <li>The softmax gradient seems to differ from that found in other sources</li>
-    </ul>
-  </li>
-  <li>I want to extend this model to larger datasets and deeper networks. Right now it runs into what I think are underflow errors in these cases but they should be possible to avoid.</li>
-</ol>
-
-        </div>
-        
-      </li>
-    
   </ul>
 
   
@@ -688,7 +549,7 @@ And now I’ve got a model that does well, but not quite as well as I want it to
     <p>
       
 
-&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://soph.info/feed.xml">RSS</a>
 
     </p>
 
