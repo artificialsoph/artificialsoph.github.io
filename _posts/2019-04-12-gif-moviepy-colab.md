@@ -2,7 +2,8 @@
 title: "How to make a gif in Colab"
 layout: post
 date: 2019-04-12 10:20
-tags: data science, how to
+tags: data science, howto
+image: https://www.dropbox.com/s/jqos6zgwamme9nt/2019-04-12_10-42-06.png?raw=1
 ---
 
 I wrote a little demo of how to make a gif in Colab. You can check it out below or you can open it and run it yourself by clicking on the "Open in Colab" button at the top.
