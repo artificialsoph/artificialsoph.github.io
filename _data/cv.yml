@@ -10,27 +10,26 @@ languages:
   - name: R
     expertise: fluent
 summary: |
-  Experienced data scientist and engineer. Versatile leader and communicator. Expertise in modern ML including Deep Neural Nets and Generative Probabilistic Models.
+  Experienced data scientist and software engineer. Versatile leader and communicator. Collaborative across many domains. Expertise in modern ML including Deep Neural Nets and Generative Probabilistic Models.
 experience:
   - company: Metis
     website: https://www.thisismetis.com/
     location: New York, NY
-    role: Senior Data Scientist
+    role: Senior Data Scientist, Curriculum Lead
     dates: 2017-
     description: |
       Metis is an award-winning Data Science Bootcamp—currently the only such bootcamp that is accredited. The 12 week bootcamp is a project-based curriculum that covers the breadth of the field of Data Science.
     milestones:
-      - "**Curriculum Design**: lead curriculum revision project that includes 15 Senior Data Scientists to completely revise data science curriculum (90+ lessons). Coverage includes introduction materials through advanced modeling and big data."
-      - "**Data science**: design the company's first data science project pipeline to apply 'agile' prioritization to internal projects. Build data infrastructure to track lessons across 16 cohorts per year. Redesign student assessments to be automated and trackable."
-      - "**Corporate Training**: develop materials for, led, and instruct corporate training projects at Intel, Vanguard, Blackrock, and Houghton Mifflin Harcourt. Topics include Intro to Data Science, Deep learning, Python."
-      - "**Instruction**: teach and mentor >100 students as they change careers to data science."
+      - "**Curriculum Design**: led curriculum revision and development team of 15 Senior Data Scientists. Coverage includes introduction materials through advanced modeling and big data. Curriculum is the primary product for the bootcamp business (300 students, \\\\$4M revenue per yr) and the basis for major corporate training contracts ($300k pilot with \\\\$1M/yr option)."
+      - "**Management and coordination**: Brought industry best-practices to a data science startup that lacked them including companywide prioritization meetings, code reviews, pull request workflow, and continuous integration. These changes led to major improvement for collaboration on internal codebase: year over year increase of 7x (commits) and 20x (issues/pull requests)."
+      - "**Learning management system**: built a command-line tool to serve as an LMS. Managed lesson planning, deployment to students, grading and providing of solutions. Used in 4 campuses, by 15+ instructors and 300+ students per year. The LMS stadardized content across the company and enabled company-wide metrics for first time."
+      - "**Instruction**: Taught and mentored >100 students as they changed careers to data science. Authored new lessons for: Code Style, Computational Complexity, SVMs, Data Science Ethics, Deep Learning Intro, Deep Reinforcement Learning, Generative Adversarial Networks."
   - company: Elektra
     website: https://angel.co/elektra-1
     location: New York, NY
     role: CTO, Cofounder
     dates: 2016-2017
-    description: |
-      Elektra is a wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: 20k convertible note (1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner ($500 award, 10 hours consultation).
+    description: "Elektra is a wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: \\\\$20k convertible note (\\\\$1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner (\\\\$500 award, 10 hours consultation)."
     milestones:
       - "**Proof of concept**: Design and build proof of concept. Validate underlying technology, collect data on 100+ customer experiences in target audience and demonstrate product-market fit."
       - "**Scalable design**: Lead engineering teams managing user data and designing a product at 10k/yr volume: electronics hardware, firmware, desktop app."

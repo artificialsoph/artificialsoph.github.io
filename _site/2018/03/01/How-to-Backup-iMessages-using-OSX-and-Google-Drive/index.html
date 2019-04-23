@@ -2,69 +2,65 @@
 <html lang="en">
 
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     
-    
-    
-    <title>How to: Backup iMessages using OSX and Google Drive</title>
-    <meta name="description" content="This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive. First, find the folder iMessages uses to store all its data. Mine is in /Users/soph/Library/Messages. If you aren’t able to see the Library folder, use cmd-shift-. to make hidden items viewable. Select the Google Backup and Sync icon in your menu bar at the top of your screen. Go to …-&amp;gt;Preferences-&amp;gt;Choose Folder and select that folder. And, there, you’re done!">
-    
+  <title>How to: Backup iMessages using OSX and Google Drive</title>
+  <meta name="description" content="This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive. First, find the folder iMessages uses to store all its data. Mine is in /Users/soph/Library/Messages. If you aren’t able to see the Library folder, use cmd-shift-. to make hidden items viewable. Select the Google Backup and Sync icon in your menu bar at the top of your screen. Go to …-&amp;gt;Preferences-&amp;gt;Choose Folder and select that folder. And, there, you’re done!" />
+  
 
-    <!-- Configure mathjax according to https://docs.mathjax.org/en/latest/configuration.html#using-plain-javascript -->
-    <script type="text/javascript">
-        window.MathJax = {
-            tex2jax: {
-                inlineMath: [
-                    ['$', '$'],
-                    ["\\(", "\\)"]
-                ],
-                processEscapes: true
-            }
-        };
-    </script>
-    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
-    </script>
+  <!-- Configure mathjax according to https://docs.mathjax.org/en/latest/configuration.html#using-plain-javascript -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {
+        inlineMath: [["$", "$"], ["\\(", "\\)"]],
+        processEscapes: true
+      }
+    };
+  </script>
+  <script
+    type="text/javascript"
+    async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"
+  ></script>
 
+  <link rel="stylesheet" href="/assets/soph.css"> <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/" />
+   
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="soph"
+    href="http://localhost:4000/feed.xml"
+  />
 
-    <link rel="stylesheet" href="/assets/soph.css">
-    <link rel="stylesheet" href="/assets/main.css">
-    <link rel="canonical" href="http://soph.info/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/">
-    
-    
-    <link rel="alternate" type="application/rss+xml" title="soph" href="http://soph.info/feed.xml">
-
-    
-
-    
-    <meta property="og:type" content="article" />
-    <meta property="fb:admins" content="123">
-    <meta property="og:title" content="How to: Backup iMessages using OSX and Google Drive">
-    <meta property="og:site_name" content="soph">
-    <meta property="og:url" content="http://soph.info/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/">
-    <meta property="og:description" content="This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive. First, find the folder iMessages uses to store all its data. Mine is in /Users/soph/Library/Messages. If you aren’t able to see the Library folder, use cmd-shift-. to make hidden items viewable. Select the Google Backup and Sync icon in your menu bar at the top of your screen. Go to …-&amp;gt;Preferences-&amp;gt;Choose Folder and select that folder. And, there, you’re done!">
-    
-    <meta property="article:author" content="https://www.facebook.com/defsophiaray">
-    
-    <meta property="og:image" content="http://soph.info/images/fb_teach.png">
-    
-    
-    <meta name="twitter:card" content="summary_large_image">
-    
-    <meta name="twitter:site" content="defsophiaray">
-    <meta name="twitter:title" content="How to: Backup iMessages using OSX and Google Drive">
-    <meta name="twitter:description" content="This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, ...">
-    
-    <meta name="twitter:creator" content="defsophiaray">
-    <meta name="twitter:site" content="defsophiaray">
-    
-    
-    <meta name="twitter:image" content="http://soph.info/images/fb_teach.png">
-    
-
-    <script type="text/javascript">
+   
+  <meta property="og:type" content="article" />
+  <meta property="fb:admins" content="123" />
+  <meta property="og:title" content="How to: Backup iMessages using OSX and Google Drive" />
+  <meta property="og:site_name" content="soph" />
+  <meta property="og:url" content="http://localhost:4000/2018/03/01/How-to-Backup-iMessages-using-OSX-and-Google-Drive/" />
+  <meta property="og:description" content="This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, as other tutorials have suggested, just add it to the list of extra folders synced by Google Drive. First, find the folder iMessages uses to store all its data. Mine is in /Users/soph/Library/Messages. If you aren’t able to see the Library folder, use cmd-shift-. to make hidden items viewable. Select the Google Backup and Sync icon in your menu bar at the top of your screen. Go to …-&amp;gt;Preferences-&amp;gt;Choose Folder and select that folder. And, there, you’re done!" />
+  
+  <meta property="article:author" content="https://www.facebook.com/defsophiaray" />
+   
+  <meta property="og:image" content="http://soph.info/images/fb_teach.png" />
+    <meta name="twitter:card" content="summary_large_image"> 
+  <meta name="twitter:site" content="defsophiaray" />
+  
+  <meta name="twitter:title" content="How to: Backup iMessages using OSX and Google Drive" />
+  <meta
+    name="twitter:description"
+    content="This is pretty short but I wanted to leave it here for posterity. The process is to just add the archive folder to Google Drive. You don’t have to move it to your Google Drive folder or hard link, ..."
+  />
+  
+  <meta name="twitter:creator" content="defsophiaray" />
+  <meta name="twitter:site" content="defsophiaray" />
+   
+  <meta name="twitter:image" content="http://soph.info/images/fb_teach.png" />
+   <script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Bitter:400,700,400italic:latin' ] }
   };
@@ -75,8 +71,7 @@
     s.parentNode.insertBefore(wf, s);
   })(document);
 </script>
-
-    
+ 
   <!-- Google Analytics -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -91,6 +86,7 @@
 
 
 </head>
+
 
   <body>
 
@@ -183,7 +179,7 @@
     <p>
       
 
-&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://soph.info/feed.xml">RSS</a>
+&copy; Sophia Ray Searcy - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
 
     </p>
 
