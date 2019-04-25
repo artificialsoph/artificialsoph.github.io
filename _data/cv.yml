@@ -2,12 +2,15 @@ location: Brooklyn, NY
 name: Sophie Searcy
 website: [soph.info, "https://soph.info"]
 email: s@soph.info
+github: https://github.com/artificialsoph
 languages:
   - name: Python
     expertise: expert
   - name: Javascript
     expertise: fluent
   - name: R
+    expertise: fluent
+  - name: SQL
     expertise: fluent
 summary: |
   Experienced data scientist and software engineer. Versatile leader and communicator. Collaborative across many domains. Expertise in modern ML including Deep Neural Nets and Generative Probabilistic Models.
@@ -20,9 +23,9 @@ experience:
     description: |
       Metis is an award-winning Data Science Bootcamp—currently the only such bootcamp that is accredited. The 12 week bootcamp is a project-based curriculum that covers the breadth of the field of Data Science.
     milestones:
-      - "**Curriculum Design**: led curriculum revision and development team of 15 Senior Data Scientists. Coverage includes introduction materials through advanced modeling and big data. Curriculum is the primary product for the bootcamp business (300 students, \\\\$4M revenue per yr) and the basis for major corporate training contracts ($300k pilot with \\\\$1M/yr option)."
-      - "**Management and coordination**: Brought industry best-practices to a data science startup that lacked them including companywide prioritization meetings, code reviews, pull request workflow, and continuous integration. These changes led to major improvement for collaboration on internal codebase: year over year increase of 7x (commits) and 20x (issues/pull requests)."
-      - "**Learning management system**: built a command-line tool to serve as an LMS. Managed lesson planning, deployment to students, grading and providing of solutions. Used in 4 campuses, by 15+ instructors and 300+ students per year. The LMS stadardized content across the company and enabled company-wide metrics for first time."
+      - "**Curriculum Design**: led curriculum revision and development team of 15 Senior Data Scientists. Coverage includes introductory materials through advanced modeling and big data. Curriculum is the primary product for the bootcamp business (300 students, \\\\$4M revenue per yr) and the basis for major corporate training contracts (multiple $300k pilots with \\\\$1M/yr option)."
+      - "**Learning management system** (LMS): was primary developer of a custom internal LMS. This managed lesson planning, deployment of content to students, grading and access to solutions. Used in 4 campuses, by 15+ instructors and 300+ students per year. The LMS standardized content across the company and enabled company-wide metrics for first time."
+      - "**Management and coordination**: Introduced industry best-practices to a data science startup including company wide prioritization meetings, code reviews, pull request workflow, and continuous integration. These changes led to major improvement for collaboration on internal codebase: year over year increase of 7x (commits) and 20x (issues/pull requests). Acted as led developer and arbiter for both curriculum and LMS, resolving disputes between ICs and overseeing product development."
       - "**Instruction**: Taught and mentored >100 students as they changed careers to data science. Authored new lessons for: Code Style, Computational Complexity, SVMs, Data Science Ethics, Deep Learning Intro, Deep Reinforcement Learning, Generative Adversarial Networks."
   - company: Elektra
     website: https://angel.co/elektra-1
@@ -31,9 +34,9 @@ experience:
     dates: 2016-2017
     description: "Elektra is a wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: \\\\$20k convertible note (\\\\$1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner (\\\\$500 award, 10 hours consultation)."
     milestones:
-      - "**Proof of concept**: Design and build proof of concept. Validate underlying technology, collect data on 100+ customer experiences in target audience and demonstrate product-market fit."
-      - "**Scalable design**: Lead engineering teams managing user data and designing a product at 10k/yr volume: electronics hardware, firmware, desktop app."
-      - "**Human resources**: Manage HR. Design collaborative, version controlled, company Handbook."
+      - "**Proof of concept**: Designed and built proof of concept. Validated underlying technology, collected data on 100+ customer experiences in target audience and demonstrated product-market fit."
+      - "**Scalable design**: Led engineering teams managing user data and designing a product at 10k/yr volume: the entirely in-house product stack included electronics hardware, firmware, and desktop app."
+      - "**Human resources**: Managed HR. Designed collaborative, version controlled, company Handbook."
   - company: Cognitive and Data Science Lab
     website: http://shaftolab.com/
     location: Newark, NJ
@@ -41,10 +44,9 @@ experience:
     dates: 2012-2017
     description:
     milestones:
-      - "**Project manager**: Manage a data science team developing FOSS tools for replicable cross-platform video data processing in the age of Big Data."
-      - "**Web experiments**: Design full-stack web apps for large-n (~1,000 Ss) behavioral experiments and administer through Amazon Mechanical Turk. Mentor data scientists in full-stack design."
-      - "**Interdisciplinary research on machine teaching and learning**: Published author on the foundations of learning and computational tractability of learning algorithms. Experience with modern machine learning techniques and mathematics."
-      - "**Communication**: Present work in journals and conferences. Manage lead author responsibilities on manuscripts, conference papers, and presentations."
+      - '**Project manager**: Managed a data science team developing FOSS tools for replicable cross-platform video data processing at "Big Data" scale.'
+      - "**Web experiments**: Designed full-stack web apps for large (n~1,000) behavioral experiments and administered experiments through Amazon Mechanical Turk. Mentored data scientists in full-stack design."
+      - "**Interdisciplinary research**: Lead author of interdisciplinary work on the foundations of learning and computational tractability of learning algorithms. Presented work in journals and conferences."
 publications:
   - authors: "**Searcy**"
     year: 2019
@@ -72,13 +74,16 @@ publications:
     year: 2010
     title: Energy Efficiency Comparisons of Wireless Communication Technology Options for Smart Grid Enabled Devices
 education:
+  - degree: PhD-ABD
+    institution: University of Louisville
+    major: "Experimental Psychology: Computational Cognitive Science"
   - degree: MENG
     institution: University of Louisville
     major: Electrical and Computer Engineering
     awards: University Fellowship Award (2 years Full tuition plus stipend)
   - degree: MS
     institution: University of Louisville
-    major: "Experimental Psychology: Cognitive Science"
+    major: "Experimental Psychology: Computational Cognitive Science"
   - degree: BS
     institution: University of Louisville
     major: Electrical and Computer Engineering

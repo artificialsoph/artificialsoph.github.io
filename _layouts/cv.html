@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
 
 {% include head.html %}
 
@@ -10,11 +13,14 @@
   .wrapper {
     width: 8.5in;
     padding: 0;
+    font-size: 11px;
+    margin-top: .5em;
   }
   .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: .25em;
 
   }
   .outer {
@@ -33,26 +39,28 @@
   .right {
     width: 81%;
   }
+  .description {
+    text-align: justify;
+  }
   h1 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 0em;
   }
   h2 {
-    font-size: 1em;
+    font-size: 1.3em;
     margin-bottom: 0em;
   }
   h3 {
-    font-size: .9em;
+    font-size: 1.2em;
     margin-bottom: .1em;
   }
   p{
     hyphens: auto;
-    font-size: .7em;
     margin-bottom: .25em;
   }
 
   hr {
-      margin: .5em 0 .5em 0;
+      margin: .25em 0 .25em 0;
       display: block;
       height: 1px;
       background: transparent;
@@ -76,7 +84,7 @@
           <h1>{{ site.data.cv.name }}</h1>
         </div>
         <div class="col site">
-          <p>{{ site.data.cv.email }} | <a href="{{ site.data.cv.website[1] }}">{{ site.data.cv.website[0] }}</a></p>
+          <p> <a href="{{site.data.cv.github}}" ><i class="fab fa-github"></i></a> | {{ site.data.cv.email }} | <a href="{{ site.data.cv.website[1] }}">{{ site.data.cv.website[0] }}</a></p>
         </div>
       </div>
 
@@ -112,7 +120,7 @@
             </p>
 
           </div>
-          <div class="right col">
+          <div class="right col description">
 
             {% if job.description %}
               {{ job.description | markdownify}}
@@ -134,7 +142,7 @@
         <div class="right col">
         {% for pub in site.data.cv.publications%}
         <p>{{pub.authors | markdownify | remove: '<p>' | remove: '</p>'}} ({{pub.year}}){% if pub.link %}
-          <a href="pub.pdf">{{pub.title}}</a>
+          <a href="{{ pub.link }}">{{pub.title}}</a>
           {% else %}
           {{pub.title}}
           {% endif %}
