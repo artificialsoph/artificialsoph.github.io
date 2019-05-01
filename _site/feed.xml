@@ -5,7 +5,7 @@
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2019-04-25T14:00:38+00:00</updated>
+  <updated>2019-05-01T06:25:13+00:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -24,6 +24,50 @@
     </author>
   
 
+  
+  
+    <entry>
+      
+      <title type="html">Building Generative Adversarial Networks In Tensorflow and Keras</title>
+      
+      
+      <link href="http://localhost:4000/odsc2019" rel="alternate" type="text/html" title="Building Generative Adversarial Networks In Tensorflow and Keras" />
+      
+      <published>2019-05-01T00:01:00+00:00</published>
+      <updated>2019-05-01T00:01:00+00:00</updated>
+      <id>http://localhost:4000/gans</id>
+      <content type="html" xml:base="http://localhost:4000/odsc2019">&lt;script src=&quot;https://gist.github.com/artificialsoph/1032e89227b1fe7707d6ea5e533e0b9c.js&quot;&gt;&lt;/script&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <category term="data science" />
+      
+        <category term="howto" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
   
   
     <entry>
