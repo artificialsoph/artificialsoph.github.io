@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
+  <generator uri="http://jekyllrb.com" version="3.8.6">Jekyll</generator>
   
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2019-05-29T00:08:28+00:00</updated>
+  <updated>2019-07-22T22:59:42+00:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -28,6 +28,59 @@
   
     <entry>
       
+      <title type="html">AI is broken</title>
+      
+      
+      <link href="http://localhost:4000/ai-traps" rel="alternate" type="text/html" title="AI is broken" />
+      
+      <published>2019-06-14T13:46:00+00:00</published>
+      <updated>2019-06-14T13:46:00+00:00</updated>
+      <id>http://localhost:4000/aitraps</id>
+      <content type="html" xml:base="http://localhost:4000/ai-traps">&lt;p&gt;&lt;img src=&quot;slides/broken.png&quot; alt=&quot;title slide&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is the video from my talk at Disruption Labs in Berlin. Check out a bunch of amazing speakers on their channel. In the video below, Adam Harvey starts out and then I go on around 40 minutes in.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/GTZftUXbC-s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.disruptionlab.org/ai-traps&quot;&gt;event&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;slides/broken.pdf&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>Sophia Ray Searcy</name>
+          
+          
+        </author>
+      
+
+      
+
+      
+        <category term="data science" />
+      
+        <category term="talk" />
+      
+
+      
+        <summary type="html">Below is the video from my talk at Disruption Labs in Berlin. Check out a bunch of amazing speakers on their channel. In the video below, Adam Harvey starts out and then I go on around 40 minutes in. event slides</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
       <title type="html">Slash dataset: A toy dataset that stymies most non-convolutional models.</title>
       
       
@@ -36,7 +89,7 @@
       <published>2019-05-28T17:38:00+00:00</published>
       <updated>2019-05-28T17:38:00+00:00</updated>
       <id>http://localhost:4000/conv-data</id>
-      <content type="html" xml:base="http://localhost:4000/slash-data">&lt;h1&gt;TLDR&lt;/h1&gt;
+      <content type="html" xml:base="http://localhost:4000/slash-data">&lt;h2&gt;TLDR&lt;/h2&gt;
 
 &lt;p&gt;I’m releasing a dataset “Slash dataset” that is easy for convolutional neural nets to learn but difficult for most other models.&lt;/p&gt;
 

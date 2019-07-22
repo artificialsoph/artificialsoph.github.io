@@ -13,29 +13,29 @@ languages:
   - name: SQL
     expertise: fluent
 summary: |
-  Data Scientist who combines hardcore software engineering skills with human-centered design and a passion for mentorship and communication. Stong expertise across data science and computer science including State of the Art work in Deep Learning.
+  Data Science unicorn with hardcore software engineering skills, passionate about mentorship and communication.
 experience:
   - company: Metis
     website: https://www.thisismetis.com/
     location: New York, NY
-    role: Senior Data Scientist, Curriculum Lead
+    role: Director of Curriculum, Senior Data Scientist
     dates: 2017-
     description: |
-      Metis is an award-winning Data Science Bootcamp—currently the only such bootcamp that is accredited. The 12 week bootcamp is a project-based curriculum that covers the breadth of the field of Data Science.
+      Data Science education company that provides corporate training and the only accedited Data Science bootcamp. The 12 week bootcamp is a project-based curriculum that covers the breadth of the field of Data Science.
     milestones:
-      - "**Curriculum Design**: led curriculum revision team of 15 Senior Data Scientists. Coverage includes introductory materials through advanced modeling and big data. Curriculum is the primary product for the bootcamp business (\\\\$4M revenue per yr) and the basis for major corporate training contracts (multiple \\\\$300k pilots with \\\\$1M/yr option)."
-      - "**Learning management system** (LMS): was primary developer of a new internal LMS which managed lesson planning, deployment of content to students, grading and access to solutions. The LMS standardized content across the company and enabled company-wide metrics for first time."
+      - "**Curriculum Design**: leads the curriculum team of 15 Senior Data Scientists. Curriculum is the primary product for the bootcamp business (\\\\$4M revenue per yr) and the basis for major corporate training contracts (multiple \\\\$300k+ pilots with \\\\$1M/yr option)."
+      - "**Learning management system** (LMS): launched internal LMS which managed lesson planning, deployment of content to students, grading and access to solutions. The LMS standardized content across the company and enabled company-wide metrics for first time."
       - "**Management and coordination**: Introduced industry best-practices including company-wide prioritization meetings, code reviews, and continuous integration. Oversaw increase in internal collaboration: year over year 7x (commits) and 20x (issues/pull requests). Managed codebase, resolving disputes between ICs and overseeing product development."
-      - "**Instruction**: Taught and mentored 100s of students entering data science. Written dozens of lessons including: SVMs, Data Science Ethics, Deep Learning, Generative Adversarial Networks."
+      - "**Instruction**: Taught and mentored 100s of students entering data science. Authored lessons including: SVMs, Data Science Ethics, Deep Learning, Generative Adversarial Networks."
   - company: Elektra
     website: https://angel.co/elektra-1
     location: New York, NY
     role: CTO, Cofounder
     dates: 2016-2017
-    description: "Elektra is a wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: \\\\$20k convertible note (\\\\$1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner (\\\\$500 award, 10 hours consultation)."
+    description: "Wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: \\\\$20k convertible note (\\\\$1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner."
     milestones:
-      - "**Proof of concept**: Designed and built proof of concept. Validated underlying technology, collected data on 100+ customer experiences in target audience and demonstrated product-market fit."
-      - "**Scalable design**: Led engineering teams managing user data and designing a product at 10k/yr volume: the entirely in-house product stack included electronics hardware, firmware, and desktop app."
+      - "**Proof of concept**: Designed and built hardware and software proof of concept. Validated underlying technology, collected data on 100+ customer experiences in target audience and demonstrated product-market fit."
+      - "**Scalable design**: Led engineering teams managing user data and designing a product for 10k/yr volume: the entirely in-house product stack included electronics hardware, firmware, and desktop app."
       - "**Human resources**: Managed HR. Designed collaborative, version controlled, company Handbook."
   - company: Cognitive and Data Science Lab
     website: http://shaftolab.com/
@@ -74,17 +74,10 @@ publications:
     year: 2010
     title: Energy Efficiency Comparisons of Wireless Communication Technology Options for Smart Grid Enabled Devices
 education:
-  - degree: PhD-ABD
+  - degree: PhD-ABD, MS
     institution: University of Louisville
     major: "Experimental Psychology: Computational Cognitive Science"
-  - degree: MENG
+  - degree: MENG, BS
     institution: University of Louisville
     major: Electrical and Computer Engineering
-    awards: University Fellowship Award (2 years Full tuition plus stipend)
-  - degree: MS
-    institution: University of Louisville
-    major: "Experimental Psychology: Computational Cognitive Science"
-  - degree: BS
-    institution: University of Louisville
-    major: Electrical and Computer Engineering
-    awards: National Merit Scholarship (5 years full tuition plus stipend)
+    awards: University Fellowship Award (2 years Full tuition plus stipend), National Merit Scholarship (5 years full tuition plus stipend)
