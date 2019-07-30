@@ -13,7 +13,7 @@ languages:
   - name: SQL
     expertise: fluent
 summary: |
-  Data Science unicorn with hardcore software engineering skills, passionate about mentorship and communication.
+  Sophie is a Data Science unicorn with hardcore coding skills. She's serious about making Data Science and AI better through applied ethics and mentorship. She'll bring the classic papers to the journal reading group.
 experience:
   - company: Metis
     website: https://www.thisismetis.com/
@@ -25,8 +25,8 @@ experience:
     milestones:
       - "**Curriculum Design**: leads the curriculum team of 15 Senior Data Scientists. Curriculum is the primary product for the bootcamp business (\\\\$4M revenue per yr) and the basis for major corporate training contracts (multiple \\\\$300k+ pilots with \\\\$1M/yr option)."
       - "**Learning management system** (LMS): launched internal LMS which managed lesson planning, deployment of content to students, grading and access to solutions. The LMS standardized content across the company and enabled company-wide metrics for first time."
-      - "**Management and coordination**: Introduced industry best-practices including company-wide prioritization meetings, code reviews, and continuous integration. Oversaw increase in internal collaboration: year over year 7x (commits) and 20x (issues/pull requests). Managed codebase, resolving disputes between ICs and overseeing product development."
-      - "**Instruction**: Taught and mentored 100s of students entering data science. Authored lessons including: SVMs, Data Science Ethics, Deep Learning, Generative Adversarial Networks."
+      - "**Management and coordination**: Introduced industry best-practices including company-wide prioritization meetings, code reviews, and continuous integration. Oversaw increase in internal collaboration: YOY 7x commits and 20x issues/pull requests. Managed codebase, resolving disputes between ICs and overseeing product development."
+      - "**Instruction**: Taught and mentored 100s of students entering data science. Authored dozens of lessons including: SVMs, Data Science Ethics, Deep Learning, Generative Adversarial Networks."
   - company: Elektra
     website: https://angel.co/elektra-1
     location: New York, NY
@@ -50,6 +50,11 @@ experience:
 publications:
   - authors: "**Searcy**"
     year: 2019
+    title: AI is Broken
+    link: https://soph.info/ai-traps
+    source: AI TRAPS
+  - authors: "**Searcy**"
+    year: 2019
     title: Building Generative Adversarial Networks in Tensorflow and Keras
     link: https://staging5.odsc.com/training/portfolio/building-generative-adversarial-networks-in-tensorflow-and-keras
   - authors: "**Searcy** and Blinder"
@@ -70,9 +75,9 @@ publications:
     year: 2014
     title: Learning biases for teaching boolean concepts.
     link: http://shaftolab.com/assets/papers/Cooperative%20Inference%20(CogSci).pdf
-  - authors:
-    year: 2010
-    title: Energy Efficiency Comparisons of Wireless Communication Technology Options for Smart Grid Enabled Devices
+  # - authors:
+  #   year: 2010
+  #   title: Energy Efficiency Comparisons of Wireless Communication Technology Options for Smart Grid Enabled Devices
 education:
   - degree: PhD-ABD, MS
     institution: University of Louisville
