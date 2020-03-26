@@ -1,4 +1,4 @@
-# Soph
+# Sooph
 
 This is my personal site. I always forget so:
 
