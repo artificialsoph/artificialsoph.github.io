@@ -1,4 +1,4 @@
-#  Soooph
+# Soooph
 
 This is my personal site. I always forget so:
 
@@ -136,9 +136,11 @@ has to exist at your site source. Do either of the following:
   - Add your custom CSS
 - Download the file from this repo
   - Create a new file `main.scss` at `<your-site>/assets/`
-  - Copy the contents at [`assets/main.scss`](assets/main.scss) onto the `main.scss` you just created, and edit away
+  - Copy the contents at [`assets/main.scss`](assets/main.scss) onto the
+    `main.scss` you just created, and edit away
 - Copy directly from jekyll-whiteglass gem
-  - Go to your local jekyll-whiteglass gem installation directory (run `bundle show jekyll-whiteglass` to get the path to it)
+  - Go to your local jekyll-whiteglass gem installation directory (run
+    `bundle show jekyll-whiteglass` to get the path to it)
   - Copy the `assets/` folder from there into the root of `<your-site>`
   - Change whatever values you want, inside `<your-site>/assets/main.scss`
 
@@ -250,14 +252,17 @@ Then create `<your-site>/atom.xml` with the same content of `feed.xml` above.
 
 ### Comments
 
-whiteglass provides the ability to include your favourite commenting service, like [Disqus](https://disqus.com) or [Isso](https://posativ.org/isso).
+whiteglass provides the ability to include your favourite commenting service,
+like [Disqus](https://disqus.com) or [Isso](https://posativ.org/isso).
 
 To enable comments on pages and posts:
 
-1. Overwrite the `_includes/custom_comments_provider.html` with your custom provider of comments.
+1. Overwrite the `_includes/custom_comments_provider.html` with your custom
+   provider of comments.
 2. Add `comments: true` to your `_config.yml`.
 
-To disable comments on certain pages or posts specify `comments: false` in the front matter of the page or post.
+To disable comments on certain pages or posts specify `comments: false` in the
+front matter of the page or post.
 
 ### Metadata for SEO
 
@@ -286,17 +291,25 @@ keywords:
 - `site.twitter_username` sets `twitter:site` and `twitter:creator` meta tag
 - `site.twitter_image` sets `twitter:image:src` meta tag
 - `page.twitter_card.type` sets `twitter:card` meta tag (default: `summary`)
-  - If `page.twitter_card.type` is `gallery`, it sets `twitter:image0`, `twitter:image1`, `twitter:image2` and `twitter:image3` meta tags with `page.twitter_card.image`, `page.twitter_card.image1`, `page.twitter_card.image2` and `page.twitter_card.image3`, respectively
-  - If `page.twitter_card.type` is `photo`, `page.twitter_card.width` sets `twitter:image:width` meta tag and `page.twitter_card.height` sets `twitter:image:height` meta tag
-- `page.twitter_card.creator` sets `twitter:creator` meta tag. It overrides `site.twitter_username`
-- `page.twitter_card.image` sets `twitter:image:src` meta tag if `page.twitter_card.type` is not `gallery`. It overrides `site.twitter_image`
+  - If `page.twitter_card.type` is `gallery`, it sets `twitter:image0`,
+    `twitter:image1`, `twitter:image2` and `twitter:image3` meta tags with
+    `page.twitter_card.image`, `page.twitter_card.image1`,
+    `page.twitter_card.image2` and `page.twitter_card.image3`, respectively
+  - If `page.twitter_card.type` is `photo`, `page.twitter_card.width` sets
+    `twitter:image:width` meta tag and `page.twitter_card.height` sets
+    `twitter:image:height` meta tag
+- `page.twitter_card.creator` sets `twitter:creator` meta tag. It overrides
+  `site.twitter_username`
+- `page.twitter_card.image` sets `twitter:image:src` meta tag if
+  `page.twitter_card.type` is not `gallery`. It overrides `site.twitter_image`
 
 #### Facebook
 
 - `site.facebook_app_id` sets `fb:admins` meta tag
 - `site.facebook_page` sets `article:author` meta tag
 - `site.facebook_image` sets `og:image` meta tag
-- `page.facebook.image` sets `og:image` meta tag. It overrides `site.facebook_image`
+- `page.facebook.image` sets `og:image` meta tag. It overrides
+  `site.facebook_image`
 
 ### Navigation
 
