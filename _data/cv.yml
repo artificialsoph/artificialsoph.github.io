@@ -21,22 +21,55 @@ experience:
     role: Executive Director of Product, Senior Data Scientist
     dates: 2017-
     description: |
-      Data Science education company that provides corporate training and the only accedited Data Science bootcamp. The 12 week bootcamp is a project-based curriculum that covers the breadth of the field of Data Science.
+      Data Science education company that provides corporate training and immersive Data Science bootcamp.
     milestones:
-      - "**Curriculum Design**: leads the curriculum team of 15 Senior Data Scientists. Curriculum is the primary product for the bootcamp business (\\\\$4M revenue per yr) and the basis for major corporate training contracts (multiple \\\\$300k+ pilots with \\\\$1M/yr option)."
-      - "**Learning management system** (LMS): launched internal LMS which managed lesson planning, deployment of content to students, grading and access to solutions. The LMS standardized content across the company and enabled company-wide metrics for first time."
-      - "**Management and coordination**: Introduced industry best-practices including company-wide prioritization meetings, code reviews, and continuous integration. Oversaw increase in internal collaboration: YOY 7x commits and 20x issues/pull requests. Managed codebase, resolving disputes between ICs and overseeing product development."
-      - "**Instruction**: Taught and mentored 100s of students entering data science. Authored dozens of lessons including: SVMs, Data Science Ethics, Deep Learning, Generative Adversarial Networks."
+      - Led product across multiple business lines including immersive bootcamp,
+        new online products, and corporate training.
+      - Managed company codebase and led curriculum development across a wide
+        breadth of content.
+      - Acted as an instructor and mentor for 100s of students.
+      # - "**Curriculum Design**: leads the curriculum team of 15 Senior Data
+      #   Scientists. Curriculum is the primary product for the bootcamp business
+      #   (\\\\$4M revenue per yr) and the basis for major corporate training
+      #   contracts (>\\\\$1M)."
+      # - "**Learning management system** (LMS): launched internal LMS which
+      #   managed lesson planning, deployment of content to students, grading and
+      #   access to solutions. The LMS standardized content across the company and
+      #   enabled company-wide metrics for first time."
+      # - "**Management and coordination**: Introduced industry best-practices
+      #   including company-wide prioritization meetings, code reviews, and
+      #   continuous integration. Oversaw increase in internal collaboration: YOY
+      #   7x commits and 20x issues/pull requests. Managed codebase, resolving
+      #   disputes between ICs and overseeing product development."
+      # - "**Instruction**: Taught and mentored 100s of students entering data
+      #   science. Authored dozens of lessons including: SVMs, Data Science
+      #   Ethics, Deep Learning, Generative Adversarial Networks."
   - company: Elektra
     website: https://angel.co/elektra-1
     location: New York, NY
     role: CTO, Cofounder
     dates: 2016-2017
-    description: "Wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: \\\\$20k convertible note (\\\\$1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner."
+    description:
+      "Wearables start-up building fabrics that pair electrical stimulation to
+      apps."
+      # "Fundraising: \\\\$20k convertible note (\\\\$1.5M cap, 20%
+      # discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist
+      # (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt
+      # Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist.
+      # Bucks for Bright Ideas winner."
     milestones:
-      - "**Proof of concept**: Designed and built hardware and software proof of concept. Validated underlying technology, collected data on 100+ customer experiences in target audience and demonstrated product-market fit."
-      - "**Scalable design**: Led engineering teams managing user data and designing a product for 10k/yr volume: the entirely in-house product stack included electronics hardware, firmware, and desktop app."
-      - "**Human resources**: Managed HR. Designed collaborative, version controlled, company Handbook."
+      - Oversaw planning, design, and execution of tech stack that tied in-house
+        hardware design with adaptive software.
+      - Managed HR for early stage startup, designed collaborative HR policy.
+      # - "**Proof of concept**: Designed and built hardware and software proof of
+      #   concept. Validated underlying technology, collected data on 100+
+      #   customer experiences in target audience and demonstrated product-market
+      #   fit."
+      # - "**Scalable design**: Led engineering teams managing user data and
+      #   designing a product for 10k/yr volume: the entirely in-house product
+      #   stack included electronics hardware, firmware, and desktop app."
+      # - "**Human resources**: Managed HR. Designed collaborative, version
+      #   controlled, company Handbook."
   - company: Cognitive and Data Science Lab
     website: http://shaftolab.com/
     location: Newark, NJ
@@ -44,9 +77,15 @@ experience:
     dates: 2012-2017
     description:
     milestones:
-      - '**Project manager**: Managed a data science team developing FOSS tools for replicable cross-platform video data processing at "Big Data" scale.'
-      - "**Web experiments**: Designed full-stack web apps for large (n~1,000) behavioral experiments and administered experiments through Amazon Mechanical Turk. Mentored data scientists in full-stack design."
-      - "**Interdisciplinary research**: Lead author of interdisciplinary work on the foundations of learning and computational tractability of learning algorithms. Presented work in journals and conferences."
+      -
+      # - '**Project manager**: Managed a data science team developing FOSS tools
+      #   for replicable cross-platform video data processing at "Big Data" scale.'
+      # - "**Web experiments**: Designed full-stack web apps for large (n~1,000)
+      #   behavioral experiments and administered experiments through Amazon
+      #   Mechanical Turk. Mentored data scientists in full-stack design."
+      # - "**Interdisciplinary research**: Lead author of interdisciplinary work
+      #   on the foundations of learning and computational tractability of
+      #   learning algorithms. Presented work in journals and conferences."
 publications:
   - authors: "**Searcy**"
     year: 2019
@@ -59,17 +98,25 @@ publications:
     link: https://staging5.odsc.com/training/portfolio/building-generative-adversarial-networks-in-tensorflow-and-keras
   - authors: "**Searcy** and Blinder"
     year: 2018
-    title: "Making Faces: Conditional generation of faces using GANs via Keras+Tensorflow"
+    title:
+      "Making Faces: Conditional generation of faces using GANs via
+      Keras+Tensorflow"
     link: https://pydata.org/nyc2018/schedule/presentation/52/
   - authors: "**Searcy**, W.K. Vong, Lane & Shafto"
     year: In prep
-    title: "Cause and affect: Subjectively rational causal inference about affective content."
+    title:
+      "Cause and affect: Subjectively rational causal inference about affective
+      content."
   - authors: "**Searcy**"
     year: In prep
-    title: "Levels of expressivity: Learning across incompatible representational levels"
+    title:
+      "Levels of expressivity: Learning across incompatible representational
+      levels"
   - authors: "**Searcy** & Shafto"
     year: 2016
-    title: "Cooperative Inference: Features, objects, and collections. Psychological Review."
+    title:
+      "Cooperative Inference: Features, objects, and collections. Psychological
+      Review."
     link: http://shaftolab.com/papers/searcys2016.pdf
   - authors: "**Searcy** & Shafto "
     year: 2014
@@ -85,4 +132,6 @@ education:
   - degree: MENG, BS
     institution: University of Louisville
     major: Electrical and Computer Engineering
-    awards: University Fellowship Award (2 years Full tuition plus stipend), National Merit Scholarship (5 years full tuition plus stipend)
+    awards:
+      University Fellowship Award (2 years Full tuition plus stipend), National
+      Merit Scholarship (5 years full tuition plus stipend)
