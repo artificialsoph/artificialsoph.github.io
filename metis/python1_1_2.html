@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>Python from Scratch Exercise 2</title>
+
+    <script type="text/x-thebe-config">
+      {
+        bootstrap: true,
+        selector: "pre",
+        requestKernel: true,
+        binderOptions: {
+          repo: "binder-examples/requirements",
+        },
+        kernelOptions: {
+          name: "python3",
+        },
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/thebelab@latest"
+    ></script>
+  </head>
+  <body>
+    <h1>Exercise 2</h1>
+
+    <p>
+      Comments are a helpful way to explain your code to others and your future
+      self. Take a look at the examples below. Run the cells.
+    </p>
+
+    <pre>
+# This is a comment. It helps explain the context of your code and why you made certain decisions
+# You can have many lines of comments in a row
+my_var = 2 # You can also create 'in-line' comments to explain specific lines
+    </pre>
+
+    <p>Note that output is not generated for these lines.</p>
+
+    <pre>
+'''
+This is another type of comment, generally used for creating docstrings. 
+These help breakdown complex functions, objects, classes and others. 
+They can also be referenced as help documentation for functions and modules you
+create.
+'''
+    </pre>
+
+    <p>
+      Modify the comments in the function below to make them more helpful. If
+      you're not sure, don't worry, we'll learn more about what's happening in
+      this function later.
+    </p>
+
+    <pre>
+def add_num(a,b):
+    '''
+    What does this function do?
+    What are the inputs and outputs?
+    '''
+    total = a + b # what is this line doing? 
+    # what am I doing next?
+    print(total)
+    </pre>
+
+    <p>
+      You will learn functions later, but notice that our docstring gets saved
+      when we define a function. We can access this later.
+    </p>
+
+    <pre>
+print(add_num.__doc__)
+    </pre>
+  </body>
+</html>
