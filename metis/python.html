@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>An active web page</title>
+
+    <script type="text/x-thebe-config">
+      {
+        bootstrap: true,
+        selector: "pre",
+        requestKernel: true,
+        binderOptions: {
+          repo: "binder-examples/requirements",
+        },
+        kernelOptions: {
+          name: "python3",
+        },
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/thebelab@latest"
+    ></script>
+  </head>
+  <body>
+    <h1>Exercise 1</h1>
+
+    <p>Run the cell below to print your very first python output!</p>
+
+    <pre>
+print('Hello World!')
+    </pre>
+
+    <p>
+      We can also assign our message to a variable named 'message' and print
+      that!
+    </p>
+
+    <pre>
+message = 'Hello World!'
+
+print(message)
+    </pre>
+
+    <p>
+      Congratulations! You've just printed your first output in Python. Now, it
+      may be a bit of an assumption to assume there is only one world out there.
+      Below, change the message to 'Hello Worlds?' and print it.
+    </p>
+
+    <pre>
+message = 'Hello World' # change this line according to the above instructions
+# replace this line with your code for printing
+    </pre>
+
+    <pre>
+        assert message == 'Hello Worlds?'
+    </pre>
+  </body>
+</html>
