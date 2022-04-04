@@ -30,7 +30,7 @@ exclude:
   - jekyll-whiteglass.gemspec
   - screenshot.png
   - vendor
-theme: jekyll-whiteglass
+theme: jekyll-theme-minimal
 
 # Social media
 twitter_username: defsophiaray
