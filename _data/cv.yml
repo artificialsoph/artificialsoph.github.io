@@ -1,7 +1,7 @@
 location: Remote (Eastern Time Zone)
 name: Sophie Searcy
-website: [nix.ai, "https://nix.ai"]
-email: n@nix.ai
+website: [soph.info, "https://soph.info"]
+email: s@soph.info
 github: https://github.com/artificialsoph
 languages:
   - name: Python
@@ -32,10 +32,10 @@ experience:
     role: Executive Director of DS, Principal Data Scientist
     dates: 2017-2021
     description: |
-      Data Science education company whose main product is a 12 week bootcamp that covers the breadth of the field of Data Science. Current role is a mixture of EM, PM, IC, and occasional instructor. 
+      Data Science education company whose main product is a 12 week bootcamp that covers the breadth of the field of Data Science. Current role (>2 years) is primarily EM & PM.
     milestones:
-      - "**Product**: Oversees the design and development of all new products. Leads cross-functional product teams of 15+ individuals. Current product portfolio represents 15% of 2021 revenue and accounts for 100% of growth opportunities."
-      - "**Management**: Directly manages 6 Data Scientists. Introduced industry best practices including company-wide prioritization meetings, code reviews, and continuous integration. Oversaw increase in internal collaboration: YOY 7x commits and 20x issues/pull requests. Managed codebase, resolving disputes between ICs."
+      - "**Product**: Oversaw the design and development new and growth products across org. Led cross-functional product teams of >15 individuals. Current product portfolio represents 25% of 2021 revenue and accounts for 100% of growth opportunities."
+      - "**Management**: Directly manages team 6 Data Scientists. Introduced industry best practices including company-wide Eng and DS prioritization flow, code reviews, and continuous integration."
       - "**Instruction**: Taught and mentored 100s of students entering data science. Authored dozens of lessons including: SVMs, Data Science Ethics, Deep Learning, Generative Adversarial Networks."
   - company: Elektra
     website: https://angel.co/elektra-1
@@ -97,14 +97,14 @@ publications:
     year: 2014
     title: Learning biases for teaching boolean concepts.
     link: http://shaftolab.com/assets/papers/Cooperative%20Inference%20(CogSci).pdf
-  # - authors:
-  #   year: 2010
-  #   title: Energy Efficiency Comparisons of Wireless Communication Technology Options for Smart Grid Enabled Devices
+  - authors:
+    year: 2010
+    title: Energy Efficiency Comparisons of Wireless Communication Technology Options for Smart Grid Enabled Devices
 education:
-  - degree: PhD-ABD, MS
+  - degree: PhD (ABD), MS
     institution: University of Louisville
     major: "Experimental Psychology: Computational Cognitive Science"
-  - degree: MENG, BS
+  - degree: MEng, BS Eng
     institution: University of Louisville
     major: Electrical and Computer Engineering
     awards: University Fellowship Award (2 years Full tuition plus stipend), National Merit Scholarship (5 years full tuition plus stipend)
