@@ -1,5 +1,5 @@
 location: Remote (Eastern Time Zone)
-name: Nix (Sophie) Searcy
+name: Sophie Searcy
 website: [nix.ai, "https://nix.ai"]
 email: n@nix.ai
 github: https://github.com/artificialsoph
@@ -13,13 +13,24 @@ languages:
   - name: SQL
     expertise: fluent
 summary: |
-  Nix is a Data Scientist, Manager, and Educator. She's serious about making tech better through applied ethics and mentorship. She'll bring the classic papers to the journal reading group.
+  Sophie is a Machine Learning leader who grows engaged, productive teams and builds practical, scalable Data Science and Machine Learning products. Her no-nonsense approach to Machine Learning and leadership prioritizes trust, clarity, and action. 
 experience:
+  - company: Stitch Fix
+    website: https://algorithms-tour.stitchfix.com
+    location: Remote
+    role: Acting Director of Merch Core Models
+    dates: 2021-
+    description: |
+      Leads team of 8 ICs charged with building and maintaining the foundational models that drive Merchandising decisions and forecasts for our $2 Billion retail business and 3.4 million customers. 
+    milestones:
+      - "**New**: Launched two products that have brought our Algos expertise to bear on decisions for new products for the first time. *Design The Line* is a creative tool that supercharges the Buyer-Vendor relationship by providing predictions of business metrics for products throughout the design of and decision-making on new products. *Merch Attribute Extraction* uses State of the Art computer vision models to remove the distinction between new and known products and dramatically extend the leverage of our buying decisions."
+      - "**Forecasting**: Led development of performance monitoring for Allocation and Replenishment. Reduced maintenance burden of internal sales forecast capability by 50% while protecting against adverse business impact."
+      - "**Leadership**: Has grown and retained a team of 8 high-performing ICs, delivering on challenging, business-critical work, with zero attrition during a period where internal DS attrition has approached 50% YoY."
   - company: Metis
     website: https://www.thisismetis.com/
     location: New York, NY
     role: Executive Director of DS, Principal Data Scientist
-    dates: 2017-
+    dates: 2017-2021
     description: |
       Data Science education company whose main product is a 12 week bootcamp that covers the breadth of the field of Data Science. Current role is a mixture of EM, PM, IC, and occasional instructor. 
     milestones:
@@ -46,7 +57,19 @@ experience:
       - '**Project manager**: Managed a data science team developing FOSS tools for replicable cross-platform video data processing at "Big Data" scale.'
       - "**Web experiments**: Designed full-stack web apps for large (n~1,000) behavioral experiments and administered experiments through Amazon Mechanical Turk. Mentored data scientists in full-stack design."
       - "**Interdisciplinary research**: Lead author of interdisciplinary work on the foundations of learning and computational tractability of learning algorithms. Presented work in journals and conferences."
+  - company: GE Appliances
+    website: 
+    location: Louisville, KY
+    role: Electronics Engineer
+    dates: 2012-2017
+    description:
+    milestones:
+      - '**Electronics Engineer**: 
 publications:
+  - authors: "**Searcy**, Burgess"
+    year: 2022
+    title: Empowering Shopping with Computer Vision
+    link: https://www.visual1st.biz/agenda2022
   - authors: "**Searcy**"
     year: 2019
     title: AI is Broken
