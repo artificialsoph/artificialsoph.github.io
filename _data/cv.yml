@@ -42,7 +42,7 @@ experience:
     location: New York, NY
     role: CTO, Cofounder
     dates: 2016-2017
-    description: "Wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: \\\\$20k convertible note (\\\\$1.5M cap, 20% discount). Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner."
+    description: "Wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: \\\\$1.5M cap. Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner."
     milestones:
       - "**Proof of concept**: Designed and built hardware and software proof of concept. Validated underlying technology, collected data on 100+ customer experiences in target audience and demonstrated product-market fit."
       - "**Scalable design**: Led engineering teams managing user data and designing a product for 10k/yr volume: the entirely in-house product stack included electronics hardware, firmware, and desktop app."
