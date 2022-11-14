@@ -13,7 +13,7 @@ languages:
   - name: SQL
     expertise: fluent
 summary: |
-  Sophie is a Machine Learning leader who grows engaged, productive teams and builds practical, scalable Data Science and Machine Learning products. Her no-nonsense approach to Machine Learning and leadership prioritizes trust, clarity, and action. 
+  Sophie is a Machine Learning leader who grows engaged, productive teams and builds impactful Data Science and Machine Learning products. Her no-nonsense approach to ML and leadership prioritizes trust, clarity, and action. 
 experience:
   - company: Stitch Fix
     website: https://algorithms-tour.stitchfix.com
@@ -21,7 +21,7 @@ experience:
     role: Acting Director of Merch Core Models
     dates: 2021-
     description: |
-      Leads team of 8 ICs charged with building and maintaining the foundational models that drive Merchandising decisions and forecasts for our $2 Billion retail business and 3.4 million customers. 
+      Leads group that includes 2 teams and 8 ICs charged with building and maintaining the foundational models that drive merchandising decisions and forecasts for our $2 Billion retail business and 3.4 million customers. 
     milestones:
       - "**New**: Launched two products that have brought our Algos expertise to bear on decisions for new products for the first time. *Design The Line* is a creative tool that supercharges the Buyer-Vendor relationship by providing predictions of business metrics for products throughout the design of and decision-making on new products. *Merch Attribute Extraction* uses State of the Art computer vision models to remove the distinction between new and known products and dramatically extend the leverage of our buying decisions."
       - "**Forecasting**: Led development of performance monitoring for Allocation and Replenishment. Reduced maintenance burden of internal sales forecast capability by 50% while protecting against adverse business impact."
