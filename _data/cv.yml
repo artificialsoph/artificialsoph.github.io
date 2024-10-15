@@ -3,15 +3,15 @@ name: Sophie Searcy
 website: [soph.info, "https://soph.info"]
 email: s@soph.info
 github: https://github.com/artificialsoph
-languages:
-  - name: Python
-    expertise: expert
-  - name: Javascript
-    expertise: fluent
-  - name: R
-    expertise: fluent
-  - name: SQL
-    expertise: fluent
+# languages:
+#   - name: Python
+#     expertise: expert
+#   - name: Javascript
+#     expertise: fluent
+#   - name: R
+#     expertise: fluent
+#   - name: SQL
+#     expertise: fluent
 summary: |
   Sophie is an technical leader who grows engaged, productive teams and builds impactful Data Science and Machine Learning products. Her no-nonsense approach to ML and leadership prioritizes trust, clarity, and action. 
 experience:
