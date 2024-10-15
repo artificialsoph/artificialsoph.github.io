@@ -13,19 +13,18 @@ languages:
   - name: SQL
     expertise: fluent
 summary: |
-  Sophie is a Machine Learning leader who grows engaged, productive teams and builds impactful Data Science and Machine Learning products. Her no-nonsense approach to ML and leadership prioritizes trust, clarity, and action. 
+  Sophie is an technical leader who grows engaged, productive teams and builds impactful Data Science and Machine Learning products. Her no-nonsense approach to ML and leadership prioritizes trust, clarity, and action. 
 experience:
   - company: Stitch Fix
     website: https://algorithms-tour.stitchfix.com
     location: Remote
-    role: Acting Director of Merch Core Models
+    role: Director of Data Science, Digital Supply Networks
     dates: 2021-
     description: |
-      Leads group that includes 2 teams and 8 ICs charged with building and maintaining the foundational models that drive merchandising decisions and forecasts for our $2 Billion retail business and 3.4 million customers. 
+      Data Science team that supports Merchandising, Operations, Logistics and Client experience. Built and managed capabilities that power inventory and supply chain decisions from Purchase Order, real time availability, to returns optimization. Team has consistently produced most impactful tech releases across company.  
     milestones:
-      - "**New**: Launched two products that have brought our Algos expertise to bear on decisions for new products for the first time. *Design The Line* is a creative tool that supercharges the Buyer-Vendor relationship by providing predictions of business metrics for products throughout the design of and decision-making on new products. *Merch Attribute Extraction* uses State of the Art computer vision models to remove the distinction between new and known products and dramatically extend the leverage of our buying decisions."
-      - "**Forecasting**: Led development of performance monitoring for Allocation and Replenishment. Reduced maintenance burden of internal sales forecast capability by 50% while protecting against adverse business impact."
-      - "**Leadership**: Has grown and retained a team of 8 high-performing ICs, delivering on challenging, business-critical work, with zero attrition during a period where internal DS attrition has approached 50% YoY."
+      - "**AI Buying Tool**: Built buying recommendation platform that uses personalization to inform buying decisions. Led to improved performance across a variety of metrics (e.g. turn, GMROI) and a 6+% increase in revenue. As discussed in [Vogue Business](https://www.voguebusiness.com/story/events/how-stitch-fix-is-using-ai-to-predict-trends) and SFIX Earnings calls."
+      - "**Returns in Transit**: Multi-year effort to rebuilt inventory and order management to enabled reverse logistics of offering returns in transit for sale alongside conventional inventory. In A/B tests increased revenue 13% and powered improvements in client conversion and satisfaction."
   - company: Metis
     website: https://www.thisismetis.com/
     location: New York, NY
