@@ -34,19 +34,20 @@ experience:
     description: |
       Data Science education company whose main product is a 12 week bootcamp that covers the breadth of the field of Data Science. Current role (>2 years) is primarily EM & PM.
     milestones:
-      - "**Product**: Oversaw the design and development new and growth products across org. Led cross-functional product teams of >15 individuals. Current product portfolio represents 25% of 2021 revenue and accounts for 100% of growth opportunities."
-      - "**Management**: Directly manages team 6 Data Scientists. Introduced industry best practices including company-wide Eng and DS prioritization flow, code reviews, and continuous integration."
-      - "**Instruction**: Taught and mentored 100s of students entering data science. Authored dozens of lessons including: SVMs, Data Science Ethics, Deep Learning, Generative Adversarial Networks."
+      # - "**Product**: Oversaw the design and development new and growth products across org. Led cross-functional product teams of >15 individuals. Current product portfolio represents 25% of 2021 revenue and accounts for 100% of growth opportunities."
+      # - "**Management**: Directly manages team 6 Data Scientists. Introduced industry best practices including company-wide Eng and DS prioritization flow, code reviews, and continuous integration."
+      # - "**Instruction**: Taught and mentored 100s of students entering data science. Authored dozens of lessons including: SVMs, Data Science Ethics, Deep Learning, Generative Adversarial Networks."
   - company: Elektra
     website: https://angel.co/elektra-1
     location: New York, NY
     role: CTO, Cofounder
     dates: 2016-2017
-    description: "Wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: \\\\$1.5M cap. Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner."
+    description: "Wearables start-up building fabrics that pair electrical stimulation to apps."
+    # description: "Wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: \\\\$1.5M cap. Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner."
     milestones:
-      - "**Proof of concept**: Designed and built hardware and software proof of concept. Validated underlying technology, collected data on 100+ customer experiences in target audience and demonstrated product-market fit."
-      - "**Scalable design**: Led engineering teams managing user data and designing a product for 10k/yr volume: the entirely in-house product stack included electronics hardware, firmware, and desktop app."
-      - "**Human resources**: Managed HR. Designed collaborative, version controlled, company Handbook."
+      # - "**Proof of concept**: Designed and built hardware and software proof of concept. Validated underlying technology, collected data on 100+ customer experiences in target audience and demonstrated product-market fit."
+      # - "**Scalable design**: Led engineering teams managing user data and designing a product for 10k/yr volume: the entirely in-house product stack included electronics hardware, firmware, and desktop app."
+      # - "**Human resources**: Managed HR. Designed collaborative, version controlled, company Handbook."
   - company: Cognitive and Data Science Lab
     website: http://shaftolab.com/
     location: Newark, NJ
