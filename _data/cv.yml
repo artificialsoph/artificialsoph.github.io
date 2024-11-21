@@ -55,9 +55,9 @@ experience:
     dates: 2012-2017
     description:
     milestones:
-      - '**Project manager**: Managed a data science team developing FOSS tools for replicable cross-platform video data processing at "Big Data" scale.'
-      - "**Web experiments**: Designed full-stack web apps for large (n~1,000) behavioral experiments and administered experiments through Amazon Mechanical Turk. Mentored data scientists in full-stack design."
-      - "**Interdisciplinary research**: Lead author of interdisciplinary work on the foundations of learning and computational tractability of learning algorithms. Presented work in journals and conferences."
+      # - '**Project manager**: Managed a data science team developing FOSS tools for replicable cross-platform video data processing at "Big Data" scale.'
+      # - "**Web experiments**: Designed full-stack web apps for large (n~1,000) behavioral experiments and administered experiments through Amazon Mechanical Turk. Mentored data scientists in full-stack design."
+      # - "**Interdisciplinary research**: Lead author of interdisciplinary work on the foundations of learning and computational tractability of learning algorithms. Presented work in journals and conferences."
   - company: GE Appliances
     website: 
     location: Louisville, KY
