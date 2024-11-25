@@ -34,11 +34,11 @@
     align-items: flex-end;
   }
   .left {
-    width: 18%;
+    width: 20%;
     text-align: right;
   }
   .right {
-    width: 79%;
+    width: 77%;
   }
   .description {
     text-align: justify;
@@ -115,7 +115,7 @@
               <a href="{{ job.website }}">{{ job.company }}</a>
             </h3>
             <p>
-              {{ job.role }} <br>
+              <small>{{ job.role }}</small> <br>
               {{ job.dates }} <br>
               <small>{{ job.location }}</small>
             </p>
