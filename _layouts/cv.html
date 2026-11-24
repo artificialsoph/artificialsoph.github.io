@@ -85,7 +85,7 @@
           <h1>{{ site.data.cv.name }}</h1>
         </div>
         <div class="col site">
-          <p> <a href="{{site.data.cv.github}}" ><i class="fab fa-github"></i></a> | {{ site.data.cv.email }} | <a href="{{ site.data.cv.website[1] }}">{{ site.data.cv.website[0] }}</a></p>
+          <p> <a href="{{site.data.cv.github}}" ><i class="fab fa-github"></i></a>{% if site.data.cv.linkedin %} <a href="{{site.data.cv.linkedin}}"><i class="fab fa-linkedin"></i></a>{% endif %} | {{ site.data.cv.email }} | <a href="{{ site.data.cv.website[1] }}">{{ site.data.cv.website[0] }}</a></p>
         </div>
       </div>
 
@@ -99,8 +99,9 @@
           {{ site.data.cv.summary | markdownify | remove: '<p>' | remove: '</p>'}}
           {% for language in site.data.cv.languages %}
             {{ language.name }} ({{ language.expertise }}){% if forloop.last == false %}, {% endif %}
-          {% endfor %}. 
+          {% endfor %}
         </p>
+          {% if site.data.cv.skills %}<p><b>Skills:</b> {{ site.data.cv.skills }}</p>{% endif %}
         </div>
       </div>
 

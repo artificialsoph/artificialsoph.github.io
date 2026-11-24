@@ -3,6 +3,7 @@ name: Sophie Searcy
 website: [soph.info, "https://soph.info"]
 email: s@soph.info
 github: https://github.com/artificialsoph
+linkedin: https://www.linkedin.com/in/nixai/
 # languages:
 #   - name: Python
 #     expertise: expert
@@ -13,62 +14,69 @@ github: https://github.com/artificialsoph
 #   - name: SQL
 #     expertise: fluent
 summary: |
-  Sophie is an ML/AI leader whose teams build impactful products and steer strategy at scale. Her no-nonsense approach prioritizes trust, clarity, and action.
+  Data science and ML leader who builds the system and the organization around it. Most recently at Stitch Fix as Data Science Manager, Architect and Director, leading the algorithms teams for merchandising, inventory, logistics and the product catalog while serving as their hands-on architect: recommender governance, LLM-based product data, embeddings and inventory optimization, with products driving $38M/yr and $50M+/yr in incremental revenue. Trained in computational cognitive science (MS, PhD ABD) and electrical engineering (MEng).
+skills: "Python · SQL · PyTorch · recommender systems · embeddings and vector search · LLM applications (prompting, evaluation, agents) · causal inference and experimentation · simulation and optimization · MLOps and observability"
 experience:
   - company: Stitch Fix
     website: https://algorithms-tour.stitchfix.com
     location: Remote
-    role: Director of Data Science, Digital Supply Networks
-    dates: 2021-
+    role: "Data Science Manager · Data Science Architect · Data Science Director<br>Digital Supply Networks"
+    dates: 2021-2026
     description: |
-      Data Science team that supports Merchandising, Operations, Logistics and Client experience. Built and managed capabilities that power inventory and supply chain decisions from Purchase Order, real time availability, to returns optimization. Our work has been discussed at [SxSW](https://schedule.sxsw.com/2024/events/PP141209), [NRF](https://nrfbigshow.nrf.com/session/453607), in [Vogue Business](https://www.voguebusiness.com/story/events/how-stitch-fix-is-using-ai-to-predict-trends), and [SFIX Earnings calls](https://investors.stitchfix.com/events/event-details/q3-fy24-stitch-fix-earnings-conference-call).
+      Led data science and algorithms for merchandising, inventory, logistics and the product catalog: three teams through managers, with budget and headcount ownership; led cross-functional groups of engineers, data scientists and PMs within a 7-pod product-engineering org. Also the org's hands-on architect for decision systems and product data. Work discussed at [SXSW](https://schedule.sxsw.com/2024/events/PP141209), [NRF](https://nrf.com/blog/how-stitch-fix-macys-kraft-heinz-and-ocado-use-ai-keep-eye-supply-chain), [Vogue Business](https://www.voguebusiness.com/story/events/how-stitch-fix-is-using-ai-to-predict-trends) and [Stitch Fix earnings calls](https://investors.stitchfix.com/events/event-details/q3-fy24-stitch-fix-earnings-conference-call).
     milestones:
-      - "**AI Buying Tool**: Built buying recommendation platform that uses personalization to inform buying decisions. Has driven improvements in inventory performance  (unit turn, GMROI). Since scaling in early 2023, the tool is used to inform 80+% of orders for known SKUs and is driving $38M/yr in incremental revenue. Extensions have incorporated stylist selection trends (early 2024), personalized size and fit data (mid 2024), and support for first-time test buys of SKUs (late 2024). Project consolidated dozens of Merch tools into signle platform, increased development velocity, reduced suport burden of team to 1/3."
-      - "**Returns in Transit**: Multi-year effort rebuilt inventory and order management to enabled offering returns in transit for sale. RIT is driving $24M/yr of incremental revenue, a 2% reduction in return rates, and increses in active clientws and repeat purchases."
-      - "**Product Lifecycle Management**: Pioneered approach to balancing sellthrough of excess inventory with personalization of recommendations. Enabled reduction of aged inventory from 62% at peak to 22% today while reducing reliance on markdowns and liquidation, ultimately *increasing* gross margin."
+      - "**Decision architecture**: Co-founded a cross-functional algorithms steering committee (data science, finance, product, merchandising) and authored the decision architecture that replaced ad-hoc tuning of personalization and surfacing systems with one finance-approved objective balancing active clients, revenue and margin. Led rebuild of the production recommender to diagnose a run of failed tests, redesigned its testing (multi-cell, non-inferiority), and chose a new training target through simulation. Launched in 2026; early experiment results showed +2% revenue and +4% margin across all of Stitch Fix's channels."
+      - "**LLM product attribution**: Championed and shipped LLM-based attribution for the product catalog: 100% of new styles attributed automatically at ~95% accuracy, with confidence scores routing uncertain items to human review."
+      - "**Product embeddings**: Originated a shared, versioned image-and-product embedding layer to replace a legacy image model, with modular ETL (a model swap is a config change) and offline backtesting, serving search, similar items and recommendations. Authored the cross-org data contract for product data and embeddings: ownership of generation, evaluation, versioning, drift monitoring and backfills, plus provenance and freshness tiers."
+      - "**AI Buying Tool**: Built a buying recommendation platform that uses client personalization to inform purchase orders. It informs 80%+ of orders for known SKUs and drives $38M/yr in incremental revenue, improving unit turn and GMROI. Consolidated dozens of merchandising tools into one platform."
+      - "**Future inventory**: Rebuilt inventory and order management so returns in transit can be sold before they arrive, growing from $24M/yr to a $50M+/yr capability across exchanges, direct purchase and fix previews."
+      - "**Inventory for first-time clients**: Rebuilt inventory availability into a client-aware reservation platform and used it to hold scarce inventory for first orders. In the first experiment, 2.5% more first-time clients were still active six months later. Rolled out to all first-time clients in 2026."
+      - "**New-inventory performance**: Replaced sell-through debates with an exposure guarantee for new styles. Shipped a per-style scorecard and automated lifecycle actions (markdown, exit, size mapping)."
+      - "**Inventory composition**: As the hands-on architect, developed the inventory composition model, showing how shelf age and inventory mix drive keep rate, and used it to balance sell-through of aged inventory against personalization. Aged inventory fell from a 62% peak to 22% while markdowns and liquidation fell and gross margin *increased*."
+      - "**Standards and operating model**: Authored org-wide ML deployment standards (business-metric monitoring, defined failure modes, latency and shadow tests in CI, staging/production parity) and set the org's AI operating model (agent-first tooling, quarterly AI weeks). Retired dozens of legacy buying and liquidation tools so a smaller team delivered more."
   - company: Metis
     website: https://www.thisismetis.com/
     location: New York, NY
     role: Executive Director of Data Science
     dates: 2017-2021
     description: |
-      Data Science education company offered 12 week bootcamp, corporate training, and online learning platform.
+      Data science education company offering a 12-week bootcamp, corporate training and an online learning platform.
     milestones:
-      - "**Product**: Led the design and development online learning platform. Cross-funcitonal team of >15 included 12 data scientists . Product portfolio represented 25% of 2021 revenue and accounted for 100% of growth opportunities."
-      # - "**Management**: Directly manages team 6 Data Scientists. Introduced industry best practices including company-wide Eng and DS prioritization flow, code reviews, and continuous integration."
-      # - "**Instruction**: Taught and mentored 100s of students entering data science. Authored dozens of lessons including: SVMs, Data Science Ethics, Deep Learning, Generative Adversarial Networks."
+      - "Led design and development of the online learning platform with a cross-functional team of 15+, including 12 data scientists; the product portfolio was 25% of 2021 revenue and all of the company's growth."
+      - "Directly managed 6 data scientists and introduced code review and CI; taught hundreds of students and wrote lessons on SVMs, ethics, deep learning and GANs."
   - company: Elektra
     website: https://angel.co/elektra-1
     location: New York, NY
     role: CTO & Cofounder
     dates: 2016-2017
-    description: "Wearables start-up building fabrics that pair electrical stimulation to apps. Designed and built proof of concept across entire hardware, software, and data stack. Led company though successful seed stage. "
-    # description: "Wearables start-up building fabrics that pair electrical stimulation to apps. Fundraising: \\\\$1.5M cap. Competitions: The Bridge (Coca Cola’s Accelerator) finalist (ranked 22/200). AlphaLab Gear National Hardware Cup semi-finalist. Vogt Awards finalist (\\\\$25k non-dilutive funding). XlerateHealth finalist. Bucks for Bright Ideas winner."
+    description: "Wearables start-up pairing electrical-stimulation fabrics with apps. Built the proof of concept across hardware, software and data, and led the company through a successful seed stage."
     milestones:
-      # - "**Proof of concept**: Designed and built hardware and software proof of concept. Validated underlying technology, collected data on 100+ customer experiences in target audience and demonstrated product-market fit."
-      # - "**Scalable design**: Led engineering teams managing user data and designing a product for 10k/yr volume: the entirely in-house product stack included electronics hardware, firmware, and desktop app."
-      # - "**Human resources**: Managed HR. Designed collaborative, version controlled, company Handbook."
   - company: Cognitive and Data Science Lab
     website: http://shaftolab.com/
     location: Newark, NJ
     role: Research Assistant, PhD Candidate
     dates: 2012-2017
-    description:
+    description: "Lead author on computational models of learning and cooperative inference (Psychological Review); designed and ran large (n≈1,000) web-based behavioral experiments."
     milestones:
-      # - '**Project manager**: Managed a data science team developing FOSS tools for replicable cross-platform video data processing at "Big Data" scale.'
-      # - "**Web experiments**: Designed full-stack web apps for large (n~1,000) behavioral experiments and administered experiments through Amazon Mechanical Turk. Mentored data scientists in full-stack design."
-      # - "**Interdisciplinary research**: Lead author of interdisciplinary work on the foundations of learning and computational tractability of learning algorithms. Presented work in journals and conferences."
   - company: GE Appliances
     website:
     location: Louisville, KY
     role: Electronics Engineer
     dates: 2008-2011
-    description:
+    description: "Embedded electronics and wireless communication for smart-grid appliances."
     milestones:
 publications:
+  - authors: "**Searcy**"
+    year: 2024
+    title: "Using AI to Predict Fashion Trends, SXSW"
+    link: https://schedule.sxsw.com/2024/events/PP141209
+  - authors: "**Searcy**"
+    year: 2024
+    title: "AI in the supply chain, with Macy's, Kraft Heinz and Ocado, NRF Supply Chain 360 Summit"
+    link: https://nrf.com/blog/how-stitch-fix-macys-kraft-heinz-and-ocado-use-ai-keep-eye-supply-chain
   - authors: "**Searcy**, Burgess"
     year: 2022
-    title: Empowering Shopping with Computer Vision
+    title: "Empowering Shopping with Computer Vision, Visual1st"
     link: https://www.visual1st.biz/agenda2022
   - authors: "**Searcy**"
     year: 2019
@@ -77,34 +85,25 @@ publications:
     source: AI TRAPS
   - authors: "**Searcy**"
     year: 2019
-    title: Building Generative Adversarial Networks in Tensorflow and Keras
-    link: https://staging5.odsc.com/training/portfolio/building-generative-adversarial-networks-in-tensorflow-and-keras
-  - authors: "**Searcy** and Blinder"
+    title: "Building Generative Adversarial Networks in TensorFlow and Keras, ODSC"
+    link: https://web.archive.org/web/20190917011353/https://staging5.odsc.com/training/portfolio/building-generative-adversarial-networks-in-tensorflow-and-keras/
+  - authors: "**Searcy** & Blinder"
     year: 2018
-    title: "Making Faces: Conditional generation of faces using GANs via Keras+Tensorflow"
+    title: "Making Faces: Conditional generation of faces using GANs via Keras+TensorFlow, PyData NYC"
     link: https://pydata.org/nyc2018/schedule/presentation/52/
-  - authors: "**Searcy**, W.K. Vong, Lane & Shafto"
-    year: In prep
-    title: "Cause and affect: Subjectively rational causal inference about affective content."
-  - authors: "**Searcy**"
-    year: In prep
-    title: "Levels of expressivity: Learning across incompatible representational levels"
   - authors: "**Searcy** & Shafto"
     year: 2016
     title: "Cooperative Inference: Features, objects, and collections. Psychological Review."
     link: http://shaftolab.com/papers/searcys2016.pdf
-  - authors: "**Searcy** & Shafto "
+  - authors: "**Searcy** & Shafto"
     year: 2014
-    title: Learning biases for teaching boolean concepts.
+    title: "Learning biases for teaching boolean concepts. CogSci."
     link: http://shaftolab.com/assets/papers/Cooperative%20Inference%20(CogSci).pdf
-  - authors:
-    year: 2010
-    title: Energy Efficiency Comparisons of Wireless Communication Technology Options for Smart Grid Enabled Devices
 education:
-  - degree: PhD (ABD), MS
+  - degree: MS; PhD candidate (ABD)
     institution: University of Louisville
     major: "Experimental Psychology: Computational Cognitive Science"
-  - degree: MEng, BS Eng
+  - degree: MEng, BS
     institution: University of Louisville
     major: Electrical and Computer Engineering
-    awards: University Fellowship Award (2 years Full tuition plus stipend), National Merit Scholarship (5 years full tuition plus stipend)
+    awards: University Fellowship; National Merit Scholarship
